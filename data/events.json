@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Sample event for the portal",
+        "type": "Event",
+        "date_start": "2050-01-01",
+        "time_start": "9:00",
+        "date_end": "2050-01-01",
+        "time_end": "17:00",
+        "venue": "EMBL, UK",
+        "organisers": "Pathogens portal",
+        "event_url": "https://examplelink.com",
+        "description": "This is a example ebent to showcase how the events are displayed. Update this events file with your own events. See documentation in the repository for more information"
+    },
+    {
+        "title": "Old event that will not be displayed",
+        "type": "Event",
+        "date_start": "1950-01-01",
+        "time_start": "9:00",
+        "date_end": "1950-01-01",
+        "time_end": "17:00",
+        "venue": "Online",
+        "organisers": "Pathogens portal",
+        "event_url": "https://examplelink.com",
+        "description": "A sample old event that will not be displayed as it has old start date"
+    }
+]

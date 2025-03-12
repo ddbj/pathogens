@@ -1,0 +1,3 @@
+[submodule "themes/node-pathogens-portal-theme"]
+	path = themes/node-pathogens-portal-theme
+	url = git@github.com:ScilifelabDataCentre/node-pathogens-portal-theme.git

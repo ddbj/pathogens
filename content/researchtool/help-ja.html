@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta rel="canonical" href="/researchtool/help-ja.html">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+  <meta name="description" content="
+
+「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。
+
+">
+  <meta name="keywords" content="COVID-19, 研究データ">
+
+  <!-- OGP -->
+<meta name="og:url" content="/researchtool/help-ja.html">
+  <meta name="og:type" content="article">
+  <meta name="og:image" content="/img/CV19DP-jp_logo.svg">
+  <meta name="og:title" content="SARS-CoV-2 HaploGraph ヘルプページ:COVID-19 データポータル">
+  <meta name="og:description" content="
+
+「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。
+
+">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:description" content="
+
+「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。
+
+">
+  <meta name="twitter:title" content="SARS-CoV-2 HaploGraph ヘルプページ:COVID-19 データポータル">
+  <meta name="twitter:image" content="/img/CV19DP-jp_logo.svg">
+
+  <title>SARS-CoV-2 HaploGraph ヘルプページ:COVID-19 データポータル</title>
+
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/img/favicon.ico">
+
+<link rel="stylesheet" href="/css/substyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css">
+
+  <!--  外部ファイルは直接外部サーバーから読み込む -->
+  <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <script src="./js/css3-mediaqueries.js"></script>
+  <![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+ 
+    $(function(){
+    $('.navbar-primary-links li.nav-item').hover(function(){
+        $('ul.dropdwn-menu',this).show();
+    }, function(){
+        $("ul.dropdwn-menu",this).hide();
+    });
+});
+    
+    $(function(){
+        if(window.matchMedia('(max-width:768px)').matches){
+        $('.navbar-primary-links li.nav-item').click(function(){
+            $('ul.dropdwn-menu',this).toggle();
+    });
+        }
+    });
+    
+    
+    jQuery(function($){
+        var topBtn = $('#pageTop');
+        topBtn.hide();
+
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) {
+                topBtn.fadeIn();
+            } else {
+                topBtn.fadeOut();
+            }
+        });
+        
+        topBtn.click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+            return false;
+        });
+    });
+         
+</script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html"><img src="/img/CDP-19_Japan_logo-jp.svg" alt="COVID-19 Data Portal JAPAN"></a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#covid-navi">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse covid-navi-top" id="covid-navi-top">
+      <ul class="navbar-nav" style="padding-right:20px;">
+        <li class="nav-item"><a class="nav-link" href="/about/overview.html">概要</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/ourpartners.html">連携体制</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/updates.html">更新履歴</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/supportfeedback.html">お問い合わせ</a></li>
+      </ul>
+      <ul class="navbar-nav navbar-languages">
+        <li class="nav-item"><a class="nav-link nav-link-language" href="
+/en/researchtool/help-ja.html
+"><span lang="en">en　|</span></a></li>
+        <li class="nav-item"><a class="nav-link nav-link-language" href="
+/researchtool/help-ja.html
+"><span lang="ja">ja</span></a></li>
+      </ul>
+      <script async src="https://cse.google.com/cse.js?cx=816fbcc21d0c68da2"></script>
+      <div class="gcse-searchbox-only"></div>
+    </div>
+  </div>
+</nav>
+
+
+
+<nav class="navbar navbar-expand-md navbar-light pt-0">
+  <div class="container">
+    <div class="collapse navbar-collapse covid-navi" id="covid-navi">
+      <ul class="navbar-nav navbar-primary-links">
+        <li class="nav-item"><a class="nav-link" href="/index.html">TOP</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/index.html">サイトについて</a>
+          <ul class="dropdwn-menu">
+            <li><a href="/about/overview.html">概要</a></li>
+            <li><a href="/about/ourpartners.html">連携体制</a></li>
+            <li><a href="/about/updates.html">更新履歴</a></li>
+            <li><a href="/about/supportfeedback.html">お問い合わせ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/researchdata/index.html">研究データ</a>
+          <ul class="dropdwn-menu">
+            <li><a href="/researchdata/genotrans.html">遺伝子・配列情報</a></li>
+            <li><a href="/researchdata/proteomics.html">タンパク質情報</a></li>
+            <li><a href="/researchdata/resource.html">リソース情報</a></li>
+            <li><a href="/researchdata/imagingdata.html">画像情報</a></li>
+            <li><a href="/researchdata/literature.html">文献情報</a></li>
+            <li><a href="/researchdata/diseaseinfo.html">疾患情報</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="/researchtool/index.html">研究ツール</a>
+          <ul class="dropdwn-menu">
+            <li><a href="/researchtool/bioinfomatics.html">バイオインフォマティクス</a></li>
+            <li><a href="/researchtool/submission.html">データの投稿</a></li>
+            <li><a href="/researchtool/haplograph.html">SARS-CoV-2 HaploGraph</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://www.covid19dataportal.org" target="_blank" style="font-weight:100;"><img src="/img/link.png" alt="リンクアイコン" style="width:18px; margin-right:6px;">European Portal</a></li>
+      </ul>
+      <hr class="d-md-none">
+      <ul class="navbar-nav d-md-none">
+        <li class="nav-item"><a class="nav-link" href="/about/overview.html">概要</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/ourpartners.html">連携体制</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/updates.html">更新履歴</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about/supportfeedback.html">お問い合わせ</a></li>
+      </ul>
+      <hr class="d-md-none">
+      <ul class="navbar-nav d-md-none nav-languages">
+        <li class="nav-item"><a class="nav-link" href="
+/en/researchtool/help-ja.html
+"><span lang="en">English</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="
+/researchtool/help-ja.html
+"><span lang="ja">Japanese</span></a></li>
+      </ul>
+      <hr class="d-md-none">
+      <script async src="https://cse.google.com/cse.js?cx=816fbcc21d0c68da2"></script>
+      <div class="d-md-none">
+        <div class="gcse-searchbox-only"></div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <div class="container">
+    <div class="title">
+      <h1>
+        SARS-CoV-2 HaploGraph ヘルプページ
+      </h1>
+    </div>
+  </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178888864-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-178888864-1');
+  </script>
+</header>
+    
+    <hgroup>
+        <div class="container">
+        <p><a href="/index.html">ホーム　</a>/　<a href="/researchtool/">研究ツール</a>　/　SARS-CoV-2 HaploGraph ヘルプページ</p>
+        </div>
+    </hgroup>
+    
+    <main>
+        <div class="container">
+        <h2>はじめに</h2>
+
+<p>SARS-CoV-2 HaploGraphは、2022年6月4日時点でGISAIDから取得した新型コロナウイルスのゲノムや関連データを用いて、日本における第2?第5流行波のSARS-CoV-2ハプロタイプの都道府県ごとの出現・消失時期および伝播状況を可視化したものである。各流行波について、1つの祖先ハプロタイプを決定し、塩基置換、挿入、欠失を追跡することにより、日本国内における新型コロナウイルスの流行動態を示した。</p>
+
+<h2>データセット</h2>
+
+<p>2022年6月4日時点の<a href="https://gisaid.org">GISAID EpiCoVデータ</a>を使用した。GISAIDのメタデータファイルのアノテーションに基づいて日本国内で流行したウイルスを検出した。SARS-CoV-2 HaploGraphで使用したGISAID IDは<a href="https://doi.org/10.55876/gis8.221004wz">doi.org/10.55876/gis8.221004wz</a>にまとめた。</p>
+
+<p>各流行波の開始日、終了日は<a href="https://www.mhlw.go.jp/content/10900000/000931584.pdf">厚生労働省の資料</a>に従った。</p>
+
+<ul>
+<li>2nd: 2020-06-14 to 2020-10-09</li>
+<li>3rd: 2020-10-10 to 2021-02-28</li>
+<li>4th: 2021-03-01 to 2021-06-20</li>
+<li>5th: 2021-06-21 to 2021-12-16</li>
+</ul>
+
+<p>各ハプロタイプに関して集計した統計データはcovid19/docs/data/の中のTSVファイルにある。各列に関して下の情報をまとめてある。</p>
+
+<ul>
+<li>1列目 haplotype:（命名の詳細はhelpを参照）</li>
+<li>2列目 first: 初めてサンプリングされた日</li>
+<li>3列目 last: 最後にサンプリングされた日</li>
+<li>4列目 duration: 最初と最後のサンプリングされた日の差</li>
+<li>5列目 total: サンプリングされた総数</li>
+<li>6列目 prefecture: サンプリングされた都道府県</li>
+</ul>
+
+<h2>ハプロタイプ</h2>
+
+<p>GISAIDに保存されている各SARS-CoV-2ゲノムについて、<a href="https://mafft.cbrc.jp/alignment/software/">MAFFT</a>を用いて標準ゲノムWuhan-Hu-1 (RefSeq ID: <a href="https://www.ncbi.nlm.nih.gov/nuccore/NC_045512.2">NC_045512</a>) に対してペアワイズアライメントした。ペアワイズアライメントに基づき、塩基置換、挿入、または欠失について同定した。以下の方法に基づき、ゲノムに含まれる一塩基変異（SNV）をもとにハプロタイプの関係を推定した。なお、連続した挿入・欠失は、1つの変異によって引き起こされる可能性があるため、本研究では1つのSNVとして扱った。</p>
+
+<ul>
+<li>日本でのSARS-CoV-2の流行波ごとに、SNVの数が標準ゲノム（Wuhan-Hu-1）と比較して最小となり、かつサンプリング日の早い配列を祖先型のハプロタイプとして、。各ハプロタイプのIDは以下のように決定した。祖先ハプロタイプに「1」という名前をつけ、ある系統に複数の祖先ハプロタイプがある場合は、その番号を増やした（すなわち、2、3、・・・）。</li>
+<li>あるハプロタイプが1つのSNVを獲得すると、番号を追加し、最初の番号とドット（"."）でつなげた。例えば、"1.<em>N</em>"（<em>N</em>は任意の数）は、ハプロタイプ1から特定の変異を1つ獲得したハプロタイプであることを示す。</li>
+<li>標準ゲノムに戻る変異をもつ場合もカウントした。この場合、ハプロタイプは後方変異の前に小文字の"d"を付けて開始した。例えば、「dG26849T」という変異は、その系統の祖先ハプロタイプは同じ位置に変異「T」を持つが、Wuhan-Hu-1と同じ「G」をもつハプロタイプであることを示す。</li>
+<li>あるハプロタイプの祖先ハプロタイプの候補が複数ある場合は、最も古いハプロタイプ（最も古い日付でサンプリングされたもの）を選択し、他のハプロタイプ（複数）はパイプ（"\|"）で連結して示した。</li>
+<li>1つの変異の違いを持つ直系の子孫が見つからなかった場合、2段階前の子孫を検索した。見つかった場合は、未知の中間状態を示すために"x"を使用した。例えば、"1.2.x.1"はハプロタイプ1.2から2つのSNVを持つハプロタイプである。
+<ul>
+<li>2つの中間状態の両方が見つからなかった場合、ハプロタイプは、その系統の参照ハプロタイプと比較してSNVの数に応じたアルファベット順の文字で始まることになる。例えば、ハプロタイプ"c.1"は、参照ハプロタイプと比較して3つのSNVを有し、その祖先は参照ハプロタイプから1または2つのSNVで追跡することが不可能であった場合である。</li>
+</ul></li>
+</ul>
+
+<h2>使い方</h2>
+
+<p><img width="960" alt="Fig1" src="haplograph.png"></p>
+
+<p>SARS-CoV-2 HaploGraphの、上部メニューバーの"Change dataset"から、各流行波のデータセットを選択できる。各流行波で2つのデータセット、"All"と"50%"が選択できる（"All"は<a href="https://ktym.github.io/covid19/">GitHub版</a>のみ）。"All"にはすべてのハプロタイプが含まれ、"50%"には、すべての頻度を高いものから低いものに並べたときに、合計が50%を超える最小の頻度のハプロタイプまでのすべてのハプロタイプが含まれる。次に、"Select haplotype(s)"で、1つ以上のハプロタイプを選択することができる。</p>
+
+<p>X軸に新型コロナウイルスのサンプリング日、Y軸に都道府県が示されている。各都道府県（47都道府県）において、ドットは最も古いサンプリング日または最も新しいサンプリング日を示し、その都道府県でサンプリングされたエントリーの数に相関する太さの線で結ばれている。</p>
+
+<p>上部にはSARS-CoV-2ゲノムの模式図をカラーバーで示している。ゲノムバー上の灰色の菱形は、選択された波の参照ハプロタイプに含まれる変異のゲノム上の位置を示している。ゲノムバーの上のグレーのピンは、選択されたハプロタイプに含まれる変異の座位を示している。</p>
+
+<p>ゲノムバーの下にある6つのボックスは以下項目に該当する。</p>
+
+<ul>
+<li>Haplotype: 流行波とハプロタイプ名</li>
+<li>Prefecture: ハプロタイプがサンプリングされた都道府県</li>
+<li>First day: その都道府県でサンプリングされたハプロタイプの最初の日付</li>
+<li>Last day: その都道府県でサンプリングされたハプロタイプの最後の日付</li>
+<li>Duration: その都道府県でサンプリングされたハプロタイプの期間</li>
+<li>Total: その都道府県でサンプリングされたハプロタイプの合計数</li>
+</ul>
+
+<p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。"Trace"のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。"Lineage"のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。</p>
+
+<h2>利用上の注意点</h2>
+
+<p>1) 日本で感染が広がったすべての新型コロナウイルスのゲノムがサンプリング・配列決定されて、GISAIDに登録されたわけではない。そして、新型コロナウイルスのゲノムのサンプリングは、地域や日時によって偏りがある可能性もある。したがって、ある変異ウイルスがいつどこで初めて検出されたという情報は、必ずしもその地域で変異ウイルスが誕生したとは限らない。一方、COVID-19患者数とSARS-CoV-2ゲノム解読数は、日本における第1波から第5波の期間において、強い相関があった（ピアソンの相関係数、r = 0.962、P値 &lt; 0.001、詳細は論文を参照）。このことから、SARS-CoV-2 HaploGraphで可視化されたハプロタイプは、COVID-19患者から採取されたSARS-CoV-2ゲノムの90%以上が配列決定されていないものの、日本におけるSARS-CoV-2の伝播を大きくは表現しているであろうと考えている。</p>
+
+<p>2) GISAIDデータベースでは、データベースから得られる塩基置換の詳細情報をユーザーが提供することは制限されている。GISAIDの利用規約によると、GISAIDに登録されているデータは、別のポータルや機関のネットワークを通じて表示したりアクセスしたりしてはならない（https://www.gisaid.org/registration/terms-of-use/; Arita 2021）。この方針により、SARS-CoV-2 HaploGraphブラウザでSARS-CoV-2の変異ウイルスの詳細を提供することは困難である。</p>
+
+<p>3) 研究機関によって新型コロナウイルスのゲノムの精度が異なる可能性がある。SARS-CoV-2 HaploGraphで使用した新型コロナウイルスの変異の同定には、未確定塩基を含まないゲノム配列のみを使用した。日本の新型コロナウイルスのゲノム配列のクオリティは、海外のものと比較してかなり高い。例えば、0個または10個の未定義塩基を含む配列の割合は、日本では89.4%または91.1%に達したが、海外では36.0%または48.0%であった。このことは、この研究が信頼性の高い結果をもたらす重要な要因の一つである。</p>
+
+<p>4) 新型コロナウイルスの変異の中には、組換えによるものもあるが、本研究で解析したハプロタイプの系統推定では考慮していない。変異の数が限られている場合、変異が組換えによって生じたのか、並行進化によって生じたのかを区別することは困難である。実際、SARS-CoV-2ゲノム、特にOmicron変異体では多くの組換え事象が報告されている（Ou et al, 2022）。Omicron変種のゲノムには様々なヌクレオチド置換が蓄積されているため、Omicron変種の組換えは容易に検出可能であった。オミクロン株が発生する以前、組換え株の報告例は少なく、日本で検出されたデルタ変異体とアルファ変異体の組換えであるXC変異体であった（Sekizuka et al.） 組換えについて考慮されていないことは、本研究の限界の1つである。</p>
+
+<h2>詳細</h2>
+
+<p>詳細については以下の論文（査読前）を参照してください。</p>
+
+<p>(Preprint) So Nakagawa, Toshiaki Katayama, Lihua Jin, Jiaqi Wu, Kirill Kryukov, Rise Oyachi, Junko S Takeuchi, Takatomo Fujisawa, Satomi Asano, Momoka Komatsu, Jun-ichi Onami, Takashi Abe, Masanori Arita. SARS-CoV-2 HaploGraph: visualization of SARS-CoV-2 haplotypes spread in Japan. Jxiv. 2023 DOI: <a href="https://doi.org/10.51094/jxiv.338">10.51094/jxiv.338</a></p>
+
+<h2>謝辞</h2>
+
+<p>GISAIDデータベースへデータ登録に関わったすべての方々、運営に携わる方々全てに感謝申し上げます。特に本研究では以下のデータセットを使用いたしました: <a href="https://doi.org/10.55876/gis8.221004wz">doi.org/10.55876/gis8.221004wz</a></p>
+
+<p>本研究は以下の研究資金の援助を受けて行われました。</p>
+
+<ul>
+<li>JST CREST JPMJCR20H6, JPMJCR20H1</li>
+<li>AMED JP20he0622043, JP20fk0108536</li>
+<li>ROIS (Research Organization of Information and Systems)</li>
+</ul>
+
+        </div>
+    </main>
+    
+<p id="pageTop"><a href="#"><img src="/img/circle-arrowtoTop.png"></a></p>
+    
+    <footer>
+        <div class="container">
+            <div class="row footer-contents">
+                <div class="footer-logo col-md-2">
+                    <a href="https://rcos.nii.ac.jp/" target="_blank">
+                        <img src="/img/footer_logo.png" alt="国立情報学研究所 オープンサイエンス基盤研究センター">
+                    </a>
+                </div>
+                <div class="footer-address col-md-6">
+                    国立情報学研究所オープンサイエンス基盤研究センター<br>〒101-8430 東京都千代田区一ツ橋2-1-2<br>rcos-office@nii.ac.jp<a style="color: #838384;"> ※@を半角に変えて送信ください</a>
+                </div>
+            
+            
+                <div class="footer-share col-md-4">
+                    <div class="share">
+                        <div class="twitter">
+                            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-hashtags="RCOS" data-show-count="false">Tweet</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </div>
+                        <div class="fb-like fb_iframe_widget" data-href="#" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Frcos.nii.ac.jp%2F%23&amp;layout=button_count&amp;locale=ja_JP&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;size=small"><span style="vertical-align: bottom; width: 91px; height: 20px;"><iframe name="f29e0af871a27d" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.10/plugins/like.php?action=like&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2412f7cc9f4fe%26domain%3Drcos.nii.ac.jp%26origin%3Dhttps%253A%252F%252Frcos.nii.ac.jp%252Ff1a38ae8197c9b8%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Frcos.nii.ac.jp%2F%23&amp;layout=button_count&amp;locale=ja_JP&amp;sdk=joey&amp;share=false&amp;show_faces=false&amp;size=small" style="border: none; visibility: visible; width: 91px; height: 20px;" class=""></iframe></span></div>
+                    </div>
+                    <div class="contact-policy">
+                    <a href="/about/supportfeedback.html" style="margin-right:30px;">お問い合わせ</a>
+                        <a href="https://www.nii.ac.jp/policy/" target="_blank">プライバシーポリシー</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        <div class="foot-copy">
+          <a href="http://www.nii.ac.jp/">
+              © 2020 National Institute of Informatics
+          </a>
+        </div>
+    </footer>
+    
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+    
+</html>

@@ -1,0 +1,59 @@
+# Should be replaced with real one during implementation
+#baseURL: "https://pathogensportal.node/"
+baseURL: "https://suwa-liorect.github.io/HugoTest/"
+canonifyurls: true
+#relativeURLs: true
+title: "Node:Pathogens Portal"
+theme: "node-pathogens-portal-theme"
+
+# page with date in future will be included in the build
+# buildFuture: true
+
+# default only english language, add more languages here if desired
+languages:
+  en:
+    languageName: English
+    languageCode: en
+
+# some parameters that can be used across site, such variable can be defined here than in front matter
+params:
+  title: "Node Pathogens Portal"
+  description: "Node Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness."
+  images:
+    - /img/pathogens_logo.svg
+  # local node info, logo will be displayed above pathogens logo
+  node_logo: "/img/example_logo.png"
+  node_url: "https://example.com/"
+  node_country: "Sweden"
+  # social media accounts URL to display in footer if desired
+  social_media:
+    show_in_footer: true
+    twitter_url: "https://x.com/"
+    linkedin_url: "https://www.linkedin.com/"
+    contact_email: "mail@example.com"
+  # Url to github repository, node should keep the URL of their fork
+  git_repository: "https://github.com/ScilifelabDataCentre/node-pathogens-portal"
+
+taxonomies:
+  highlights_topic: highlights_topics
+  dashboards_topic: dashboards_topics
+
+permalinks:
+  highlights_topics: "/highlights/topics/:slug/"
+  dashboards_topics: "/dashboards/topics/:slug/"
+
+# The following setting is to render HTML content in a markdown file.
+# Can be set to true only if you have complete control over the content
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+related:
+  includeNewer: true
+  indices:
+    - name: tags
+      weight: 100
+      threshold: 80
+      toLower: false
+
