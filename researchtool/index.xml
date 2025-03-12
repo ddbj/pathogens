@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究ツール on Node:Pathogens Portal</title><link>https://suwa-liorect.github.io/HugoTest/researchtool/</link><description>Recent content in 研究ツール on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://suwa-liorect.github.io/HugoTest/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://suwa-liorect.github.io/HugoTest/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究ツール on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/researchtool/</link><description>Recent content in 研究ツール on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraph visualizes the emergence timing and geographical transmission of the SARS-CoV-2 haplotypes from the 2nd to 5th epidemic waves in Japan using genome data obtained from GISAID as of June 4, 2022. For each epidemic wave, one ancestral haplotype was determined, and evolutionary dynamics of SARS-CoV-2 haplotypes were shown for each prefecture in Japan by tracking nucleotide substitutions, insertions, and deletions.&lt;/p>
 &lt;h2 id="data-used">Data used&lt;/h2>
-&lt;p>GISAID EpiCoV data downloaded as of June 4, 2022 was used. Japan-related SARS-CoV-2 genomes were extracted based on the annotation in the metadata files. The GISAID IDs used in SARS-CoV-2 HaploGraph was summarized in &lt;a href="http://doi.org/10.55876/gis8.221004wz">doi.org/10.55876/gis8.221004wz&lt;/a>.&lt;/p></description></item><item><title/><link>https://suwa-liorect.github.io/HugoTest/researchtool/help-ja/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchtool/help-ja/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
+&lt;p>GISAID EpiCoV data downloaded as of June 4, 2022 was used. Japan-related SARS-CoV-2 genomes were extracted based on the annotation in the metadata files. The GISAID IDs used in SARS-CoV-2 HaploGraph was summarized in &lt;a href="http://doi.org/10.55876/gis8.221004wz">doi.org/10.55876/gis8.221004wz&lt;/a>.&lt;/p></description></item><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-ja/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-ja/</guid><description>&lt;h2 id="はじめに">はじめに&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraphは、2022年6月4日時点でGISAIDから取得した新型コロナウイルスのゲノムや関連データを用いて、日本における第2〜第5流行波のSARS-CoV-2ハプロタイプの都道府県ごとの出現・消失時期および伝播状況を可視化したものである。各流行波について、1つの祖先ハプロタイプを決定し、塩基置換、挿入、欠失を追跡することにより、日本国内における新型コロナウイルスの流行動態を示した。&lt;/p>
 &lt;h2 id="データセット">データセット&lt;/h2>
 &lt;p>2022年6月4日時点の&lt;a href="https://gisaid.org">GISAID EpiCoVデータ&lt;/a>を使用した。GISAIDのメタデータファイルのアノテーションに基づいて日本国内で流行したウイルスを検出した。SARS-CoV-2 HaploGraphで使用したGISAID IDは&lt;a href="https://doi.org/10.55876/gis8.221004wz">doi.org/10.55876/gis8.221004wz&lt;/a>にまとめた。&lt;/p>
@@ -49,7 +49,7 @@
 &lt;li>Duration: その都道府県でサンプリングされたハプロタイプの期間&lt;/li>
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
-&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://suwa-liorect.github.io/HugoTest/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchtool/haplograph/</guid><description>&lt;main>
+&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;head>
  &lt;meta charset="utf-8">
@@ -1085,7 +1085,7 @@
 &lt;/body>
 
  &lt;/div>
- &lt;/main></description></item><item><title>データの投稿</title><link>https://suwa-liorect.github.io/HugoTest/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchtool/submission/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連するデータの投稿&lt;/h2>
@@ -1115,7 +1115,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>バイオインフォマティクス</title><link>https://suwa-liorect.github.io/HugoTest/researchtool/bioinfomatics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchtool/bioinfomatics/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>バイオインフォマティクス</title><link>https://ddbj.github.io/pathogens/researchtool/bioinfomatics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/bioinfomatics/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連するバイオインフォマティクスのサービス・ツール&lt;/h2>

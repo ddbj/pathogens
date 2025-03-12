@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on Node:Pathogens Portal</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/</link><description>Recent content in 研究データ on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://suwa-liorect.github.io/HugoTest/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>タンパク質情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/proteomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/proteomics/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>タンパク質情報</title><link>https://ddbj.github.io/pathogens/researchdata/proteomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/proteomics/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連するタンパク質情報&lt;/h2>
@@ -28,7 +28,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>リソース情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/resource/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>リソース情報</title><link>https://ddbj.github.io/pathogens/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/resource/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連するリソース情報&lt;/h2>
@@ -54,7 +54,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>文献情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/literature/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>文献情報</title><link>https://ddbj.github.io/pathogens/researchdata/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/literature/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連する文献情報&lt;/h2>
@@ -105,7 +105,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>画像情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/imagingdata/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>画像情報</title><link>https://ddbj.github.io/pathogens/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/imagingdata/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連する画像情報&lt;/h2>
@@ -119,7 +119,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>疾患情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/diseaseinfo/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
@@ -133,7 +133,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/genotrans/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://ddbj.github.io/pathogens/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/genotrans/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
