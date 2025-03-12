@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on Node:Pathogens Portal</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/</link><description>Recent content in 研究データ on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://suwa-liorect.github.io/HugoTest/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>タンパク質情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/proteomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/proteomics/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連するタンパク質情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://pdbj.org/featured/covid-19" target="_blank">PDBj: Protein Data Bank Japan&lt;/a>
+ &lt;P>日本蛋白質構造データバンク (PDBj: Protein Data Bank Japan) は、米国の構造バイオインフォマティクス研究共同体 (RCSB)、生物学的磁気共鳴 データバンク (BMRB)、および欧州バイオインフォマティクス研究所 (PDBe) と協力し、蛋白質・核酸・糖などの生体高分子の立体構造データ ベースを国際的なPDBアーカイブとして運営しています。また、派生する様々なデータベースやそれらの解析ツールも提供しています。 特設ページでは新型コロナウイルスに関する構造情報を、日本語だけでなく中国語と韓国語でも提供しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://covid-19.uniprot.org/uniprotkb?query=*" target="_blank">UniProt: The Universal Protein Resource&lt;/a>
+ &lt;P>アミノ酸配列とその機能情報を掲載している代表的なデータベースです。「UniProtKB」、「UniRef」、「UniParc」の3種類のデータベースから 構成されています。 特設ページではCOVID-19に関連するアミノ酸配列データをUniProt本体とは別のサイクルで公開しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://togoprot.biosciencedbc.jp/R/list?hidden_keywords=sars&amp;keywords%5b%5d=SARS-CoV-2&amp;keywords%5b%5d=&amp;select_family=f1" target="_blank">TogoProt&lt;/a>
+ &lt;P>国立研究開発法人科学技術振興機構　バイオサイエンスデータベースセンターが提供する蛋白質関連データベース統合検索システムです。 キーワード検索によりまずメニューに蛋白質のファミリー名のリストが表示されます。メニューから目的の蛋白質またはファミリーを選ぶと その蛋白質 (ファミリー)のデータとリンクが表示され、目的のデータベースのエントリーにたどり着くことができます。 上記のリンク先は「 SARS-CoV-2 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://jpostdb.org/jpost-will-publish-the-re-analyzed-proteome-data-related-to-covid-19/" target="_blank">jPOST&lt;/a>
+ &lt;P>jPOSTは国内外に散在している種々のプロテオーム情報を標準化・統合・一元管理し、データベース化したもので、多彩な生物種の翻訳後修飾や絶対発現量等 の情報まで網羅したプロテオーム統合データベースです。リンク先のページでは、COVID-19に関するプロテオームの再解析情報を公開しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.ebi.ac.uk/pride/archive?filter=project_tags_facet%3D%3DSars-cov-2&amp;sortDirection=DESC&amp;page=0&amp;pageSize=20" target="_blank">PRIDE: PRoteomics IDEntifications database&lt;/a>
+ &lt;P>欧州European Bioinformatics Instituteが公開する、プロテオームデータの公的レポジトリです。リンク先ではSARS-CoV-2とCOVID-19でフィルタリングした、質量分析ペプチドおよび蛋白質の同定データのリストを公開しています。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>リソース情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/resource/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連するリソース情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://mus.brc.riken.jp/ja/covid19" target="_blank">新型コロナウイルス感染症研究に関連するマウスリソース&lt;/a>
+ &lt;P>理研バイオリソース研究センター(BRC)は、遺伝子/細胞/マウス個体の三つの生命階層のリソースを1機関で取り揃えた、世界的にもユニークなリソース機関です。新型コロナウイルス感染症の統合的な研究の促進のため、感染症の4つのステージ（①ウイルス感染・増殖、②発症・生体防御、③重症化、④治療・予防）の研究開発に、モデル動物として貢献するマウスリソースを収集・整備し、情報発信しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://dna.brc.riken.jp/en/gsb0000en/gsb0049en" target="_blank">SARS-CoV-2 ウイルスに関連するヒト遺伝子クローン&lt;/a>
+ &lt;P>理研バイオリソース研究センター(BRC)は、遺伝子/細胞/マウス個体の三つの生命階層のリソースを1機関で取り揃えた、世界的にもユニークなリソース機関です。新型コロナウイルス感染症の統合的な研究の促進のため、SARS-CoV-2 ウイルスに関連するヒト遺伝子クローンを収集・整備し、情報発信しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://cell.brc.riken.jp/ja/covid-19-research" target="_blank">COVID-19 関連細胞&lt;/a>
+ &lt;P>理研バイオリソース研究センター(BRC)は、遺伝子/細胞/マウス個体の三つの生命階層のリソースを1機関で取り揃えた、世界的にもユニークなリソース機関です。新型コロナウイルス感染症の統合的な研究の促進のため、COVID-19 関連細胞株を収集・整備し、情報発信しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://nijis.jp/" target="_blank">NIJIs 下水中の新型コロナウイルス調査プロジェクト&lt;/a>
+ &lt;P>NIJIs（New Integrated Japanese Sewage Investigation for COVID-19）プロジェクトは、2020年7月に命名された下水中の新型コロナウイルス（SARS-CoV-2）調査プロジェクトの略称です。大学、国土交通省 国土技術政策総合研究所、 地方衛生研究所、感染研で構成された研究班による下水中のSARS-CoV-2調査が実施されています。 このサイトでは国土交通省と厚生労働省との連携による下水サーベイランスの取組状況をまとめ、協力自治体における下水サーベイランス情報を提供することで、サーベイランスの普及・推進に寄与することを目的としています。「調査データ」メニューより、調査を実施した10都市のサーベイランス結果をグラフで表示し、Excelデータをダウンロードすることが可能です。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>文献情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/literature/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する文献情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://ci.nii.ac.jp/search?q=%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9+OR+%22corona+virus%22+OR+2019-nCoV+OR+COVID-19+OR+%E2%80%9CCOVID-19+virus%E2%80%9C+OR+SARS2+OR+%E2%80%9CWuhan+coronavirus%E2%80%9C+OR+%E2%80%9CWuhan+seafood+market+pneumonia+virus%E2%80%9C+OR+%E2%80%9CHuman+coronavirus+2019%E2%80%9C+OR+COVID19+OR+HCoV-19+OR+SARS-2+OR+SARS-CoV2&amp;range=0&amp;count=20&amp;sortorder=1&amp;type=0" target="_blank">CiNii Articles&lt;/a>
+ &lt;P>国立情報学研究所が提供する、学協会刊行物・大学研究紀要・国立国会図書館の雑誌記事索引データベースなど、学術論文情報を検索の対象とす る論文データベース・サービスです。上記リンク先はCOVID-19に関連するキーワードの検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://ci.nii.ac.jp/books/search?advanced=false&amp;count=20&amp;sortorder=3&amp;q=%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9+OR+%22corona+virus%22+OR+2019-nCoV+OR+COVID-19+OR+%E2%80%9CCOVID-19+virus%E2%80%9C+OR+SARS2+OR+%E2%80%9CWuhan+coronavirus%E2%80%9C+OR+%E2%80%9CWuhan+seafood+market+pneumonia+virus%E2%80%9C+OR+%E2%80%9CHuman+coronavirus+2019%E2%80%9C+OR+COVID19+OR+HCoV-19+OR+SARS-2+OR+SARS-CoV2&amp;type=0&amp;update_keep=true" target="_blank">CiNii Books&lt;/a>
+ &lt;P>全国の大学図書館等が所蔵する本（図書や雑誌等）の情報を検索できるサービスです。国立情報学研究所が運用する目録所在情報サービス (NACSIS-CAT)に蓄積されてきた全国の大学図書館等約1200館が所蔵する，約1,000万件（のべ1億冊以上）の本の情報や， 約150万件の著者の 情報を検索することができます。上記リンク先はCOVID-19に関連するキーワードの検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://pubmed.ncbi.nlm.nih.gov/?term=%28%28wuhan%5BAll+Fields%5D+AND+%28%22coronavirus%22%5BMeSH+Terms%5D+OR+%22coronavirus%22%5BAll+Fields%5D%29%29+AND+2019%2F12%5BPDAT%5D+%3A+2030%5BPDAT%5D%29+OR+2019-nCoV%5BAll+Fields%5D+OR+2019nCoV%5BAll+Fields%5D+OR+COVID-19%5BAll+Fields%5D+OR+SARS-CoV-2%5BAll+Fields%5D&amp;sort=date" target="_blank">PubMed&lt;/a>
+ &lt;P>米国国立衛生研究所（NIH：National Institutes of Health）が運営する、MEDLINEおよび生命科学分野のジャーナル文献の書誌情報 （タイトル、著者名、雑誌名、抄録など）を収録したデータベースです。全文をフリーで公開している文献については、提供サイトへのリンクが 張られています。上記リンク先はNIHの特設ページに設置されている、 COVID-19に関連するキーワードの検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.ncbi.nlm.nih.gov/pmc/about/covid-19/" target="_blank">PubMed Central: PMC&lt;/a>
+ &lt;P>米国国立衛生研究所（NIH：National Institutes of Health）が運営する、生物医学・生命科学雑誌に掲載された文献のデジタルアーカイブです。 上記リンク先はCOVID-19やコロナウイルスに関連する文献に絞って検索することができる特設ページです。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://europepmc.org/search?query=%28%222019-nCoV%22%20OR%20%222019nCoV%22%20OR%20%22COVID-19%22%20OR%20%22SARS-CoV-2%22%20OR%20%22COVID19%22%20OR%20%22COVID%22%20OR%20%22SARS-nCoV%22%20OR%20%28%22wuhan%22%20AND%20%22coronavirus%22%29%20OR%20%22Coronavirus%22%20OR%20%22Corona%20virus%22%20OR%20%22corona-virus%22%20OR%20%22corona%20viruses%22%20OR%20%22coronaviruses%22%20OR%20%22SARS-CoV%22%20OR%20%22Orthocoronavirinae%22%20OR%20%22MERS-CoV%22%20OR%20%22Severe%20Acute%20Respiratory%20Syndrome%22%20OR%20%22Middle%20East%20Respiratory%20Syndrome%22%20OR%20%28%22SARS%22%20AND%20%22virus%22%29%20OR%20%22soluble%20ACE2%22%20OR%20%28%22ACE2%22%20AND%20%22virus%22%29%20OR%20%28%22ARDS%22%20AND%20%22virus%22%29%20or%20%28%22angiotensin-converting%20enzyme%202%22%20AND%20%22virus%22%29%29" target="_blank">Europe PMC&lt;/a>
+ &lt;P>欧州EMBL-EBIが提供する、生命科学分野のオープンな文献のコレクションです。PMCや世界中のリポジトリと共同で、論文だけでなく書誌や プレプリントの情報を公開しています。上記リンク先はトップページに配置されているCOVID-19関連の文献リンクです。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://biosciencedbc.jp/blog/20200303-01.html" target="_blank">NBDCブログ&lt;/a>
+ &lt;P>国立研究開発法人科学技術振興機構　バイオサイエンスデータベースセンターが提供する、生命科学分野やデータベース統合に関するブログ コンテンツです。2020年3月に「新型コロナウイルス（SARS-CoV-2）および新型コロナウイルス感染症（COVID-19）に関する研究データ・ リソース」というタイトルで生命科学分野のリソースの調査結果を公開し、以降更新を続けています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://rnavi.ndl.go.jp/research_guide/cat2858/cat170/index.php" target="_blank">国立国会図書館　リサーチ・ナビ&lt;/a>
+ &lt;P>国立国会図書館が提供する、テーマごとの調査の方法や、関連リンクの集積サイトです。上記リンクでは新型コロナウイルスに関する出版社、 医療機関、学会、新聞社のウェブサイト集や、図書館の取り組み、日本国内府省等の通知・通達をまとめて公開しています。また、「新型コロナ ウイルスの産業・労働関係への影響について調べるには」といった統計データや調査方法についてもまとめています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.nihs.go.jp/sars-cov-2/index.html" target="_blank">新型コロナウイルスに関する情報提供のページ&lt;/a>
+ &lt;P>国立医薬品食品衛生研究所が公開している、新型コロナウイルス(SARS-CoV-2)に関する情報提供のページです。COVID-19のワクチンや医薬品候補に関する情報や、COVID-19診断用プライマー交差性解析システムの解説、
+大規模抗体検査に関する国際動向、国内外の機関が発信している食品安全関連情報をまとめています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://www.scj.go.jp/ja/member/iinkai/2bu/covid19.html" target="_blank">Information on important infectious diseases including COVID-19 in Japan&lt;/a>
+ &lt;P>日本学術会議が作成した日本の重要な感染症に関する声明文や提言などの資料を公開しています。また、外国人研究者がアクセスしにくいCOVID-19の日本での発生に関する公式資料の情報を提供しています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://pubannotation.org/collections/CORD-19" target="_blank">PubAnnotation&lt;/a>
+ &lt;P>DBCLSが公開している文献アノテーションのレポジトリです。特にPubMedに対してのアノテーションを統合しています。リンク先では、CORD-19(COVID-19 Open Research Dataset)の全文データに対するアノテーションと閲覧が可能となっています。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>画像情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/imagingdata/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する画像情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.niid.go.jp/niid/ja/multimedia.html" target="_blank">感染研　画像・映像アーカイブ&lt;/a>
+ &lt;P>国立感染症研究所が提供する、病原体や感染症研究関連の画像や映像情報のアーカイブ。感染研で分離された新型コロナウイルスの電子顕微鏡 写真像や、ウイルスによる細胞変性像が公開されています。データの利用や仕様については感染研のページ内の記述をご参照ください。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>疾患情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/diseaseinfo/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
+ &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://suwa-liorect.github.io/HugoTest/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://suwa-liorect.github.io/HugoTest/researchdata/genotrans/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://nextstrain.org/community/kkosaki/ncov/japan" target="_blank">日本の変異株情報&lt;/a>
+ &lt;P>GISAIDからのデータを用い慶応義塾大学が作成した、日本のSARS-CoV-2株の変異情報です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism:(Severe+acute+respiratory+syndrome+coronavirus+2)&amp;operator=AND" target="_blank">DDBJ ARSA&lt;/a>
+ &lt;P>国立遺伝学研究所DDBJがWWW、ならびにWeb APIで提供している高速なキーワード検索サービスです。国際塩基配列データベースのほか、生命 科学分野の主要なデータベースに対して統合的な検索を行うことができます。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://ddbj.nig.ac.jp/search?query=%22%5C%22Severe+acute+respiratory+syndrome+coronavirus+2%5C%22%22" target="_blank">DDBJ SRA&lt;/a>
+ &lt;P>次世代シークエンサからの出力データの登録、及び登録されたデータの検索のためのデータベースです。NCBIのSRA、EBIのERAとの国際協力の もとDDBJにより運営されています。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=vg&amp;keywords=%22Severe+acute+respiratory+syndrome+coronavirus+2%22&amp;page=1" target="_blank">KEGG Virus&lt;/a>
+ &lt;P>京都大学化学研究所附属バイオインフォマティクスセンターが、ウイルスの遺伝子、ゲノム配列、生合成パスウェイや疾患等についてKEGG内の 統合情報をまとめたデータベースです。 リンク先は「 "Severe acute respiratory syndrome coronavirus 2" 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=genome&amp;keywords=Severe+acute+respiratory+syndrome+coronavirus+2&amp;page=1" target="_blank">KEGG Genome&lt;/a>
+ &lt;P>RefSeq 等の公共データベースから全ゲノム配列が決定されたすべての生物種の情報を抽出したKEGGのデータベースです。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item></channel></rss>
