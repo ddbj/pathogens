@@ -1,6 +1,6 @@
 # Should be replaced with real one during implementation
 #baseURL: "https://pathogensportal.node/"
-baseURL: "https://suwa-liorect.github.io/HugoTest/"
+baseURL: "https://ddbj.github.io/pathogens/"
 canonifyurls: true
 #relativeURLs: true
 title: "Node:Pathogens Portal"
