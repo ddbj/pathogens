@@ -185,9 +185,9 @@
  &lt;/button>
  &lt;/div>
 
- &lt;!--&lt;div style="overflow-x: scroll;" id="container-chart">
- &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg" />
- &lt;/div>-->
+ &lt;div style="overflow-x: scroll;" id="container-chart">
+	 &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg">&lt;/svg>
+ &lt;/div>
 
  &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
  &lt;div class="container">
