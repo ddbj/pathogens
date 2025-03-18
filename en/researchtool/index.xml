@@ -91,9 +91,6 @@ This is a site for the biohackathon (i.e. development training camp) for COVID-1
  &lt;/main></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/en/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchtool/haplograph/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;head>
- &lt;meta charset="utf-8">
- &lt;meta name="viewport" content="width=device-width, initial-scale=1">
- &lt;title>SARS-CoV-2 HaploGraph&lt;/title>
  &lt;!-- Bootstrap -->
  &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
