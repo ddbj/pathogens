@@ -107,4 +107,46 @@ menu:
     </div>
   </nav>
 
+<!--
+  <div class="btn btn-outline-primary text-secondary" id="resolution-hint" style="display: none; margin: 10px; text-align: center;">
+    <i class="bi-info-circle-fill info" style="color: #007bff;"></i>
+    Best viewed with a screen resolution of > <span id="recommended-width">2500</span>x1400
+  </div>
+-->
+
+  <div style="overflow-x: scroll;" id="container-genome">
+    <svg id="genome" xmlns="http://www.w3.org/2000/svg" /> <!-- preserveAspectRatio="xMidYMid meet"/-->
+  </div>
+
+  <div id="infobox-haplotype" class="btn-group" role="group" aria-label="Infobox haplotype" style="margin: 10px">
+    <button type="button" class="btn btn-outline-secondary">
+      Haplotype
+      <span id="infobox-haplotype-label" class="badge bg-light text-dark"></span>
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      Prefecture
+      <span id="infobox-haplotype-prefecture" class="badge bg-light text-dark"></span>
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      First day
+      <span id="infobox-haplotype-firstday" class="badge bg-light text-dark"></span>
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      Last day
+      <span id="infobox-haplotype-lastday" class="badge bg-light text-dark"></span>
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      Duration
+      <span id="infobox-haplotype-duration" class="badge bg-light text-dark"></span>
+    </button>
+    <button type="button" class="btn btn-outline-secondary">
+      Total
+      <span id="infobox-haplotype-total" class="badge bg-light text-dark"></span>
+    </button>
+  </div>
+
+  <div style="overflow-x: scroll;" id="container-chart">
+    <svg id="chart" xmlns="http://www.w3.org/2000/svg" />
+  </div>
+
     </main>
