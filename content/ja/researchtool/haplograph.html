@@ -10,4 +10,101 @@ menu:
     weight: 15
 ---
     <main>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <form class="d-flex">
+        <div class="navbar-brand">
+          <i class="bi-bar-chart-steps" style="font-size: 1.4rem;"></i>
+          SARS-CoV-2 HaploGraph
+        </div>
+        <div class="dropdown form-check-inline">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-dataset" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi-file-earmark-text-fill" style="font-size: 1.2rem;"></i>
+            Dataset
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-dataset" style="opacity: 0.8;">
+            <li>
+              <select id="dataset" class="form-select" style="border: none; padding: 10px" size="4"></select>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-brand">
+          <span class="text-secondary" id="dataname">dataname</span>
+        </div>
+      </form>
+
+      <form class="d-flex">
+        <div class="dropdown form-check-inline">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-haplotype" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi-node-plus-fill" style="font-size: 1.2rem;"></i>
+            Haplotypes
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdown-haplotype" style="opacity: 0.8;">
+            <li>
+              <div class="info" style="margin: 10px;">
+                <i class="bi-info-circle-fill info" style="color: #007bff;"></i>
+                Multiple choice:<br/>
+                <i class="bi-apple" style="color: #6c757d;"> Cmd</i> + <i class="bi-mouse2" style="color: #6c757d;">Click</i><br/>
+                <i class="bi-windows" style="color: #6c757d;"> Ctrl</i> + <i class="bi-mouse2" style="color: #6c757d;">Click</i>
+              </div>
+              <select id="haplotype" class="form-select" style="border: none; padding: 10px" size="20" multiple></select>
+            </li>
+          </ul>
+        </div>
+
+<!--
+        <div class="form-check form-check-inline form-switch app-align">
+          <input type="checkbox" id="lineage" class="form-check-input">
+          <label class="form-check-label" for="lineage">Lineage</label>
+        </div>
+-->
+
+        <div class="form-check form-check-inline form-switch app-align">
+          <input type="checkbox" id="trace" class="form-check-input" checked>
+          <label class="form-check-label" for="trace">Trace</label>
+        </div>
+
+        <div class="form-check form-check-inline form-switch app-align">
+          <input type="checkbox" id="duration" class="form-check-input">
+          <label class="form-check-label" for="duration">Duration</label>
+        </div>
+
+<!--
+        <div class="btn-group form-check-inline" role="group" aria-label="change-resolution">
+          <div type="button" class="btn btn-outline-secondary btn-sm app-align" id="resolution-label">
+            Resolution
+          </div>
+          <button type="button" class="btn btn-secondary btn-sm resolution-button" id="resolution-hd">
+            <i class="bi-badge-hd-fill resolution-icon"></i>
+          </button>
+          <button type="button" class="btn btn-primary btn-sm resolution-button" id="resolution-4k">
+            <i class="bi-badge-4k-fill resolution-icon"></i>
+          </button>
+          <button type="button" class="btn btn-secondary btn-sm resolution-button" id="resolution-8k">
+            <i class="bi-badge-8k-fill resolution-icon"></i>
+          </button>
+        </div>
+-->
+
+        <div class="btn-group form-check-inline" role="group" aria-label="help-lang">
+          <button type="button" class="btn btn-outline-primary btn-sm lang-button" id="lang">
+            <i class="bi-globe lang-icon"></i>
+          </button>
+<!--
+          <button type="button" class="btn btn-outline-primary btn-sm download-button" id="download">
+            <a id="download-link">
+              <i class="bi-download download-icon"></i>
+            </a>
+          </button>
+-->
+          <button type="button" class="btn btn-outline-primary btn-sm help-button" id="help">
+            <a href="https://ktym.github.io/covid19/help-ja" target="_blank" id="help-link">
+              <i class="bi-question-circle help-icon"></i>
+            </a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </nav>
+
     </main>
