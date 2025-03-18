@@ -154,9 +154,9 @@
  &lt;/div>
 -->
 
- &lt;!--&lt;div style="overflow-x: scroll;" id="container-genome">
+ &lt;div style="overflow-x: scroll;" id="container-genome">
  &lt;svg id="genome" xmlns="http://www.w3.org/2000/svg" /> &lt;!-- preserveAspectRatio="xMidYMid meet"/-->
- &lt;!--&lt;/div>-->
+ &lt;/div>
 
  &lt;div id="infobox-haplotype" class="btn-group" role="group" aria-label="Infobox haplotype" style="margin: 10px">
  &lt;button type="button" class="btn btn-outline-secondary">
