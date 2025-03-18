@@ -17,5 +17,10 @@ address:
 email_notes:
   other: "* Please change ＠ to one-byte character when sending email."
 
+inquiry_title:
+  other: "Contact"
+privacy_policy_title:
+  other: "Privacy policy"
+
 about_the_portal:
   other: "About"

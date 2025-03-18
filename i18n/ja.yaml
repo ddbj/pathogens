@@ -17,5 +17,10 @@ address:
 email_notes:
   other: "※@を半角に変えて送信ください"
 
+inquiry_title:
+  other: "お問い合わせ"
+privacy_policy_title:
+  other: "プライバシーポリシー"
+
 about_the_portal:
   other: "概要"
