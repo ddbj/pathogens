@@ -50,6 +50,103 @@
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
 &lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
+ &lt;nav class="navbar navbar-light bg-light">
+ &lt;div class="container-fluid">
+ &lt;form class="d-flex">
+ &lt;div class="navbar-brand">
+ &lt;i class="bi-bar-chart-steps" style="font-size: 1.4rem;">&lt;/i>
+ SARS-CoV-2 HaploGraph
+ &lt;/div>
+ &lt;div class="dropdown form-check-inline">
+ &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown-dataset" data-bs-toggle="dropdown" aria-expanded="false">
+ &lt;i class="bi-file-earmark-text-fill" style="font-size: 1.2rem;">&lt;/i>
+ Dataset
+ &lt;/button>
+ &lt;ul class="dropdown-menu" aria-labelledby="dropdown-dataset" style="opacity: 0.8;">
+ &lt;li>
+ &lt;select id="dataset" class="form-select" style="border: none; padding: 10px" size="4">&lt;/select>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;div class="navbar-brand">
+ &lt;span class="text-secondary" id="dataname">dataname&lt;/span>
+ &lt;/div>
+ &lt;/form>
+
+ &lt;form class="d-flex">
+ &lt;div class="dropdown form-check-inline">
+ &lt;button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-haplotype" data-bs-toggle="dropdown" aria-expanded="false">
+ &lt;i class="bi-node-plus-fill" style="font-size: 1.2rem;">&lt;/i>
+ Haplotypes
+ &lt;/button>
+ &lt;ul class="dropdown-menu" aria-labelledby="dropdown-haplotype" style="opacity: 0.8;">
+ &lt;li>
+ &lt;div class="info" style="margin: 10px;">
+ &lt;i class="bi-info-circle-fill info" style="color: #007bff;">&lt;/i>
+ Multiple choice:&lt;br/>
+ &lt;i class="bi-apple" style="color: #6c757d;"> Cmd&lt;/i> + &lt;i class="bi-mouse2" style="color: #6c757d;">Click&lt;/i>&lt;br/>
+ &lt;i class="bi-windows" style="color: #6c757d;"> Ctrl&lt;/i> + &lt;i class="bi-mouse2" style="color: #6c757d;">Click&lt;/i>
+ &lt;/div>
+ &lt;select id="haplotype" class="form-select" style="border: none; padding: 10px" size="20" multiple>&lt;/select>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+
+&lt;!--
+ &lt;div class="form-check form-check-inline form-switch app-align">
+ &lt;input type="checkbox" id="lineage" class="form-check-input">
+ &lt;label class="form-check-label" for="lineage">Lineage&lt;/label>
+ &lt;/div>
+-->
+
+ &lt;div class="form-check form-check-inline form-switch app-align">
+ &lt;input type="checkbox" id="trace" class="form-check-input" checked>
+ &lt;label class="form-check-label" for="trace">Trace&lt;/label>
+ &lt;/div>
+
+ &lt;div class="form-check form-check-inline form-switch app-align">
+ &lt;input type="checkbox" id="duration" class="form-check-input">
+ &lt;label class="form-check-label" for="duration">Duration&lt;/label>
+ &lt;/div>
+
+&lt;!--
+ &lt;div class="btn-group form-check-inline" role="group" aria-label="change-resolution">
+ &lt;div type="button" class="btn btn-outline-secondary btn-sm app-align" id="resolution-label">
+ Resolution
+ &lt;/div>
+ &lt;button type="button" class="btn btn-secondary btn-sm resolution-button" id="resolution-hd">
+ &lt;i class="bi-badge-hd-fill resolution-icon">&lt;/i>
+ &lt;/button>
+ &lt;button type="button" class="btn btn-primary btn-sm resolution-button" id="resolution-4k">
+ &lt;i class="bi-badge-4k-fill resolution-icon">&lt;/i>
+ &lt;/button>
+ &lt;button type="button" class="btn btn-secondary btn-sm resolution-button" id="resolution-8k">
+ &lt;i class="bi-badge-8k-fill resolution-icon">&lt;/i>
+ &lt;/button>
+ &lt;/div>
+-->
+
+ &lt;div class="btn-group form-check-inline" role="group" aria-label="help-lang">
+ &lt;button type="button" class="btn btn-outline-primary btn-sm lang-button" id="lang">
+ &lt;i class="bi-globe lang-icon">&lt;/i>
+ &lt;/button>
+&lt;!--
+ &lt;button type="button" class="btn btn-outline-primary btn-sm download-button" id="download">
+ &lt;a id="download-link">
+ &lt;i class="bi-download download-icon">&lt;/i>
+ &lt;/a>
+ &lt;/button>
+-->
+ &lt;button type="button" class="btn btn-outline-primary btn-sm help-button" id="help">
+ &lt;a href="https://ktym.github.io/covid19/help-ja" target="_blank" id="help-link">
+ &lt;i class="bi-question-circle help-icon">&lt;/i>
+ &lt;/a>
+ &lt;/button>
+ &lt;/div>
+ &lt;/form>
+ &lt;/div>
+ &lt;/nav>
+
  &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
