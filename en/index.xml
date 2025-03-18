@@ -506,7 +506,7 @@ RIKEN BioResource Research Center (BRC) is a unique repository in the world, as 
 -->
 
  &lt;div style="overflow-x: scroll;" id="container-genome">
- &lt;svg id="genome" xmlns="http://www.w3.org/2000/svg" /> &lt;!-- preserveAspectRatio="xMidYMid meet"/-->
+	 &lt;svg id="genome" xmlns="http://www.w3.org/2000/svg">&lt;/svg> &lt;!-- preserveAspectRatio="xMidYMid meet"/-->
  &lt;/div>
 
  &lt;div id="infobox-haplotype" class="btn-group" role="group" aria-label="Infobox haplotype" style="margin: 10px">
@@ -537,10 +537,9 @@ RIKEN BioResource Research Center (BRC) is a unique repository in the world, as 
  &lt;/div>
 
  &lt;div style="overflow-x: scroll;" id="container-chart">
- &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg" />
+	 &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg">&lt;/svg>
  &lt;/div>
 
- &lt;/div>
  &lt;/main></description></item><item><title>Submit data</title><link>https://ddbj.github.io/pathogens/en/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchtool/submission/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
