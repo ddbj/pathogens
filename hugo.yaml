@@ -1,38 +1,52 @@
 # Should be replaced with real one during implementation
-#baseURL: "https://pathogensportal.node/"
 baseURL: "https://ddbj.github.io/pathogens/"
 canonifyurls: true
 #relativeURLs: true
-title: "Node:Pathogens Portal"
+#title: "Node:Pathogens Portal"
 theme: "node-pathogens-portal-theme"
 
 # page with date in future will be included in the build
 # buildFuture: true
 
-# default only english language, add more languages here if desired
+#1 default only english language, add more languages here if desired
+defaultContentLanguage: "ja"
+defaultContentLanguageInSubdir: false
 languages:
-  en:
-    languageName: English
+ ja:
+    weight: 1
+    languageName: "日本語"
+    contentDir: "content/ja"
+    languageCode: ja
+    params:
+      title: "COVID-19 データポータル"
+      description: "「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。"
+ en:
+    weight: 2
+    languageName: "English"
+    contentDir: "content/en"
     languageCode: en
+    params:
+      title: "COVID-19 Data Portal JAPAN"
+      description: "\"covid-19 data portal japan\" provides and services of new coronavirus useful for research. this system is open to the public with support many domestic institutions using jairo cloud infrastructure in cooperation european portal. please see ministry health, labor welfare special website information on effects coronaviruses your life their prevention."
 
 # some parameters that can be used across site, such variable can be defined here than in front matter
 params:
-  title: "Node Pathogens Portal"
-  description: "Node Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness."
+  #  title: "Node Pathogens Portal"
+  #description: "Node Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness."
   images:
-    - /img/pathogens_logo.svg
+    - /img/CV19DP-jp_logo.svg
   # local node info, logo will be displayed above pathogens logo
-  node_logo: "/img/example_logo.png"
-  node_url: "https://example.com/"
-  node_country: "Sweden"
+  node_logo: "/img/CV19DP-jp_logo.svg"
+  node_url: "https://ddbj.github.io/pathogens/"
+  node_country: "Japan"
   # social media accounts URL to display in footer if desired
   social_media:
     show_in_footer: true
-    twitter_url: "https://x.com/"
-    linkedin_url: "https://www.linkedin.com/"
+      #twitter_url: "https://x.com/"
+      #linkedin_url: "https://www.linkedin.com/"
     contact_email: "mail@example.com"
   # Url to github repository, node should keep the URL of their fork
-  git_repository: "https://github.com/ScilifelabDataCentre/node-pathogens-portal"
+  git_repository: "https://github.com/ddbj/pathogens.git"
 
 taxonomies:
   highlights_topic: highlights_topics

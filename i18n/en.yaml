@@ -1,0 +1,21 @@
+site_name:
+  other: "COVID-19 Data Portal JAPAN"
+top_ancestor_name:
+  other: "TOP"
+
+canonical:
+  other: "/en/"
+keywords:
+  other: "COVID-19, research date"
+description:
+  other: "\"covid-19 data portal japan\" provides and services of new coronavirus useful for research. this system is open to the public with support many domestic institutions using jairo cloud infrastructure in cooperation european portal. please see ministry health, labor welfare special website information on effects coronaviruses your life their prevention."
+
+organization:
+  other: "Research Center for Open Science and Data Platform (RCOS), National Institute of Informatics,"
+address:
+  other: "2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430 JAPAN"
+email_notes:
+  other: "* Please change ＠ to one-byte character when sending email."
+
+about_the_portal:
+  other: "About"

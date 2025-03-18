@@ -1,9 +1,30 @@
+{{ $page_lang := dict }}
+{{ if .IsTranslated }}
+  {{ range .AllTranslations }}
+    {{ $page_lang = merge $page_lang (dict .Language.Lang .RelPermalink) }}
+  {{ end }}
+{{ else if .Parent }}
+  {{ if .Parent.IsTranslated }}
+    {{ $page_lang = merge $page_lang (dict "ja" .RelPermalink "en" (printf "%s%s" "/en" .Parent.RelPermalink)) }}
+  {{ else if (and (.Parent.Parent) (.Parent.Parent.IsTranslated)) }}
+    {{ $page_lang = merge $page_lang (dict "ja" .RelPermalink "en" (printf "%s%s" "/en" .Parent.Parent.RelPermalink)) }}
+  {{ else }}
+    {{ $page_lang = merge $page_lang (dict "ja" "/" "en" "/en/") }}
+  {{ end }}
+{{ else }}
+  {{ $page_lang = merge $page_lang (dict "ja" "/" "en" "/en/") }}
+{{ end }}
+
 <nav class="navbar navbar-expand-lg navbar-light bg-white pb-0">
     <div class="container">
         <!-- Logo -->
         <div class="d-flex navbar-brand">
-            <a href="/">
+	    <a href="{{ .Site.Home.RelPermalink }}">
+                {{ if eq $.Site.Language.LanguageName "日本語" }}
                 <img class="mt-1 me-lg-3" src="/img/CDP-19_Japan_logo-jp.svg" alt="COVID-19 データポータルJAPAN">
+		{{ else }}
+                <img class="mt-1 me-lg-3" src="/img/CDP-19_Japan_logo-en.svg" alt="COVID-19 Data Portal JAPAN">
+		{{ end }}
             </a>
         </div>
 
@@ -13,17 +34,39 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Top navigation bar i.e. beside the logo -->
-        <div class="d-flex flex-column align-items-end collapse navbar-collapse">
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ml-auto navbar-top">
-                    {{ range .Site.Menus.navbar_top }}
-                    <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name | safeHTML  }}</a></li>
-                    {{ end }}
-                </ul>
-            </div>
-        </div>
-        <!-- ENDS HERE - Top navigation bar i.e. beside the logo -->
+	    <!-- Navigation links beside logo, visible only on biger screen -->
+    <div class="d-flex flex-column align-items-end collapse navbar-collapse">
+
+      <!-- Top navbar list i.e. About, Contact, Language, etc -->
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto navbar-top">
+          {{ range .Site.Menus.navbar_top }}
+          <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name | safeHTML}}</a></li>
+          {{ end }}
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-globe2"></i> {{ if eq $.Site.Language.LanguageName "日本語" }} JP {{ else }} EN {{ end }}
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end nav-languages">
+              <li>
+                <a class="dropdown-item" href="{{ $page_lang.ja }}">
+                  <i class="bi bi-{{ if eq .Language.Lang "ja" }}check-{{ end }}circle"></i>
+                  <span lang="{{ .Language.Lang }}">日本語</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="{{ $page_lang.en }}">
+                  <i class="bi bi-{{ if eq .Language.Lang "en" }}check-{{ end }}circle"></i>
+                  <span lang="en"> English</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
     </div>
 </nav>
 
@@ -34,14 +77,15 @@
             <div class="d-lg-none">
 
                 <!-- Top nav list mobile version -->
-                <ul class="navbar-nav nav-top">
+		{{/*<ul class="navbar-nav nav-top">
                     {{ range .Site.Menus.navbar_top }}
                     <li class="nav-item"><a class="nav-link" href="{{ .Page.RelPermalink }}">{{ .Name | safeHTML }}</a></li>
                     {{ end }}
                 </ul>
-                <hr>
+		<hr>*/}}
 
                 <!-- Main navigation for all pages, visible only in small devices -->
+	            <div class="main_menu_item"><a href="{{ $.Site.Home.RelPermalink }}">TOP</a></div>
                 {{ range .Site.Menus.navbar_main }}
                     <div class="main_menu_item pb-1">
                     {{ if eq .Params.Type "dropdown" }}
@@ -51,11 +95,11 @@
                                aria-expanded="false" aria-controls="{{ .Identifier }}Mobile">
                                {{ .Name }} <i class="bi bi-caret-down-fill small"></i></a>
                             <div class="collapse main_menu_item_sub ps-4" id="{{ .Identifier }}Mobile">
-                                {{ if eq .Params.include_parent true }}
+                                {{/* if eq .Params.include_parent true }}
                                 <a class="d-block" href="{{ .Page.RelPermalink }}">All {{ lower .Name }}</a>
-                                {{ end }}
+                                {{ end */}}
                                 {{ range $menu }}
-                                <a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+				<a class="d-block" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
                                 {{ end }}
                             </div>
                         {{ end }}
@@ -64,8 +108,35 @@
                     {{ end }}
                     </div>
                 {{ end }}
+			<div class="main_menu_item"><a href="{{ .Site.Home.RelPermalink }}"><a href="https://www.covid19dataportal.org" target="_blank" style="font-weight:100;"><img src="/img/link.png" alt="リンクアイコン" style="width:18px; margin-right:6px;">European Portal</a></div>
 
             </div>
+
+	    <hr />
+      <!-- Top nav list i.e. About, Contact, Language, etc -->
+      <ul class="d-lg-none navbar-nav nav-top">
+        <li class="nav-item py-2 dropdown languages-mobile">
+          <a href="#languageMobile" class="py-2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="languageMobile">
+            <i class="bi bi-globe2"></i> {{ if eq $.Site.Language.LanguageName "日本語" }} JP {{ else }} EN {{ end }}
+            <i class="bi bi-caret-down-fill small"></i>
+          </a>
+          <div class="collapse ps-2 pt-1" id="languageMobile">
+              <a class="dropdown-item" href="{{ $page_lang.ja }}">
+                <i class="bi bi-{{ if eq .Language.Lang "ja" }}check-{{ end }}circle"></i>
+                <span lang="{{ .Language.Lang }}">日本語</span>
+              </a>
+              <a class="dropdown-item" href="{{ $page_lang.en }}">
+                <i class="bi bi-{{ if eq .Language.Lang "en" }}check-{{ end }}circle"></i>
+                <span lang="en">English</span>
+              </a>
+          </div>
+        </li>
+	    <hr />
+        {{ range .Site.Menus.navbar_top }}
+        <li class="nav-item"><a class="nav-link {{ .Post }}" href="{{ .Page.RelPermalink }}">{{ .Pre }}{{ .Name | safeHTML}}</a>
+        </li>
+        {{ end }}
+      </ul>
         </div>
     </div>
 </nav>
@@ -74,6 +145,7 @@
 <!-- Main navigation menu, Visibile only on bigger screens -->
 <div class="container mb-3 d-none d-lg-block">
     <div class="row row-cols-auto main_menu">
+	    <div class="col-auto main_menu_item"><a href="{{ .Site.Home.RelPermalink }}">TOP</a></div>
 
         {{ range .Site.Menus.navbar_main }}
             <div class="col-auto main_menu_item">
@@ -82,13 +154,13 @@
                 {{ if $menu }}
                     <a class="dropdown-toggle" href="#" id="{{ .Identifier }}Menu"
                         data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">{{ .Name }}</a>
+									       aria-expanded="false">{{ .Name }}</a>
                     <div class="dropdown-menu main_menu_item_sub" aria-labelledby="{{ .Identifier }}Menu">
-                        {{ if eq .Params.include_parent true }}
-                        <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">All {{ lower .Name }}</a>
-                        {{ end }}
+                        {{/* if eq .Params.include_parent true }}
+			<a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ i18n (index $top_menu_items .Name) | }} All {{ lower .Name }}</a>
+                        {{ end */}}
                         {{ range $menu }}
-                        <a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+			<a class="dropdown-item m-0" href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
                         {{ end }}
                     </div>
                 {{ end }}
@@ -98,6 +170,7 @@
             </div>
         {{ end }}
         
+	<div class="col-auto main_menu_item"><a href="{{ .Site.Home.RelPermalink }}"><a href="https://www.covid19dataportal.org" target="_blank" style="font-weight:100;"><img src="/img/link.png" alt="リンクアイコン" style="width:18px; margin-right:6px;">European Portal</a></div>
     </div>
 </div>
 <!-- Main navigation menu visible only on  bigger screens ends here -->

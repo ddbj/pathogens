@@ -1,0 +1,21 @@
+site_name:
+  other: "COVID-19 データポータル"
+top_ancestor_name:
+  other: "ホーム"
+
+canonical:
+  other: "/"
+keywords:
+  other: "COVID-19, 研究データ"
+description:
+  other: "「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。"
+
+organization:
+  other: "国立情報学研究所オープンサイエンス基盤研究センター"
+address:
+  other: "〒101-8430 東京都千代田区一ツ橋2-1-2"
+email_notes:
+  other: "※@を半角に変えて送信ください"
+
+about_the_portal:
+  other: "概要"
