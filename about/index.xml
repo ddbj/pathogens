@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイトについて on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/about/</link><description>Recent content in サイトについて on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/about/index.xml" rel="self" type="application/rss+xml"/><item><title>お問い合わせ</title><link>https://ddbj.github.io/pathogens/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/supportfeedback/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイトについて:COVID-19 データポータル on</title><link>https://ddbj.github.io/pathogens/about/</link><description>Recent content in サイトについて:COVID-19 データポータル on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/about/index.xml" rel="self" type="application/rss+xml"/><item><title>お問い合わせ:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/supportfeedback/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトへのお問い合わせ&lt;/h2>
@@ -13,7 +13,20 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>更新履歴</title><link>https://ddbj.github.io/pathogens/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/updates/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>概要:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>本サイトの概要&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;p>
+ 新型コロナウイルスの感染拡大に伴い、研究の世界でもこの非常事態を研究の力で克服しようとする動きが高まっています。新型コロナウイルス 感染症（COVID-19）への感染者が確認された国々では、新型コロナウイルス（SARS-CoV-2）のゲノム情報やタンパク質の構造情報だけでなく、 得られた病態や統計情報を無償で公開する「オープンサイエンス」の流れが公然のものとなりつつあります。人類全てが危機に瀕するこの状況では、 国や研究分野などの枠組みを超えて手を取り合い、研究データを共有して協力し合うことが肝要です。&lt;br>&lt;br>
+ ヨーロッパでは比較的早期からCOVID-19の研究データのポータルサイトを構築し、国際的な協調体制を進めていました。（参考：&lt;a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Portal&lt;/a>）。スウェーデンでもこの枠組みで独自のポータルサイトを公開しています（参考：&lt;a href="https://www.covid19dataportal.se/" target="_blank">COVID-19 Data Portal Sweden&lt;/a>）。そこで日本でもこの 枠組みに賛同し、国立情報学研究所オープンサイエンス基盤研究センターが、国内の様々な機関（参考：&lt;a href="ourpartners.html">連携体制&lt;/a>）と協力して、この「COVID-19 データポータル」を構築しました。&lt;br>&lt;br>
+ 本サイトでは、研究者が国内外のCOVID-19の研究に関連する情報にいち早くアクセスできるよう、適切な分類とリンク先の選定、解説の付与を実施 してポータルサイトとして公開しています。
+ &lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>更新履歴:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/updates/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>更新履歴&lt;/h2>
@@ -28,20 +41,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>概要</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>本サイトの概要&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;p>
- 新型コロナウイルスの感染拡大に伴い、研究の世界でもこの非常事態を研究の力で克服しようとする動きが高まっています。新型コロナウイルス 感染症（COVID-19）への感染者が確認された国々では、新型コロナウイルス（SARS-CoV-2）のゲノム情報やタンパク質の構造情報だけでなく、 得られた病態や統計情報を無償で公開する「オープンサイエンス」の流れが公然のものとなりつつあります。人類全てが危機に瀕するこの状況では、 国や研究分野などの枠組みを超えて手を取り合い、研究データを共有して協力し合うことが肝要です。&lt;br>&lt;br>
- ヨーロッパでは比較的早期からCOVID-19の研究データのポータルサイトを構築し、国際的な協調体制を進めていました。（参考：&lt;a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Portal&lt;/a>）。スウェーデンでもこの枠組みで独自のポータルサイトを公開しています（参考：&lt;a href="https://www.covid19dataportal.se/" target="_blank">COVID-19 Data Portal Sweden&lt;/a>）。そこで日本でもこの 枠組みに賛同し、国立情報学研究所オープンサイエンス基盤研究センターが、国内の様々な機関（参考：&lt;a href="ourpartners.html">連携体制&lt;/a>）と協力して、この「COVID-19 データポータル」を構築しました。&lt;br>&lt;br>
- 本サイトでは、研究者が国内外のCOVID-19の研究に関連する情報にいち早くアクセスできるよう、適切な分類とリンク先の選定、解説の付与を実施 してポータルサイトとして公開しています。
- &lt;/p>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>連携体制</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>連携体制:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトの連携体制&lt;/h2>

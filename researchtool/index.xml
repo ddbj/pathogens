@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究ツール on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/researchtool/</link><description>Recent content in 研究ツール on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究ツール on</title><link>https://ddbj.github.io/pathogens/researchtool/</link><description>Recent content in 研究ツール on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraph visualizes the emergence timing and geographical transmission of the SARS-CoV-2 haplotypes from the 2nd to 5th epidemic waves in Japan using genome data obtained from GISAID as of June 4, 2022. For each epidemic wave, one ancestral haplotype was determined, and evolutionary dynamics of SARS-CoV-2 haplotypes were shown for each prefecture in Japan by tracking nucleotide substitutions, insertions, and deletions.&lt;/p>
 &lt;h2 id="data-used">Data used&lt;/h2>
@@ -58,7 +58,7 @@
  &lt;!-- Bootstrap -->
  &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
- &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">&lt;/script>
+ &lt;!--&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">&lt;/script>-->
  &lt;!-- D3 -->
  &lt;script src="https://d3js.org/d3.v5.min.js">&lt;/script>
  &lt;script>

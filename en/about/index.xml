@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About the portal on</title><link>https://ddbj.github.io/pathogens/en/about/</link><description>Recent content in About the portal on</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/en/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://ddbj.github.io/pathogens/en/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/overview/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>About the portal&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;p>
+With the spread of new coronavirus infection, it has become increasingly important to share research data. In countries where the new coronavirus infection (COVID-19) has been confirmed, it has become the norm to make not only the genomic and protein structural data of the new coronavirus (SARS-CoV-2) but also the obtained pathological and statistical data publicly available for free (i.e. the movement known as "open science"). In the situation like this where all humankind is at stake, it is important to work together, break down the boundaries between national and research institutions, and collaborate by sharing research data. &lt;br>&lt;br>
+
+In Europe, a portal site for COVID-19 research data was created at a relatively early stage to promote international collaboration (refer to: COVID-19 Data Portal). In Sweden, their own portal site is published under this framework (refer to: COVID-19 Data Portal Sweden). In Japan, in support of this framework, the Research Center for Open Science and Data Platform (RCOS), the National Institute of Informatics, developed this website, COVID-19 Data Portal JAPAN, with the cooperation from various domestic institutions (refer to: Our Partners).&lt;br>&lt;br>
+
+
+On this website, we publish data by selecting appropriate classifications and links and adding descriptions so that researchers can promptly access data related to COVID-19 research.
+
+ &lt;/p></description></item><item><title>Our Partners</title><link>https://ddbj.github.io/pathogens/en/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/ourpartners/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>Our partners&lt;/h2>
+ &lt;p>
+
+This website is developed in cooperation with the following institutions (in random order, titles omitted).
+&lt;/p>
+ &lt;div class="third-contents-inner">
+ &lt;div class="partners">
+ &lt;ul>
+ &lt;li>
+
+For building infrastructure and content
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/ddbj_logo.png" style="width:30%;" alt="国立遺伝学研究所（NIG）DDBJセンター">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://www.ddbj.nig.ac.jp/index-e.html" target="_blank">Bioinformation and DDBJ Center&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/CV19DP_logo_oneliner2.svg" style="height:50%;" alt="COVID-19 Data Portal(European Portal)">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Portal (European Portal)&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;/li>
+ &lt;li style="margin-top:50px;">
+For content
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:70%;" alt="国立研究開発法人　日本医療研究開発機構(AMED)">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://www.amed.go.jp/en/index.html" target="_blank">Japan Agency for Medical Research and Development (AMED)&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/nbdc_logo.svg" style="width:70%;" alt="バイオサイエンスデータベースセンター（NBDC）">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://biosciencedbc.jp/en/" target="_blank">National Bioscience Database Center (NBDC)&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/PDBj_logo.png" style="width:30%;" alt="大阪大学蛋白質研究所（PDBj）">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://pdbj.org/" target="_blank">Protein Data Bank Japan (PDBj)&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/dbcls_logo.png" style="width:30%;" alt="情報・システム研究機構 ライフサイエンスデータベースセンター（DBCLS)">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="http://dbcls.rois.ac.jp/index-en.html" target="_blank">Database Center for Life Science (DBCLS) &lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/nihs_logo.gif" style="width:70%;" alt="国立医薬品食品衛生研究所（NIHS）">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="http://www.nihs.go.jp/english/index.html" target="_blank"> The National Institute of Health Sciences (NIHS) &lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/kegg_logo.gif" style="width:30%;" alt="京都大学化学研究所附属バイオインフォマティクスセンター（KEGG)">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://www.kegg.jp/kegg/" target="_blank">KEGG: Kyoto Encyclopedia of Genes and Genomes&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ &lt;div class="row partners-item">
+ &lt;div class="col-md-4">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/eosc_logo.jpg" style="width:60%;" alt="European Open Science Cloud (EOSC)">
+ &lt;/div>
+ &lt;div class="col-md-8 partners-name">
+ &lt;a href="https://eosc-portal.eu/" target="_blank">European Open Science Cloud (EOSC)&lt;/a>
+ &lt;/div>
+ &lt;/div>
+ 
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>Support &amp; Feedback</title><link>https://ddbj.github.io/pathogens/en/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/supportfeedback/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>Support &amp;amp; Feedback to this site&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;p>Feel free to contact us, if you have some issue or questions.&lt;/p>
+ &lt;P style="margin-top:35px;">&lt;img src="https://ddbj.github.io/pathogens/img/icons/map_icon.png" alt="マップアイコン">Research Center for Open Science and Data Platform (RCOS), National Institute of Informatics,&lt;br>2-1-2 Hitotsubashi, Chiyoda-ku, Tokyo 101-8430 JAPAN&lt;/P>
+ &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="メールアイコン">rcos-office@nii.ac.jp&lt;/p>
+ &lt;div class="map">
+ &lt;iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.46309055489!2d139.7579145!3d35.6926156!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59be01a56f0cf10e!2z5Zu956uL5oOF5aCx5a2m56CU56m25omA77yITklJ77yJ!5e0!3m2!1sja!2sjp!4v1596717279251!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
+ &lt;/div>
+
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>Updates</title><link>https://ddbj.github.io/pathogens/en/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/updates/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>Updates&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;dl class="updates">
+
+ &lt;dt>2020/10/05&lt;/dt>
+ &lt;dd>Updates&lt;/dd>
+ &lt;hr>
+
+ &lt;/dl>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item></channel></rss>

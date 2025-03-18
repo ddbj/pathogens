@@ -1,0 +1,186 @@
+{
+  "Genome": [
+    {
+      "region": "Genome",
+      "lower": 1,
+      "upper": 29903
+    }
+  ],
+  "Genes": [
+    {
+      "region": "",
+      "lower": 1,
+      "upper": 265
+    },
+    {
+      "region": "nsp1",
+      "lower": 266,
+      "upper": 805
+    },
+    {
+      "region": "nsp2",
+      "lower": 806,
+      "upper": 2719
+    },
+    {
+      "region": "nsp3",
+      "lower": 2720,
+      "upper": 8554
+    },
+    {
+      "region": "nsp4",
+      "lower": 8555,
+      "upper": 10054
+    },
+    {
+      "region": "nsp5",
+      "lower": 10055,
+      "upper": 10972
+    },
+    {
+      "region": "nsp6",
+      "lower": 10973,
+      "upper": 11842
+    },
+    {
+      "region": "nsp7",
+      "lower": 11843,
+      "upper": 12091
+    },
+    {
+      "region": "nsp8",
+      "lower": 12092,
+      "upper": 12685
+    },
+    {
+      "region": "nsp9",
+      "lower": 12686,
+      "upper": 13024
+    },
+    {
+      "region": "nsp10",
+      "lower": 13025,
+      "upper": 13441
+    },
+    {
+      "region": "nsp11",
+      "lower": 13442,
+      "upper": 13480
+    },
+    {
+      "region": "nsp12",
+      "lower": 13442,
+      "upper": 16236
+    },
+    {
+      "region": "nsp13",
+      "lower": 16237,
+      "upper": 18039
+    },
+    {
+      "region": "nsp14",
+      "lower": 18040,
+      "upper": 19620
+    },
+    {
+      "region": "nsp15",
+      "lower": 19621,
+      "upper": 20658
+    },
+    {
+      "region": "nsp16",
+      "lower": 20659,
+      "upper": 21552
+    },
+    {
+      "region": "S",
+      "lower": 21563,
+      "upper": 25384
+    },
+    {
+      "region": "ORF2b",
+      "lower": 21744,
+      "upper": 21860
+    },
+    {
+      "region": "ORF3a",
+      "lower": 25393,
+      "upper": 26220
+    },
+    {
+      "region": "ORF3c",
+      "lower": 25457,
+      "upper": 25579
+    },
+    {
+      "region": "ORF3d",
+      "lower": 25524,
+      "upper": 25694
+    },
+    {
+      "region": "ORF3d2",
+      "lower": 25596,
+      "upper": 25694
+    },
+    {
+      "region": "ORF3b",
+      "lower": 25814,
+      "upper": 25879
+    },
+    {
+      "region": "E",
+      "lower": 26245,
+      "upper": 26472
+    },
+    {
+      "region": "M",
+      "lower": 26523,
+      "upper": 27191
+    },
+    {
+      "region": "ORF6",
+      "lower": 27202,
+      "upper": 27387
+    },
+    {
+      "region": "ORF7a",
+      "lower": 27394,
+      "upper": 27759
+    },
+    {
+      "region": "ORF7b",
+      "lower": 27756,
+      "upper": 27887
+    },
+    {
+      "region": "ORF8",
+      "lower": 27894,
+      "upper": 28259
+    },
+    {
+      "region": "N",
+      "lower": 28274,
+      "upper": 29533
+    },
+    {
+      "region": "ORF9b",
+      "lower": 28284,
+      "upper": 28574
+    },
+    {
+      "region": "ORF9c",
+      "lower": 28734,
+      "upper": 28952
+    },
+    {
+      "region": "ORF10",
+      "lower": 29558,
+      "upper": 29674
+    },
+    {
+      "region": "",
+      "lower": 29675,
+      "upper": 29903
+    }
+  ]
+}

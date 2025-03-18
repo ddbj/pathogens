@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>タンパク質情報</title><link>https://ddbj.github.io/pathogens/researchdata/proteomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/proteomics/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>タンパク質情報</title><link>https://ddbj.github.io/pathogens/researchdata/proteomics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/proteomics/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>COVID-19に関連するタンパク質情報&lt;/h2>
@@ -54,6 +54,64 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
+ &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://ddbj.github.io/pathogens/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/genotrans/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://nextstrain.org/community/kkosaki/ncov/japan" target="_blank">日本の変異株情報&lt;/a>
+ &lt;P>GISAIDからのデータを用い慶応義塾大学が作成した、日本のSARS-CoV-2株の変異情報です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism:(Severe+acute+respiratory+syndrome+coronavirus+2)&amp;operator=AND" target="_blank">DDBJ ARSA&lt;/a>
+ &lt;P>国立遺伝学研究所DDBJがWWW、ならびにWeb APIで提供している高速なキーワード検索サービスです。国際塩基配列データベースのほか、生命 科学分野の主要なデータベースに対して統合的な検索を行うことができます。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://ddbj.nig.ac.jp/search?query=%22%5C%22Severe+acute+respiratory+syndrome+coronavirus+2%5C%22%22" target="_blank">DDBJ SRA&lt;/a>
+ &lt;P>次世代シークエンサからの出力データの登録、及び登録されたデータの検索のためのデータベースです。NCBIのSRA、EBIのERAとの国際協力の もとDDBJにより運営されています。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=vg&amp;keywords=%22Severe+acute+respiratory+syndrome+coronavirus+2%22&amp;page=1" target="_blank">KEGG Virus&lt;/a>
+ &lt;P>京都大学化学研究所附属バイオインフォマティクスセンターが、ウイルスの遺伝子、ゲノム配列、生合成パスウェイや疾患等についてKEGG内の 統合情報をまとめたデータベースです。 リンク先は「 "Severe acute respiratory syndrome coronavirus 2" 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=genome&amp;keywords=Severe+acute+respiratory+syndrome+coronavirus+2&amp;page=1" target="_blank">KEGG Genome&lt;/a>
+ &lt;P>RefSeq 等の公共データベースから全ゲノム配列が決定されたすべての生物種の情報を抽出したKEGGのデータベースです。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>画像情報</title><link>https://ddbj.github.io/pathogens/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/imagingdata/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する画像情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.niid.go.jp/niid/ja/multimedia.html" target="_blank">感染研　画像・映像アーカイブ&lt;/a>
+ &lt;P>国立感染症研究所が提供する、病原体や感染症研究関連の画像や映像情報のアーカイブ。感染研で分離された新型コロナウイルスの電子顕微鏡 写真像や、ウイルスによる細胞変性像が公開されています。データの利用や仕様については感染研のページ内の記述をご参照ください。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
+ &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
  &lt;/main></description></item><item><title>文献情報</title><link>https://ddbj.github.io/pathogens/researchdata/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/literature/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
@@ -100,64 +158,6 @@
  &lt;li>
  &lt;a href="http://pubannotation.org/collections/CORD-19" target="_blank">PubAnnotation&lt;/a>
  &lt;P>DBCLSが公開している文献アノテーションのレポジトリです。特にPubMedに対してのアノテーションを統合しています。リンク先では、CORD-19(COVID-19 Open Research Dataset)の全文データに対するアノテーションと閲覧が可能となっています。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>画像情報</title><link>https://ddbj.github.io/pathogens/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/imagingdata/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する画像情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.niid.go.jp/niid/ja/multimedia.html" target="_blank">感染研　画像・映像アーカイブ&lt;/a>
- &lt;P>国立感染症研究所が提供する、病原体や感染症研究関連の画像や映像情報のアーカイブ。感染研で分離された新型コロナウイルスの電子顕微鏡 写真像や、ウイルスによる細胞変性像が公開されています。データの利用や仕様については感染研のページ内の記述をご参照ください。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
- &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://ddbj.github.io/pathogens/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/genotrans/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://nextstrain.org/community/kkosaki/ncov/japan" target="_blank">日本の変異株情報&lt;/a>
- &lt;P>GISAIDからのデータを用い慶応義塾大学が作成した、日本のSARS-CoV-2株の変異情報です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="http://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism:(Severe+acute+respiratory+syndrome+coronavirus+2)&amp;operator=AND" target="_blank">DDBJ ARSA&lt;/a>
- &lt;P>国立遺伝学研究所DDBJがWWW、ならびにWeb APIで提供している高速なキーワード検索サービスです。国際塩基配列データベースのほか、生命 科学分野の主要なデータベースに対して統合的な検索を行うことができます。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://ddbj.nig.ac.jp/search?query=%22%5C%22Severe+acute+respiratory+syndrome+coronavirus+2%5C%22%22" target="_blank">DDBJ SRA&lt;/a>
- &lt;P>次世代シークエンサからの出力データの登録、及び登録されたデータの検索のためのデータベースです。NCBIのSRA、EBIのERAとの国際協力の もとDDBJにより運営されています。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=vg&amp;keywords=%22Severe+acute+respiratory+syndrome+coronavirus+2%22&amp;page=1" target="_blank">KEGG Virus&lt;/a>
- &lt;P>京都大学化学研究所附属バイオインフォマティクスセンターが、ウイルスの遺伝子、ゲノム配列、生合成パスウェイや疾患等についてKEGG内の 統合情報をまとめたデータベースです。 リンク先は「 "Severe acute respiratory syndrome coronavirus 2" 」の検索結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=genome&amp;keywords=Severe+acute+respiratory+syndrome+coronavirus+2&amp;page=1" target="_blank">KEGG Genome&lt;/a>
- &lt;P>RefSeq 等の公共データベースから全ゲノム配列が決定されたすべての生物種の情報を抽出したKEGGのデータベースです。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の検索結果です。&lt;/P>
  &lt;/li>
  &lt;/ul>
  &lt;/div>

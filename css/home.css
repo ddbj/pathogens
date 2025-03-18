@@ -1,0 +1,88 @@
+.wm {
+  margin-top: 60px;
+}
+
+.contents-item ul.month a {
+  text-decoration: none;
+  margin-bottom: 0 !important;
+}
+
+.contents-item ul.month li {
+  width: 100%;
+  margin: 0 !important;
+  line-height: 45px;
+  padding-left: 80px;
+  background-color: #fff;
+  color: #4A7EC5;
+  list-style: none;
+}
+
+.contents-item ul.month li:last-child {
+  width: 100%;
+  margin-bottom: 0 !important;
+  line-height: 45px;
+  padding-left: 80px;
+  background-color: #fff;
+  color: #4A7EC5;
+  list-style: none;
+}
+
+.month_line {
+  margin: 0 !important;
+  width: 100%;
+}
+
+.fy,
+.sy {
+  cursor: pointer;
+}
+
+.accordion-title {
+  position: relative;
+}
+
+.accordion-title:after {
+  content: "";
+  position: absolute;
+  right: 50px;
+  top: 40%;
+  transition: all 0.2s ease-in-out;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-top: solid 2px #4A7EC5;
+  border-right: solid 2px #4A7EC5;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.fy p,
+sy p {
+  margin: 0 !important;
+}
+
+
+.month {
+  display: none;
+}
+
+.accordion-title.open:after {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 45%;
+}
+
+svg {
+  width: 15px;
+  height: 15px;
+}
+
+#haplograph {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+#haplograph img {
+  width: 100%;
+}

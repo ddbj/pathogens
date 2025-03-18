@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データ共有が研究を加速させる on Node:Pathogens Portal</title><link>https://ddbj.github.io/pathogens/</link><description>Recent content in データ共有が研究を加速させる on Node:Pathogens Portal</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ddbj.github.io/pathogens/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample news 2 on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news2/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news2/</guid><description>Sample news 2 summary on Portal Launch</description></item><item><title>Sample news on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news1/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news1/</guid><description>Sample news summary on Portal Launch</description></item><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>データ共有が研究を加速させる on</title><link>https://ddbj.github.io/pathogens/</link><description>Recent content in データ共有が研究を加速させる on</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ddbj.github.io/pathogens/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample news 2 on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news2/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news2/</guid><description>Sample news 2 summary on Portal Launch</description></item><item><title>Sample news on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news1/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news1/</guid><description>Sample news summary on Portal Launch</description></item><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraph visualizes the emergence timing and geographical transmission of the SARS-CoV-2 haplotypes from the 2nd to 5th epidemic waves in Japan using genome data obtained from GISAID as of June 4, 2022. For each epidemic wave, one ancestral haplotype was determined, and evolutionary dynamics of SARS-CoV-2 haplotypes were shown for each prefecture in Japan by tracking nucleotide substitutions, insertions, and deletions.&lt;/p>
 &lt;h2 id="data-used">Data used&lt;/h2>
@@ -58,7 +58,7 @@
  &lt;!-- Bootstrap -->
  &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
  &lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
- &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">&lt;/script>
+ &lt;!--&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">&lt;/script>-->
  &lt;!-- D3 -->
  &lt;script src="https://d3js.org/d3.v5.min.js">&lt;/script>
  &lt;script>
@@ -1085,7 +1085,37 @@
 &lt;/body>
 
  &lt;/div>
- &lt;/main></description></item><item><title>お問い合わせ</title><link>https://ddbj.github.io/pathogens/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/supportfeedback/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連するデータの投稿&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.ddbj.nig.ac.jp/submission.html" target="_blank">DDBJ 登録&lt;/a>
+ &lt;P>DDBJは欧州と米国の対応機関（EBIとNCBI）と密接に関係しながら、DDBJ/EMBL/GenBank国際塩基配列データベースを構築している三大国際 データバンクのひとつです。塩基配列や次世代シークエンスによって出力されたデータ、研究プロジェクト、生物サンプル、アクセス制限が必要 なヒトデータなどを、登録ナビゲーションを通じて登録することができます。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.ddbj.nig.ac.jp/sars-cov-2.html" target="_blank">SARS-CoV-2ゲノム配列登録情報 by Japan Covid-19 Open Data Consortium&lt;/a>
+ &lt;P>DDBJ公式ページ内に特設されている「ゲノム情報を DDBJに登録することに賛同する研究者のコンソーシアム Japan Covid-19 Open Data Consortium」のページです。コロナウイルス配列登録に関するサービスの情報提供を行っています。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://www.insdc.org/sites/insdc.org/files/documents/INSDC_Statement_on_SARS-CoV-2_sequence_data_sharing_during_COVID-19.pdf" target="_blank">COVID-19流行下におけるSARS-CoV-2の配列情報共有についてのINSDCの共同声明&lt;/a>
+ &lt;P>欧州EMBL-EBIと米国NCBI-NLM-NIH、そして日本のDDBJで構成されるINSDCが共同で発出した、SARS-CoV-2の配列情報共有に関する声明文です。COVID-19に関する配列情報の投稿を検討されている場合はご一読下さい。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://dbarchive.biosciencedbc.jp/index.html" target="_blank">LSDB Archive: 生命科学系データベースアーカイブ (Life Science Database Archive)&lt;/a>
+ &lt;P>生命科学系データベースアーカイブは、国内のライフサイエンス研究者が生み出したデータセットをわが国の公共財としてまとめて長期間安定に 維持保管しています。データ説明（メタデータ）を統一して検索を容易にすると共に、 利用許諾条件などの明示を行うことで、多くの人が容易に データへアクセスしダウンロードを行えるようにするサービスです。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://community.repo.nii.ac.jp/" target="_blank">JAIRO Cloud&lt;/a>
+ &lt;P>JAIRO Cloudは、2012年度より運用開始されたクラウド型の機関リポジトリ環境提供サービスです。核となる機関リポジトリソフトウェアに国立 情報学研究所開発のWEKOを採用しています。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>お問い合わせ:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/supportfeedback/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトへのお問い合わせ&lt;/h2>
@@ -1125,36 +1155,6 @@
  &lt;li>
  &lt;a href="https://www.ebi.ac.uk/pride/archive?filter=project_tags_facet%3D%3DSars-cov-2&amp;sortDirection=DESC&amp;page=0&amp;pageSize=20" target="_blank">PRIDE: PRoteomics IDEntifications database&lt;/a>
  &lt;P>欧州European Bioinformatics Instituteが公開する、プロテオームデータの公的レポジトリです。リンク先ではSARS-CoV-2とCOVID-19でフィルタリングした、質量分析ペプチドおよび蛋白質の同定データのリストを公開しています。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連するデータの投稿&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.ddbj.nig.ac.jp/submission.html" target="_blank">DDBJ 登録&lt;/a>
- &lt;P>DDBJは欧州と米国の対応機関（EBIとNCBI）と密接に関係しながら、DDBJ/EMBL/GenBank国際塩基配列データベースを構築している三大国際 データバンクのひとつです。塩基配列や次世代シークエンスによって出力されたデータ、研究プロジェクト、生物サンプル、アクセス制限が必要 なヒトデータなどを、登録ナビゲーションを通じて登録することができます。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.ddbj.nig.ac.jp/sars-cov-2.html" target="_blank">SARS-CoV-2ゲノム配列登録情報 by Japan Covid-19 Open Data Consortium&lt;/a>
- &lt;P>DDBJ公式ページ内に特設されている「ゲノム情報を DDBJに登録することに賛同する研究者のコンソーシアム Japan Covid-19 Open Data Consortium」のページです。コロナウイルス配列登録に関するサービスの情報提供を行っています。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="http://www.insdc.org/sites/insdc.org/files/documents/INSDC_Statement_on_SARS-CoV-2_sequence_data_sharing_during_COVID-19.pdf" target="_blank">COVID-19流行下におけるSARS-CoV-2の配列情報共有についてのINSDCの共同声明&lt;/a>
- &lt;P>欧州EMBL-EBIと米国NCBI-NLM-NIH、そして日本のDDBJで構成されるINSDCが共同で発出した、SARS-CoV-2の配列情報共有に関する声明文です。COVID-19に関する配列情報の投稿を検討されている場合はご一読下さい。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://dbarchive.biosciencedbc.jp/index.html" target="_blank">LSDB Archive: 生命科学系データベースアーカイブ (Life Science Database Archive)&lt;/a>
- &lt;P>生命科学系データベースアーカイブは、国内のライフサイエンス研究者が生み出したデータセットをわが国の公共財としてまとめて長期間安定に 維持保管しています。データ説明（メタデータ）を統一して検索を容易にすると共に、 利用許諾条件などの明示を行うことで、多くの人が容易に データへアクセスしダウンロードを行えるようにするサービスです。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://community.repo.nii.ac.jp/" target="_blank">JAIRO Cloud&lt;/a>
- &lt;P>JAIRO Cloudは、2012年度より運用開始されたクラウド型の機関リポジトリ環境提供サービスです。核となる機関リポジトリソフトウェアに国立 情報学研究所開発のWEKOを採用しています。&lt;/P>
  &lt;/li>
  &lt;/ul>
  &lt;/div>
@@ -1216,6 +1216,92 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
+ &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://ddbj.github.io/pathogens/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/genotrans/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://nextstrain.org/community/kkosaki/ncov/japan" target="_blank">日本の変異株情報&lt;/a>
+ &lt;P>GISAIDからのデータを用い慶応義塾大学が作成した、日本のSARS-CoV-2株の変異情報です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="http://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism:(Severe+acute+respiratory+syndrome+coronavirus+2)&amp;operator=AND" target="_blank">DDBJ ARSA&lt;/a>
+ &lt;P>国立遺伝学研究所DDBJがWWW、ならびにWeb APIで提供している高速なキーワード検索サービスです。国際塩基配列データベースのほか、生命 科学分野の主要なデータベースに対して統合的な検索を行うことができます。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://ddbj.nig.ac.jp/search?query=%22%5C%22Severe+acute+respiratory+syndrome+coronavirus+2%5C%22%22" target="_blank">DDBJ SRA&lt;/a>
+ &lt;P>次世代シークエンサからの出力データの登録、及び登録されたデータの検索のためのデータベースです。NCBIのSRA、EBIのERAとの国際協力の もとDDBJにより運営されています。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=vg&amp;keywords=%22Severe+acute+respiratory+syndrome+coronavirus+2%22&amp;page=1" target="_blank">KEGG Virus&lt;/a>
+ &lt;P>京都大学化学研究所附属バイオインフォマティクスセンターが、ウイルスの遺伝子、ゲノム配列、生合成パスウェイや疾患等についてKEGG内の 統合情報をまとめたデータベースです。 リンク先は「 "Severe acute respiratory syndrome coronavirus 2" 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=genome&amp;keywords=Severe+acute+respiratory+syndrome+coronavirus+2&amp;page=1" target="_blank">KEGG Genome&lt;/a>
+ &lt;P>RefSeq 等の公共データベースから全ゲノム配列が決定されたすべての生物種の情報を抽出したKEGGのデータベースです。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の検索結果です。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>画像情報</title><link>https://ddbj.github.io/pathogens/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/imagingdata/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する画像情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.niid.go.jp/niid/ja/multimedia.html" target="_blank">感染研　画像・映像アーカイブ&lt;/a>
+ &lt;P>国立感染症研究所が提供する、病原体や感染症研究関連の画像や映像情報のアーカイブ。感染研で分離された新型コロナウイルスの電子顕微鏡 写真像や、ウイルスによる細胞変性像が公開されています。データの利用や仕様については感染研のページ内の記述をご参照ください。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>概要:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>本サイトの概要&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;p>
+ 新型コロナウイルスの感染拡大に伴い、研究の世界でもこの非常事態を研究の力で克服しようとする動きが高まっています。新型コロナウイルス 感染症（COVID-19）への感染者が確認された国々では、新型コロナウイルス（SARS-CoV-2）のゲノム情報やタンパク質の構造情報だけでなく、 得られた病態や統計情報を無償で公開する「オープンサイエンス」の流れが公然のものとなりつつあります。人類全てが危機に瀕するこの状況では、 国や研究分野などの枠組みを超えて手を取り合い、研究データを共有して協力し合うことが肝要です。&lt;br>&lt;br>
+ ヨーロッパでは比較的早期からCOVID-19の研究データのポータルサイトを構築し、国際的な協調体制を進めていました。（参考：&lt;a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Portal&lt;/a>）。スウェーデンでもこの枠組みで独自のポータルサイトを公開しています（参考：&lt;a href="https://www.covid19dataportal.se/" target="_blank">COVID-19 Data Portal Sweden&lt;/a>）。そこで日本でもこの 枠組みに賛同し、国立情報学研究所オープンサイエンス基盤研究センターが、国内の様々な機関（参考：&lt;a href="ourpartners.html">連携体制&lt;/a>）と協力して、この「COVID-19 データポータル」を構築しました。&lt;br>&lt;br>
+ 本サイトでは、研究者が国内外のCOVID-19の研究に関連する情報にいち早くアクセスできるよう、適切な分類とリンク先の選定、解説の付与を実施 してポータルサイトとして公開しています。
+ &lt;/p>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>更新履歴:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/updates/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>更新履歴&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;dl class="updates">
+ 
+ &lt;dt>2020/10/05&lt;/dt>
+ &lt;dd>本サイトの新規公開&lt;/dd>
+ &lt;hr>
+ 
+ &lt;/dl>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
+ &lt;div class="third-contents-inner">
+ &lt;ul>
+ &lt;li>
+ &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
+ &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
  &lt;/main></description></item><item><title>文献情報</title><link>https://ddbj.github.io/pathogens/researchdata/literature/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/literature/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
@@ -1267,63 +1353,7 @@
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>更新履歴</title><link>https://ddbj.github.io/pathogens/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/updates/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>更新履歴&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;dl class="updates">
- 
- &lt;dt>2020/10/05&lt;/dt>
- &lt;dd>本サイトの新規公開&lt;/dd>
- &lt;hr>
- 
- &lt;/dl>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>概要</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>本サイトの概要&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;p>
- 新型コロナウイルスの感染拡大に伴い、研究の世界でもこの非常事態を研究の力で克服しようとする動きが高まっています。新型コロナウイルス 感染症（COVID-19）への感染者が確認された国々では、新型コロナウイルス（SARS-CoV-2）のゲノム情報やタンパク質の構造情報だけでなく、 得られた病態や統計情報を無償で公開する「オープンサイエンス」の流れが公然のものとなりつつあります。人類全てが危機に瀕するこの状況では、 国や研究分野などの枠組みを超えて手を取り合い、研究データを共有して協力し合うことが肝要です。&lt;br>&lt;br>
- ヨーロッパでは比較的早期からCOVID-19の研究データのポータルサイトを構築し、国際的な協調体制を進めていました。（参考：&lt;a href="https://www.covid19dataportal.org/" target="_blank">COVID-19 Data Portal&lt;/a>）。スウェーデンでもこの枠組みで独自のポータルサイトを公開しています（参考：&lt;a href="https://www.covid19dataportal.se/" target="_blank">COVID-19 Data Portal Sweden&lt;/a>）。そこで日本でもこの 枠組みに賛同し、国立情報学研究所オープンサイエンス基盤研究センターが、国内の様々な機関（参考：&lt;a href="ourpartners.html">連携体制&lt;/a>）と協力して、この「COVID-19 データポータル」を構築しました。&lt;br>&lt;br>
- 本サイトでは、研究者が国内外のCOVID-19の研究に関連する情報にいち早くアクセスできるよう、適切な分類とリンク先の選定、解説の付与を実施 してポータルサイトとして公開しています。
- &lt;/p>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>画像情報</title><link>https://ddbj.github.io/pathogens/researchdata/imagingdata/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/imagingdata/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する画像情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.niid.go.jp/niid/ja/multimedia.html" target="_blank">感染研　画像・映像アーカイブ&lt;/a>
- &lt;P>国立感染症研究所が提供する、病原体や感染症研究関連の画像や映像情報のアーカイブ。感染研で分離された新型コロナウイルスの電子顕微鏡 写真像や、ウイルスによる細胞変性像が公開されています。データの利用や仕様については感染研のページ内の記述をご参照ください。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
- &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>連携体制</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>連携体制:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトの連携体制&lt;/h2>
@@ -1410,36 +1440,6 @@
  &lt;/li>
  &lt;/ul>
  &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>遺伝子・配列情報</title><link>https://ddbj.github.io/pathogens/researchdata/genotrans/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/genotrans/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する遺伝子・配列情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://nextstrain.org/community/kkosaki/ncov/japan" target="_blank">日本の変異株情報&lt;/a>
- &lt;P>GISAIDからのデータを用い慶応義塾大学が作成した、日本のSARS-CoV-2株の変異情報です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="http://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism:(Severe+acute+respiratory+syndrome+coronavirus+2)&amp;operator=AND" target="_blank">DDBJ ARSA&lt;/a>
- &lt;P>国立遺伝学研究所DDBJがWWW、ならびにWeb APIで提供している高速なキーワード検索サービスです。国際塩基配列データベースのほか、生命 科学分野の主要なデータベースに対して統合的な検索を行うことができます。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://ddbj.nig.ac.jp/search?query=%22%5C%22Severe+acute+respiratory+syndrome+coronavirus+2%5C%22%22" target="_blank">DDBJ SRA&lt;/a>
- &lt;P>次世代シークエンサからの出力データの登録、及び登録されたデータの検索のためのデータベースです。NCBIのSRA、EBIのERAとの国際協力の もとDDBJにより運営されています。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の生物種検索の結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=vg&amp;keywords=%22Severe+acute+respiratory+syndrome+coronavirus+2%22&amp;page=1" target="_blank">KEGG Virus&lt;/a>
- &lt;P>京都大学化学研究所附属バイオインフォマティクスセンターが、ウイルスの遺伝子、ゲノム配列、生合成パスウェイや疾患等についてKEGG内の 統合情報をまとめたデータベースです。 リンク先は「 "Severe acute respiratory syndrome coronavirus 2" 」の検索結果です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bfind_sub?mode=bfind&amp;max_hit=1000&amp;locale=en&amp;serv=kegg&amp;dbkey=genome&amp;keywords=Severe+acute+respiratory+syndrome+coronavirus+2&amp;page=1" target="_blank">KEGG Genome&lt;/a>
- &lt;P>RefSeq 等の公共データベースから全ゲノム配列が決定されたすべての生物種の情報を抽出したKEGGのデータベースです。 リンク先は「 Severe acute respiratory syndrome coronavirus 2 」の検索結果です。&lt;/P>
- &lt;/li>
- &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>
