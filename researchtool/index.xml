@@ -158,7 +158,7 @@
  &lt;svg id="genome" xmlns="http://www.w3.org/2000/svg" /> &lt;!-- preserveAspectRatio="xMidYMid meet"/-->
  &lt;/div>
 
- &lt;div id="infobox-haplotype" class="btn-group" role="group" aria-label="Infobox haplotype" style="margin: 10px">
+ &lt;!--&lt;div id="infobox-haplotype" class="btn-group" role="group" aria-label="Infobox haplotype" style="margin: 10px">
  &lt;button type="button" class="btn btn-outline-secondary">
  Haplotype
  &lt;span id="infobox-haplotype-label" class="badge bg-light text-dark">&lt;/span>
@@ -185,7 +185,7 @@
  &lt;/button>
  &lt;/div>
 
- &lt;!--&lt;div style="overflow-x: scroll;" id="container-chart">
+ &lt;div style="overflow-x: scroll;" id="container-chart">
  &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg" />
  &lt;/div>-->
 
