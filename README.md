@@ -6,6 +6,7 @@ Pathogens Potal project
 - [Hugoのバージョン](#Hugoのバージョン)
 - [セットアップ](#セットアップ)
 - [Hugoの設定](#Hugoの設定)
+- [Webページの自動更新](#Webページの自動更新)
 
 ## Hugoのバージョン
 
@@ -28,3 +29,7 @@ $ sudo hugo serve --bind 0.0.0.0 --baseURL=http://[自PC のIP アドレス]
 
 hugo.yamlにて、Hugoの設定変更が行えます。詳細は[公式ドキュメント](https://gohugo.io/getting-started/configuration/)を参照してください。
 
+## Webページの自動更新
+
+- リポジトリが更新されたタイミングで、コンテンツはビルドされGitHub Pagesのページが自動更新されます。
+- URLは[https://ddbj.github.io/pathogens/](https://ddbj.github.io/pathogens/)です。
