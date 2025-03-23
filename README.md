@@ -14,7 +14,7 @@ Pathogens Potal project
 - Ubuntuのaptを使用した場合は0.123.7が、snapを使用した場合は0.145がインストールされます。(2025/3/23時点)
 
 ## セットアップ
-以下のコマンドを実行することで`http://[自PCのIPアドレス]:1313/`から、Hugoのテストサーバーにアクセスできるようになります。
+　以下のコマンドを実行することで`http://[自PCのIPアドレス]:1313/`から、Hugoのテストサーバーにアクセスできるようになります。
 
 ```
 $ cd ~
@@ -27,7 +27,7 @@ $ sudo hugo serve --bind 0.0.0.0 --baseURL=http://[自PC のIP アドレス]
 
 ## Hugoの設定
 
-hugo.yamlにて、Hugoの設定変更が行えます。詳細は[公式ドキュメント](https://gohugo.io/getting-started/configuration/)を参照してください。
+　hugo.yamlにて、Hugoの設定変更が行えます。詳細は[公式ドキュメント](https://gohugo.io/getting-started/configuration/)を参照してください。
 
 ## Webページの自動更新
 
