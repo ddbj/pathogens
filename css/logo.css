@@ -1,0 +1,23 @@
+.pathogens_logo {
+	position: relative;
+	width: 326px;
+}
+.pathogens_logo::before {
+	content: "";
+	display: block;
+	width: 220px;
+	height: 1px;
+	background: rgba(96,96,96,1);
+	position: relative;
+	top: 68px;
+	left: 87px;
+}
+.country_name {
+	color: rgba(96,96,96,1);
+	background: white;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	font-weight: 600;
+}
+
