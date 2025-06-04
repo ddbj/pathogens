@@ -31,10 +31,11 @@ languages:
 
 # some parameters that can be used across site, such variable can be defined here than in front matter
 params:
+  countryName: "Japan"
   #  title: "Node Pathogens Portal"
   #description: "Node Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness."
   images:
-    - /img/CV19DP-jp_logo.svg
+    - /img/blank_pathogens_logo.svg
   # local node info, logo will be displayed above pathogens logo
   node_logo: "/img/CV19DP-jp_logo.svg"
   node_url: "https://ddbj.github.io/pathogens/"

@@ -21,9 +21,9 @@
         <div class="d-flex navbar-brand">
 	    <a href="{{ .Site.Home.RelPermalink }}">
                 {{ if eq $.Site.Language.LanguageName "日本語" }}
-                <img class="mt-1 me-lg-3" src="/img/CDP-19_Japan_logo-jp.svg" alt="COVID-19 データポータルJAPAN">
+		<div class="pathogens_logo"><img class="mt-1 me-lg-3" src="/img/blank_pathogens_logo.png" alt="Pathogens データポータルジャパン"><span class="country_name">{{ .Site.Params.countryName }}</span></div>
 		{{ else }}
-                <img class="mt-1 me-lg-3" src="/img/CDP-19_Japan_logo-en.svg" alt="COVID-19 Data Portal JAPAN">
+		<div class="pathogens_logo"><img class="mt-1 me-lg-3" src="/img/blank_pathogens_logo.png" alt="Pathogens Data Portal Japan"><span class="country_name">{{ .Site.Params.countryName }}</span></div>
 		{{ end }}
             </a>
         </div>
