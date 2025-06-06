@@ -7,7 +7,7 @@
  &lt;P style="margin-top:35px;">&lt;img src="https://ddbj.github.io/pathogens/img/icons/map_icon.png" alt="マップアイコン">国立遺伝学研究所 DDBJセンター&lt;/P>
  &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="メールアイコン">&lt;a "https://forms.gle/zV4cYCnRCefd4FSz9" 問い合わせフォーム>&lt;/a>&lt;/p>
  &lt;div class="map"> 
- &lt;iframe src="https://goo.gl/maps/Qh1wu" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
+ &lt;iframe src="https://www.nig.ac.jp/nig/ja/about-nig/access_ja" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
  &lt;/div>
  
  &lt;/div>
@@ -36,21 +36,6 @@ MITライセンスで公開しています。
 (オープンサイエンス基盤センター) が 2020年に開始した "COVID-19 Data Portal Japan" 
 を引き継ぐ形で2025年に開始されました。
  &lt;/p>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>更新履歴:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/updates/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>更新履歴&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;dl class="updates">
- 
- &lt;dt>2020/10/05&lt;/dt>
- &lt;dd>本サイトの新規公開&lt;/dd>
- &lt;hr>
- 
- &lt;/dl>
  &lt;/div>
  &lt;/div>
  &lt;/div>

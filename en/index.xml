@@ -56,10 +56,10 @@
  &lt;div class="third-contents-inner">
  &lt;p>
 This portal is a part of &lt;a href="pathogendatanetwork.org">Pathogen Data Network&lt;/a>, a global consortium coordinated by the
-&lt;a href="https://www.sib.swiss/">SIB (Swiss Institute of Bioinformatics&lt;/a>, and is operated by DNA Data Bank of Japan (DDBJ).
+&lt;a href="https://www.sib.swiss/">SIB (Swiss Institute of Bioinformatics&lt;/a>, and is operated by &lt;a href="www.ddbj.nig.ac.jp">DNA Data Bank of Japan (DDBJ)&lt;/a>.
 
 The website is built using Hugo on GitHub based on the code of &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>,
-and like the original, we make all our codes open source under the MIT licence. 
+and like the original, we make all our codes open source under the MIT license. 
  &lt;/p>
 
  &lt;h2>History&lt;/h2>
@@ -132,9 +132,13 @@ KEGG DISEASE is a database that collects data on diseases with known genetic fac
  &lt;h2>Support &amp;amp; Feedback to this site&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;p>Feel free to contact us, if you have some issue or questions.&lt;/p>
- &lt;P style="margin-top:35px;">&lt;img src="https://ddbj.github.io/pathogens/img/icons/map_icon.png" alt="マップアイコン">DDBJ Center, National Institute of Genetics&lt;/P>
+ &lt;P style="margin-top:35px;">
+ &lt;img src="https://ddbj.github.io/pathogens/img/icons/map_icon.png" alt="Map map_icon">
+ DDBJ Center, National Institute of Genetics&lt;/P>
+ &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="Email Icon">
+ &lt;a "https://forms.gle/zV4cYCnRCefd4FSz9" Email form>&lt;/a>&lt;/p>
  &lt;div class="map">
- &lt;iframe src="https://goo.gl/maps/Qh1wu" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
+ &lt;iframe src="https://www.nig.ac.jp/nig/about-nig/access" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
  &lt;/div>
 
  &lt;/div>
@@ -574,21 +578,6 @@ LSDB Archive collects data sets created by Japanese life science researchers as 
 JAIRO Cloud is a cloud type service that provides an environment for institutional repositories and was launched in the fiscal year of 2012. It uses WEKO, developed by the National Institute of Informatics (NII), as the core software for institutional repositories. &lt;/P>
  &lt;/li>
  &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>Updates</title><link>https://ddbj.github.io/pathogens/en/about/updates/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/updates/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>Updates&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;dl class="updates">
-
- &lt;dt>2020/10/05&lt;/dt>
- &lt;dd>Updates&lt;/dd>
- &lt;hr>
-
- &lt;/dl>
  &lt;/div>
  &lt;/div>
  &lt;/div>
