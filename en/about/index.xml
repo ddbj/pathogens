@@ -1,39 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on</title><link>https://ddbj.github.io/pathogens/en/about/</link><description>Recent content in About on</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/en/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://ddbj.github.io/pathogens/en/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/overview/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on</title><link>https://ddbj.github.io/pathogens/en/about/</link><description>Recent content in About on</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/en/about/index.xml" rel="self" type="application/rss+xml"/><item><title>Feedback</title><link>https://ddbj.github.io/pathogens/en/about/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/feedback/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>About the portal&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;p>
-This portal is a part of &lt;a href="https://pathogendatanetwork.org">Pathogen Data Network&lt;/a>, a global consortium coordinated by the
-&lt;a href="https://www.sib.swiss/">SIB (Swiss Institute of Bioinformatics&lt;/a>, and is operated by &lt;a href="https://www.ddbj.nig.ac.jp">DNA Data Bank of Japan (DDBJ)&lt;/a>.
-
-The website is built using Hugo on GitHub based on the code of &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>,
-and like the original, we make all our codes open source under the MIT license. 
- &lt;/p>
-
- &lt;h2>History&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;p>
-An original portal was launched by &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>
-(Research Center for Open Science and Data Platform, National Institute of Informatics)
-as "COVID-19 Data Portal Japan" in 2020 in collaboration with other COVID-19 data portals.
-The current version started in 2025 as a DDBJ service.
- &lt;/p></description></item><item><title>Feedback</title><link>https://ddbj.github.io/pathogens/en/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/supportfeedback/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>Support &amp;amp; Feedback to this site&lt;/h2>
+ &lt;h2>Support &amp;amp; Feedback&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;p>Feel free to contact us, if you have some issue or questions.&lt;/p>
  &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="Email Icon">
- &lt;a "https://forms.gle/zV4cYCnRCefd4FSz9">Email form&lt;/a>&lt;/p>
- &lt;div class="map">
- &lt;iframe src="https://www.nig.ac.jp/nig/about-nig/access" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
- &lt;/div>
-
+ &lt;a href="https://forms.gle/zV4cYCnRCefd4FSz9">Email form&lt;/a>&lt;/p>
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>Our Partners</title><link>https://ddbj.github.io/pathogens/en/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/ourpartners/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>Our Partners</title><link>https://ddbj.github.io/pathogens/en/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/partners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;div class="third-contents-inner">
@@ -41,17 +17,17 @@ The current version started in 2025 as a DDBJ service.
  &lt;h2>Infrastructure&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:70%;"
  alt="Pathogens Portal">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pathogensportal.org/" target="_blank">
- Pathogens Portal&lt;/a>
+ Pathogens Portal&lt;/a> 
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.png" style="height:50%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="height:50%;"
  alt="SciLifeLab Sweden">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -62,7 +38,7 @@ The current version started in 2025 as a DDBJ service.
  &lt;h2>Contents and Funding&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:70%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:90%;"
  alt="AMED">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -82,7 +58,7 @@ The current version started in 2025 as a DDBJ service.
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:50%;"
  alt="Shizuoka Prefecture">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -92,7 +68,7 @@ The current version started in 2025 as a DDBJ service.
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:40%;"
  alt="JIHS">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -104,4 +80,25 @@ The current version started in 2025 as a DDBJ service.
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item></channel></rss>
+ &lt;/main></description></item><item><title>Overview</title><link>https://ddbj.github.io/pathogens/en/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/overview/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>About the portal&lt;/h2>
+ &lt;div class="third-contents-inner">
+This portal is a part of &lt;a href="https://pathogendatanetwork.org">Pathogen Data Network&lt;/a>,
+a global consortium coordinated by the
+&lt;a href="https://www.sib.swiss/">SIB (Swiss Institute of Bioinformatics&lt;/a>,
+and is operated by &lt;a href="https://www.ddbj.nig.ac.jp">DNA Data Bank of Japan (DDBJ)&lt;/a>.
+
+The website is built using Hugo on GitHub based on the theme of
+&lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>.
+We make all our codes open source under the MIT license. 
+ &lt;/p>
+
+ &lt;h2>History&lt;/h2>
+ &lt;div class="third-contents-inner">
+An original portal was launched by &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>
+(Research Center for Open Science and Data Platform, National Institute of Informatics)
+as "COVID-19 Data Portal Japan" in 2020 in collaboration with other COVID-19 data portals.
+The current version started as a DDBJ service in 2025.
+ &lt;/p></description></item></channel></rss>

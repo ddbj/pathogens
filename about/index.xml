@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイトについて:COVID-19 データポータル on</title><link>https://ddbj.github.io/pathogens/about/</link><description>Recent content in サイトについて:COVID-19 データポータル on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/about/index.xml" rel="self" type="application/rss+xml"/><item><title>お問い合わせ</title><link>https://ddbj.github.io/pathogens/about/supportfeedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/supportfeedback/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>サイトについて on</title><link>https://ddbj.github.io/pathogens/about/</link><description>Recent content in サイトについて on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/about/index.xml" rel="self" type="application/rss+xml"/><item><title>お問い合わせ</title><link>https://ddbj.github.io/pathogens/about/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/feedback/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>本サイトへのお問い合わせ&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;p>ご意見、ご質問等ございましたら、お気軽にお問い合わせ下さい。&lt;/p>
- &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="メールアイコン">&lt;a "https://forms.gle/zV4cYCnRCefd4FSz9">問い合わせフォーム&lt;/a>&lt;/p>
- &lt;div class="map"> 
- &lt;iframe src="https://www.nig.ac.jp/nig/ja/about-nig/access_ja" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">&lt;/iframe>
- &lt;/div>
- 
+ &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="メールアイコン">&lt;a href="https://forms.gle/zV4cYCnRCefd4FSz9">問い合わせフォーム&lt;/a>&lt;/p> 
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>概要:COVID-19 データポータル</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>概要</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトについて&lt;/h2>
@@ -20,8 +15,8 @@
  &lt;p>
 このポータルは 
 &lt;a href="https://www.sib.swiss/">SIB (スイスバイオインフォマティクス研究所)&lt;/a>
-がとりまとめる国際コンソーシアム &lt;a href="pathogendatanetwork.org">Pathogen Data Network&lt;/a> 
-の一環としてDNAデータバンク・ジャパン (DDBJ) が運営しています。
+がとりまとめる国際コンソーシアム &lt;a href="https://pathogendatanetwork.org">Pathogen Data Network&lt;/a> 
+の一環として&lt;a "https://www.ddbj.nig.ac.jp">日本DNAデータバンク (DDBJ)&lt;/a>が運営しています。
 
 ウェブサイトはスウェーデンの &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>,
 が公開する情報を基礎に GitHub および Hugo を用いて作成し、本家同様に我々のプログラムも
@@ -38,7 +33,7 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>連携組織、ファンディング</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>連携組織、研究資金</title><link>https://ddbj.github.io/pathogens/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/partners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;div class="third-contents-inner">
@@ -46,7 +41,7 @@ MITライセンスで公開しています。
  &lt;h2>インフラストラクチャー&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:50%;"
  alt="Pathogens Portal">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -56,7 +51,7 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.png" style="height:50%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="height:50%;"
  alt="SciLifeLab Sweden">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -64,10 +59,10 @@ MITライセンスで公開しています。
  SciLifeLab Sweden&lt;/a>
  &lt;/div>
  &lt;/div>
- &lt;h2>コンテンツ、ファンディング&lt;/h2>
+ &lt;h2>コンテンツ、研究資金提供&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:70%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:90%;"
  alt="AMED">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -87,7 +82,7 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:50%;"
  alt="Shizuoka Prefecture">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -97,7 +92,7 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:30%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:40%;"
  alt="JIHS">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
