@@ -201,15 +201,18 @@ and is operated by &lt;a href="https://www.ddbj.nig.ac.jp">DNA Data Bank of Japa
 The website is built using Hugo on GitHub based on the theme of
 &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>.
 We make all our codes open source under the MIT license. 
- &lt;/p>
-
+ &lt;br/>&lt;br/>
+ &lt;/div>
  &lt;h2>History&lt;/h2>
  &lt;div class="third-contents-inner">
 An original portal was launched by &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>
 (Research Center for Open Science and Data Platform, National Institute of Informatics)
 as "COVID-19 Data Portal Japan" in 2020 in collaboration with other COVID-19 data portals.
 The current version started as a DDBJ service in 2025.
- &lt;/p></description></item><item><title>Resource data</title><link>https://ddbj.github.io/pathogens/en/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/resource/</guid><description>&lt;main>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>Resource data</title><link>https://ddbj.github.io/pathogens/en/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/resource/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>
