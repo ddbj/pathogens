@@ -39,13 +39,9 @@ The current version started in 2025 as a DDBJ service.
  &lt;/main></description></item><item><title>Our Partners</title><link>https://ddbj.github.io/pathogens/en/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/ourpartners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>Partners and Funders&lt;/h2>
-
  &lt;div class="third-contents-inner">
  &lt;div class="partners">
- &lt;ul>
- &lt;li>
-Infrastructure
+ &lt;h2>Infrastructure&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
  &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:30%;"
@@ -66,9 +62,7 @@ Infrastructure
  SciLifeLab Sweden&lt;/a>
  &lt;/div>
  &lt;/div>
- &lt;/li>
- &lt;li style="margin-top:50px;">
-Contents and Funding
+ &lt;h2>Contents and Funding&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
  &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:70%;"
@@ -109,9 +103,6 @@ Contents and Funding
  National Institute of Global Health and Medicine&lt;/a>
  &lt;/div>
  &lt;/div>
- 
- &lt;/li>
- &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>

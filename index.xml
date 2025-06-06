@@ -458,12 +458,9 @@ MITライセンスで公開しています。
  &lt;/main></description></item><item><title>連携組織、ファンディング</title><link>https://ddbj.github.io/pathogens/about/ourpartners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/ourpartners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>連携組織&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;div class="partners">
- &lt;ul>
- &lt;li>
-インフラストラクチャー
+ &lt;h2>インフラストラクチャー&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
  &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:30%;"
@@ -484,9 +481,7 @@ MITライセンスで公開しています。
  SciLifeLab Sweden&lt;/a>
  &lt;/div>
  &lt;/div>
- &lt;/li>
- &lt;li style="margin-top:50px;">
-コンテンツ、ファンディング
+ &lt;h2>コンテンツ、ファンディング&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
  &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:70%;"
@@ -527,9 +522,6 @@ MITライセンスで公開しています。
  国立国際医療研究センター（NCGM）&lt;/a>
  &lt;/div>
  &lt;/div>
- 
- &lt;/li>
- &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>
