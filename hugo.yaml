@@ -18,16 +18,16 @@ languages:
     contentDir: "content/ja"
     languageCode: ja
     params:
-      title: "COVID-19 データポータル"
-      description: "「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。"
+      title: "病原体データポータル"
+      description: "「病原体データポータル」は、病原体情報や解析サービスを集約し提供します。"
  en:
     weight: 2
     languageName: "English"
     contentDir: "content/en"
     languageCode: en
     params:
-      title: "COVID-19 Data Portal JAPAN"
-      description: "\"covid-19 data portal japan\" provides and services of new coronavirus useful for research. this system is open to the public with support many domestic institutions using jairo cloud infrastructure in cooperation european portal. please see ministry health, labor welfare special website information on effects coronaviruses your life their prevention."
+      title: "Pathogens Portal Japan"
+      description: "\"Pathogens Portal Japan\" provides research data and services on new and recurring pathogens."
 
 # some parameters that can be used across site, such variable can be defined here than in front matter
 params:
