@@ -1,46 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on</title><link>https://ddbj.github.io/pathogens/en/researchdata/</link><description>Recent content in Data on</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/en/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>Disease data</title><link>https://ddbj.github.io/pathogens/en/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/diseaseinfo/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data on</title><link>https://ddbj.github.io/pathogens/en/researchdata/</link><description>Recent content in Data on</description><generator>Hugo</generator><language>en</language><atom:link href="https://ddbj.github.io/pathogens/en/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>COVID-19 Information</title><link>https://ddbj.github.io/pathogens/en/researchdata/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/covid-19/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>
-Disease data related to COVID-19&lt;/h2>
- &lt;div class="third-contents-inner">
+ &lt;h2>External Link&lt;/h2>
  &lt;ul>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
- &lt;P>
-
-KEGG DISEASE: Diseases viewed as perturbed states of the molecular system
-KEGG DISEASE is a database that collects data on diseases with known genetic factors (single gene disorder and multifactorial disease) and infectious diseases with known pathogen genome in a form that can be calculated. Each disease entry is identified by an accession number, called the "H" number, and is represented by a list of related pathways and pathogenic genes and that of environmental factors, diagnostic markers and molecules of such as therapeutic agents. The link above displays the entries for "COVID-19".&lt;/P>
+ &lt;li>JIHS（国立健康危機管理研究機構）
+ &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>、
+ &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ &lt;/li>
+ &lt;li>東京都感染症情報センター
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
+ target="_blank">東京都保健医療局 感染情報&lt;/a>、
  &lt;/li>
  &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>Resource data</title><link>https://ddbj.github.io/pathogens/en/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/resource/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>
-Resource data related to COVID-19&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://mus.brc.riken.jp/en/covid19" target="_blank">Mouse strains for COVID-19 related researches&lt;/a>
- &lt;P>
-RIKEN BioResource Research Center (BRC) is a unique repository in the world, as it collects and distributes bioresources of three different levels, i.e., genetic materials (genomic and cDNA clones) and cell lines of human and animal origins as well mouse strains. The research and developments on COVID-19 have been focusing on the following four subjects: 1) SARS-CoV-2 infection and proliferation, 2) Pathogenesis and host defense, 3) Disease progression to clinically severe cases and 4) Development of effective therapies of COVID-19 patients and preventive vaccines against SARS-CoV-2 infection. The RIKEN BRC provides the lists of mouse strains useful for the COVID-19 R&amp;D.&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://dna.brc.riken.jp/en/gsb0000en/gsb0049en" target="_blank">SARS-CoV-2 relevant human genetic colones&lt;/a>
- &lt;P>
-
-RIKEN BioResource Research Center (BRC) is a unique repository in the world, as it collects and distributes bioresources of three different levels, i.e., genetic materials (genomic and cDNA clones) and cell lines of human and animal origins as well mouse strains. The RIKEN BRC provides the lists of SARS-CoV-2 relevant human genetic colones useful for the COVID-19 R&amp;D.&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://cell.brc.riken.jp/en/covid-19-related-cell-lone-resources" target="_blank">Cell line resources for COVID-19 researches&lt;/a>
- &lt;P>
-RIKEN BioResource Research Center (BRC) is a unique repository in the world, as it collects and distributes bioresources of three different levels, i.e., genetic materials (genomic and cDNA clones) and cell lines of human and animal origins as well mouse strains. The RIKEN BRC provides the lists of cell lines useful for the COVID-19 R&amp;D.&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item></channel></rss>

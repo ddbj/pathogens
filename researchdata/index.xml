@@ -1,40 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>外部データ情報</title><link>https://ddbj.github.io/pathogens/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/resource/</guid><description>&lt;main>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>COVID-19情報</title><link>https://ddbj.github.io/pathogens/researchdata/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/covid-19/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>COVID-19関連&lt;/h2>
+ &lt;h2>外部リンク&lt;/h2>
  &lt;ul>
- &lt;li>理研バイオリソース研究センターの
- &lt;a href="https://mus.brc.riken.jp/ja/covid19" target="_blank">感染症研究用マウス&lt;/a>、
- &lt;a href="https://cell.brc.riken.jp/ja/covid-19-research" target="_blank">COVID-19 関連細胞&lt;/a>、
- &lt;a href="https://dna.brc.riken.jp/en/gsb0000en/gsb0049en" target="_blank">SARS-CoV-2関連ヒト遺伝子クローン&lt;/a> 
+ &lt;li>JIHS（国立健康危機管理研究機構）
+ &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>、
+ &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs &lt;/a>
  &lt;/li>
- &lt;li>JIHSによる下水中の新型コロナウイルス（SARS-CoV-2）調査プロジェクト
- &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html" target="_blank">NIJIs &lt;/a>
+ &lt;li>東京都感染症情報センター
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
+ target="_blank">東京都保健医療局 感染情報&lt;/a>、
  &lt;/li>
  &lt;/ul>
-
- &lt;h2>薬剤耐性関連&lt;/h2>
- &lt;ul>
- &lt;li>&lt;a href="https://amr-onehealth-platform.jihs.go.jp/home">薬剤耐性ワンヘルスプラットフォーム&lt;/a>
- &lt;/li>
- &lt;li>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
- &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item></channel></rss>

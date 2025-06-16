@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>病原データポータル on</title><link>https://ddbj.github.io/pathogens/</link><description>Recent content in 病原データポータル on</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ddbj.github.io/pathogens/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample news 2 on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news2/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news2/</guid><description>Sample news 2 summary on Portal Launch</description></item><item><title>Sample news on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news1/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news1/</guid><description>Sample news summary on Portal Launch</description></item><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>感染症情報ポータル JP on</title><link>https://ddbj.github.io/pathogens/</link><description>Recent content in 感染症情報ポータル JP on</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 12 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ddbj.github.io/pathogens/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample news 2 on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news2/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news2/</guid><description>Sample news 2 summary on Portal Launch</description></item><item><title>Sample news on Portal launch</title><link>https://ddbj.github.io/pathogens/news/demo_news1/</link><pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/news/demo_news1/</guid><description>Sample news summary on Portal Launch</description></item><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraph visualizes the emergence timing and geographical transmission of the SARS-CoV-2 haplotypes from the 2nd to 5th epidemic waves in Japan using genome data obtained from GISAID as of June 4, 2022. For each epidemic wave, one ancestral haplotype was determined, and evolutionary dynamics of SARS-CoV-2 haplotypes were shown for each prefecture in Japan by tracking nucleotide substitutions, insertions, and deletions.&lt;/p>
 &lt;h2 id="data-used">Data used&lt;/h2>
@@ -49,7 +49,25 @@
 &lt;li>Duration: その都道府県でサンプリングされたハプロタイプの期間&lt;/li>
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
-&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
+&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>COVID-19情報</title><link>https://ddbj.github.io/pathogens/researchdata/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/covid-19/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>外部リンク&lt;/h2>
+ &lt;ul>
+ &lt;li>JIHS（国立健康危機管理研究機構）
+ &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>、
+ &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ &lt;/li>
+ &lt;li>東京都感染症情報センター
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
+ target="_blank">東京都保健医療局 感染情報&lt;/a>、
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
  &lt;nav class="navbar navbar-light bg-light">
  &lt;div class="container-fluid">
  &lt;form class="d-flex">
@@ -189,97 +207,12 @@
 	 &lt;svg id="chart" xmlns="http://www.w3.org/2000/svg">&lt;/svg>
  &lt;/div>
 
- &lt;/main></description></item><item><title>データの投稿</title><link>https://ddbj.github.io/pathogens/researchtool/submission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/submission/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連するデータの投稿&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.ddbj.nig.ac.jp/submission.html" target="_blank">DDBJ 登録&lt;/a>
- &lt;P>DDBJは欧州と米国の対応機関（EBIとNCBI）と密接に関係しながら、DDBJ/EMBL/GenBank国際塩基配列データベースを構築している三大国際 データバンクのひとつです。塩基配列や次世代シークエンスによって出力されたデータ、研究プロジェクト、生物サンプル、アクセス制限が必要 なヒトデータなどを、登録ナビゲーションを通じて登録することができます。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.ddbj.nig.ac.jp/sars-cov-2.html" target="_blank">SARS-CoV-2ゲノム配列登録情報 by Japan Covid-19 Open Data Consortium&lt;/a>
- &lt;P>DDBJ公式ページ内に特設されている「ゲノム情報を DDBJに登録することに賛同する研究者のコンソーシアム Japan Covid-19 Open Data Consortium」のページです。コロナウイルス配列登録に関するサービスの情報提供を行っています。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="http://www.insdc.org/sites/insdc.org/files/documents/INSDC_Statement_on_SARS-CoV-2_sequence_data_sharing_during_COVID-19.pdf" target="_blank">COVID-19流行下におけるSARS-CoV-2の配列情報共有についてのINSDCの共同声明&lt;/a>
- &lt;P>欧州EMBL-EBIと米国NCBI-NLM-NIH、そして日本のDDBJで構成されるINSDCが共同で発出した、SARS-CoV-2の配列情報共有に関する声明文です。COVID-19に関する配列情報の投稿を検討されている場合はご一読下さい。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://dbarchive.biosciencedbc.jp/index.html" target="_blank">LSDB Archive: 生命科学系データベースアーカイブ (Life Science Database Archive)&lt;/a>
- &lt;P>生命科学系データベースアーカイブは、国内のライフサイエンス研究者が生み出したデータセットをわが国の公共財としてまとめて長期間安定に 維持保管しています。データ説明（メタデータ）を統一して検索を容易にすると共に、 利用許諾条件などの明示を行うことで、多くの人が容易に データへアクセスしダウンロードを行えるようにするサービスです。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://community.repo.nii.ac.jp/" target="_blank">JAIRO Cloud&lt;/a>
- &lt;P>JAIRO Cloudは、2012年度より運用開始されたクラウド型の機関リポジトリ環境提供サービスです。核となる機関リポジトリソフトウェアに国立 情報学研究所開発のWEKOを採用しています。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
  &lt;/main></description></item><item><title>お問い合わせ</title><link>https://ddbj.github.io/pathogens/about/feedback/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/feedback/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;div class="third-contents-inner">
  &lt;p>ご意見、ご質問等ございましたら、お気軽にお問い合わせ下さい。&lt;/p>
  &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="メールアイコン">&lt;a href="https://forms.gle/zV4cYCnRCefd4FSz9">問い合わせフォーム&lt;/a>&lt;/p> 
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>バイオインフォマティクス</title><link>https://ddbj.github.io/pathogens/researchtool/bioinfomatics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/bioinfomatics/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連するバイオインフォマティクスのサービス・ツール&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.ddbj.nig.ac.jp/services.html" target="_blank">DDBJ 検索・解析&lt;/a>
- &lt;P>DDBJは欧州と米国の対応機関（EBIとNCBI）と密接に関係しながら、DDBJ/EMBL/GenBank国際塩基配列データベースを構築している三大国際 データバンクのひとつです。配列データの検索や解析ツールを提供しています。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://dbcls.rois.ac.jp/services.html" target="_blank">DBCLS Service&lt;/a>
- &lt;P>情報・システム研究機構　ライフサイエンス統合データベースセンターが提供する、バイオインフォマティクスやデータベース統合に役立つ ツールやサービスの一覧です。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://biosciencedbc.jp/service/" target="_blank">NBDC&lt;/a>
- &lt;P>ライフサイエンスデータベース統合推進事業を所管するバイオサイエンスデータベースセンター（NBDC）が直接提供するサービスサイト （データベースのカタログ、横断検索、アーカイブなど）や関係各機関が提供するデータベースやツールへのリンクを提供しています。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://www.kegg.jp/kegg/kegg_ja.html" target="_blank">KEGG: Kyoto Encyclopedia of Genes and Genomes&lt;/a>
- &lt;P>KEGGデータベースシステム全体の統括ページです。データタイプごと（PATHWAY、BRITE、DISEASE、DRUG、GENES、GENOME、COMPO UND、GLYCAN、REACTION）、生物種ごとにアクセスできます。KEGG MapperやKEGG Atlas、KASSなど各種解析ツールの実行画面にも アクセスできます。&lt;/P>
- &lt;/li>
- &lt;li>
- &lt;a href="https://github.com/virtual-biohackathons/covid-19-bh20/blob/master/datasets_and_tools.md" target="_blank">COVID-19 virtual Biohackathon&lt;/a>
- &lt;P>2020年4月にオンラインで開催されたCOVID-19に関するバイオハッカソン（開発合宿）のサイトです。リンク先では、成果として公開されているデータセットやツールを閲覧することができます。&lt;/P>
- &lt;/li>
- &lt;/ul>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>外部データ情報</title><link>https://ddbj.github.io/pathogens/researchdata/resource/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/resource/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19関連&lt;/h2>
- &lt;ul>
- &lt;li>理研バイオリソース研究センターの
- &lt;a href="https://mus.brc.riken.jp/ja/covid19" target="_blank">感染症研究用マウス&lt;/a>、
- &lt;a href="https://cell.brc.riken.jp/ja/covid-19-research" target="_blank">COVID-19 関連細胞&lt;/a>、
- &lt;a href="https://dna.brc.riken.jp/en/gsb0000en/gsb0049en" target="_blank">SARS-CoV-2関連ヒト遺伝子クローン&lt;/a> 
- &lt;/li>
- &lt;li>JIHSによる下水中の新型コロナウイルス（SARS-CoV-2）調査プロジェクト
- &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html" target="_blank">NIJIs &lt;/a>
- &lt;/li>
- &lt;/ul>
-
- &lt;h2>薬剤耐性関連&lt;/h2>
- &lt;ul>
- &lt;li>&lt;a href="https://amr-onehealth-platform.jihs.go.jp/home">薬剤耐性ワンヘルスプラットフォーム&lt;/a>
- &lt;/li>
- &lt;li>
- &lt;/li>
- &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>
@@ -305,20 +238,6 @@ MITライセンスで公開しています。
  &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>(オープンサイエンス基盤センター) が開始
  &lt;p>2025年6月 DDBJが上記ポータルの運営を正式に引き継ぎ&lt;/p>
  &lt;/p>
- &lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;/main></description></item><item><title>疾患情報</title><link>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/diseaseinfo/</guid><description>&lt;main>
- &lt;div class="container">
- &lt;div class="third-contents">
- &lt;h2>COVID-19に関連する疾患情報&lt;/h2>
- &lt;div class="third-contents-inner">
- &lt;ul>
- &lt;li>
- &lt;a href="https://www.kegg.jp/dbget-bin/www_bget?ds:H02398" target="_blank">KEGG DISEASE: Diseases viewed as perturbed states of the molecular system&lt;/a>
- &lt;P>KEGG DISEASEは、遺伝要因が既知の疾患（単一遺伝子疾患及び多因子性疾患）と病原体ゲノムが既知の感染症疾患に関する情報を、計算処理が 可能な形に集約したデータベースです。各疾患エントリは H番号とよばれるアクセッション番号で識別され、関連するパスウエイ、病因遺伝子の リスト、ならびに環境要因、診断マーカー、治療薬などの分子のリストで表現されています。 上記リンク先は「COVID-19」のエントリを表示します。&lt;/P>
- &lt;/li>
- &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>
