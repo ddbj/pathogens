@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究ツール on</title><link>https://ddbj.github.io/pathogens/researchtool/</link><description>Recent content in 研究ツール on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ツール紹介 on</title><link>https://ddbj.github.io/pathogens/researchtool/</link><description>Recent content in ツール紹介 on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchtool/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://ddbj.github.io/pathogens/researchtool/help-en/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/help-en/</guid><description>&lt;h1 id="sars-cov-2-haplograph">SARS-CoV-2 HaploGraph&lt;/h1>
 &lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>SARS-CoV-2 HaploGraph visualizes the emergence timing and geographical transmission of the SARS-CoV-2 haplotypes from the 2nd to 5th epidemic waves in Japan using genome data obtained from GISAID as of June 4, 2022. For each epidemic wave, one ancestral haplotype was determined, and evolutionary dynamics of SARS-CoV-2 haplotypes were shown for each prefecture in Japan by tracking nucleotide substitutions, insertions, and deletions.&lt;/p>
 &lt;h2 id="data-used">Data used&lt;/h2>
@@ -49,7 +49,23 @@
 &lt;li>Duration: その都道府県でサンプリングされたハプロタイプの期間&lt;/li>
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
-&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
+&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>DFAST</title><link>https://ddbj.github.io/pathogens/researchtool/dfast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/dfast/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="second-contents">
+ &lt;div class="row">
+ &lt;div class="third-contents">
+ DFASTはDDBJにおいて微生物ゲノムを登録する際の標準パイプラインです。
+
+ &lt;ul>
+ &lt;a href="https://dfast.ddbj.nig.ac.jp/dfv/">&lt;li>SARS-CoV-2ゲノム用インターフェース&lt;/li>&lt;/a>
+ &lt;a href="https://dfast.ddbj.nig.ac.jp/">&lt;li>バクテリア用インターフェース&lt;/li>&lt;/a>
+ 　　&lt;a href="https://dfast.ddbj.nig.ac.jp/faq">&lt;li>利用案内等&lt;/li>&lt;/a>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
  &lt;nav class="navbar navbar-light bg-light">
  &lt;div class="container-fluid">
  &lt;form class="d-flex">

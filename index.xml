@@ -67,6 +67,22 @@
  &lt;/ul>
  &lt;/div>
  &lt;/div>
+ &lt;/main></description></item><item><title>DFAST</title><link>https://ddbj.github.io/pathogens/researchtool/dfast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/dfast/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="second-contents">
+ &lt;div class="row">
+ &lt;div class="third-contents">
+ DFASTはDDBJにおいて微生物ゲノムを登録する際の標準パイプラインです。
+
+ &lt;ul>
+ &lt;a href="https://dfast.ddbj.nig.ac.jp/dfv/">&lt;li>SARS-CoV-2ゲノム用インターフェース&lt;/li>&lt;/a>
+ &lt;a href="https://dfast.ddbj.nig.ac.jp/">&lt;li>バクテリア用インターフェース&lt;/li>&lt;/a>
+ 　　&lt;a href="https://dfast.ddbj.nig.ac.jp/faq">&lt;li>利用案内等&lt;/li>&lt;/a>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
  &lt;/main></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
  &lt;nav class="navbar navbar-light bg-light">
  &lt;div class="container-fluid">
@@ -228,8 +244,7 @@
 の一環として&lt;a "https://www.ddbj.nig.ac.jp">日本DNAデータバンク (DDBJ)&lt;/a>が運営しています。
 
 ウェブサイトはスウェーデンの &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>
-が公開する情報を基礎に GitHub および Hugo を用いて作成し、本家同様に我々のプログラムも
-MITライセンスで公開しています。
+が公開する情報を基礎に GitHub および Hugo を用いて作成し、MITライセンスで公開しています。
  &lt;/p>
  &lt;/div>
  &lt;h2>これまでの経緯&lt;/h2>
@@ -246,25 +261,25 @@ MITライセンスで公開しています。
  &lt;div class="third-contents">
  &lt;div class="third-contents-inner">
  &lt;div class="partners">
- &lt;h2>インフラストラクチャー&lt;/h2>
+ &lt;h2>サイト構築&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:50%;"
- alt="Pathogens Portal">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:50%;">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pathogensportal.org/" target="_blank">
- Pathogens Portal&lt;/a>
+ Pathogens Portal&lt;/a>: EMBL-EBIが2023年より運営するサイトです。
+ 研究資金の一部が米国NIH NIAID BRCプログラム "Pathogen Data Network" (PDN) です。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="height:50%;"
- alt="SciLifeLab Sweden">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="height:50%;">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.scilifelab.se/data/" target="_blank">
- SciLifeLab Sweden&lt;/a>
+ SciLifeLab Sweden&lt;/a>: 上記 NIH-NIAIDプログラムによりローカルポータルを構築した研究所です。
+ 本サイトのコードはここを参考に構築しています。いずれもMITライセンスです。
  &lt;/div>
  &lt;/div>
  &lt;h2>コンテンツ、研究資金提供&lt;/h2>
@@ -275,7 +290,9 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.the-easia.org/jrp/" target="_blank">
- 日本医療研究開発機構AMED e-ASIA Joint Research Program&lt;/a>
+ 日本医療研究開発機構AMED e-ASIA Joint Research Program&lt;/a>:
+ 「インドネシアにおけるパンデミックに備えた人工知能を活用した下水ゲノムサーベイランスプラットフォームの開発」
+ (JP24jm0210113h0001 金沢大学　本多了 FY2024-2027) に参画してサーベイランス情報を取得しています。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
@@ -285,7 +302,9 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.erca.go.jp/suishinhi/english/" target="_blank">
- 環境再生保全機構ERCA 環境研究総合推進費&lt;/a>
+ 環境再生保全機構ERCA 環境研究総合推進費&lt;/a>:
+ 「環境中における薬剤耐性と抗微生物剤の監視の枠組構築に向けた研究」
+ (JPMEERF25S21200　金沢大学　本多了 FY2025-2027) に参画してサーベイランス情報を取得しています。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
@@ -295,7 +314,8 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pref.shizuoka.jp/kenkofukushi/shippeikansensho/kansensho/1054959.html" target="_blank">
- 静岡県&lt;/a>
+ 静岡県&lt;/a>: 
+ 2021年4月より遺伝研と静岡県は「新型コロナウイルスの全ゲノム解析による分子疫学調査」の覚書を締結し、連携しています。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
@@ -305,7 +325,8 @@ MITライセンスで公開しています。
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https//www.ncgm.go.jp" target="_blank">
- 国立国際医療研究センター（NCGM）&lt;/a>
+ 国立国際医療研究センター（NCGM）&lt;/a>:
+ 感染症臨床研究ネットワーク事業（NW/REBIND）においてDDBJは病原体ゲノムの公開業務を担当しています。
  &lt;/div>
  &lt;/div>
  &lt;/div>
