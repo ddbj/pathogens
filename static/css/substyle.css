@@ -112,7 +112,7 @@ ul .dropdwn-menu li  a{
 }
 
 
-/*=========ここからheader===========*/
+/*=========ここからheader
 header{
     background-image: url("../img/CV19DP-jp_back.png");
     background-color: rgba(255,255,255,0.4);
@@ -145,7 +145,7 @@ hgroup a{
     color: #626568!important;
     text-decoration: none!important;
 }
-
+===========*/
 
 /*=========ここからmain===========*/
 
@@ -156,7 +156,7 @@ hgroup a{
 .second-contents ul{
     list-style-type: none;
     padding-left:0;
-    color:#3E75C1 !inportant;
+    color:#3E75C1 !important;
 }
 
 
