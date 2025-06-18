@@ -49,7 +49,7 @@
 &lt;li>Duration: その都道府県でサンプリングされたハプロタイプの期間&lt;/li>
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
-&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>COVID-19情報</title><link>https://ddbj.github.io/pathogens/researchdata/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/covid-19/</guid><description>&lt;main>
+&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>COVID-19情報</title><link>https://ddbj.github.io/pathogens/researchdata/covid19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/covid19/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>外部リンク&lt;/h2>
@@ -249,10 +249,12 @@
  &lt;/div>
  &lt;h2>これまでの経緯&lt;/h2>
  &lt;div class="third-contents-inner">
- &lt;p>2020年10月 COVID-19データポータル (COVID-19 Data Portal Japan) を国立情報学研究所の
- &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>(オープンサイエンス基盤センター) が開始
- &lt;p>2025年6月 DDBJが上記ポータルの運営を正式に引き継ぎ&lt;/p>
- &lt;/p>
+ &lt;ul>
+ &lt;li>2020年10月 COVID-19データポータル (COVID-19 Data Portal Japan) を国立情報学研究所の
+ &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>(オープンサイエンス基盤センター) が開始&lt;/li>
+ &lt;li>2025年06月 DDBJが上記ポータルの運営を正式に引き継ぎ&lt;/li>
+ &lt;/ul>
+ 
  &lt;/div>
  &lt;/div>
  &lt;/div>
@@ -264,7 +266,7 @@
  &lt;h2>サイト構築&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:50%;">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/pathogens.png" style="width:80%;">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pathogensportal.org/" target="_blank">
@@ -274,7 +276,7 @@
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="height:50%;">
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/scilifelab.svg" style="width:80%;">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.scilifelab.se/data/" target="_blank">
@@ -285,7 +287,7 @@
  &lt;h2>コンテンツ、研究資金提供&lt;/h2>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:90%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/amed_logo.png" style="width:100%;"
  alt="AMED">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -297,7 +299,7 @@
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/erca.png" style="width:70%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/erca.png" style="width:80%;"
  alt="ERCA">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -309,7 +311,7 @@
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:50%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/shizuoka.png" style="width:60%;"
  alt="Shizuoka Prefecture">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
@@ -320,7 +322,7 @@
  &lt;/div>
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:40%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/jihs.png" style="width:50%;"
  alt="JIHS">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">

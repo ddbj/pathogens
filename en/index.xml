@@ -49,7 +49,7 @@
 &lt;li>Duration: その都道府県でサンプリングされたハプロタイプの期間&lt;/li>
 &lt;li>Total: その都道府県でサンプリングされたハプロタイプの合計数&lt;/li>
 &lt;/ul>
-&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>COVID-19 Information</title><link>https://ddbj.github.io/pathogens/en/researchdata/covid-19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/covid-19/</guid><description>&lt;main>
+&lt;p>上記の項目は、カーソル（矢印）で選択したハプロタイプに合わせて変化する。&amp;ldquo;Trace&amp;quot;のオプションをオンにすると、異なる都道府県の最も古いエントリーが、時間順に線で結ばれる。ただし、この点線は新型コロナウイルスの直接の伝播を結びつけるものではありません。&amp;ldquo;Lineage&amp;quot;のオプションをオンにすると、選択したハプロタイプの祖先となるハプロタイプのエントリーが表示される。選択されたハプロタイプを表示するための色は、ビューアによってランダムに採用される。&lt;/p></description></item><item><title>COVID-19 Information</title><link>https://ddbj.github.io/pathogens/en/researchdata/covid19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/covid19/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>External Link&lt;/h2>
@@ -76,6 +76,24 @@
  &lt;p>&lt;img src="https://ddbj.github.io/pathogens/img/icons/mail_icon.png" alt="Email Icon">
  &lt;a href="https://forms.gle/zV4cYCnRCefd4FSz9">Email form&lt;/a>&lt;/p>
  &lt;/div>
+ &lt;/div>
+ &lt;/div>
+ &lt;/main></description></item><item><title>M-pox Information</title><link>https://ddbj.github.io/pathogens/en/researchdata/mpox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/mpox/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>External Link&lt;/h2>
+ &lt;ul>
+ &lt;li>JIHS（国立健康危機管理研究機構）
+ &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>、
+ &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ &lt;/li>
+ &lt;li>東京都感染症情報センター
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
+ target="_blank">東京都保健医療局 感染情報&lt;/a>、
+ &lt;/li>
+ &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item><item><title>Our Partners</title><link>https://ddbj.github.io/pathogens/en/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/about/partners/</guid><description>&lt;main>
