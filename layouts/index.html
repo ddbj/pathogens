@@ -7,6 +7,17 @@
      <!-- Content on the left side Dashboard, News, etc -->
      <div class="col-md-8 vert-line-right mt-3">
 
+         <!-- Dashboards -->
+         <div class="row ">
+             <div class="col">
+	     <h3 class="mt-0">{{ i18n "dashboards" }}</h3>
+             </div>
+             <div class="col mt-2 pt-1 text-end see-all-link-text">
+	     <a href={{ "/dashboards/" | relLangURL }}>{{ i18n "all_dashboards" }} <i class="bi bi-arrow-right-square-fill"></i></a>
+             </div>
+         </div>
+         {{ partial "dashboards.html" . }}
+
 {{ .Content }}
 
     </div>
@@ -16,7 +27,7 @@
 
         <!-- News -->
         <div class="row">
-            <h4 class="mb-1">What's new?</h4>
+		<h4 class="mb-1">{{ i18n "whatsnew" }}</h4>
             <p class="mb-2 small">News about new sections, features, as well as significant milestones.</p>
         </div>
         <div class="row px-2">
@@ -32,7 +43,7 @@
             </div> {{ end }}
             {{ end }}
             <div class="mt-3 bg-see-all-link">
-                <a class="dark-blue" href="/news/">See all Portal news <i class="bi bi-arrow-right-square-fill"></i></a>
+	    <a class="dark-blue" href={{ "/news/" | relLangURL }}>{{ i18n "all_whatsnew" }} <i class="bi bi-arrow-right-square-fill"></i></a>
             </div>
             </div>
         </div>
@@ -40,14 +51,15 @@
 
         <!-- Events -->
         {{ $upcoming_events := slice }}
-        {{ range sort $.Site.Data.events ".date_start" "asc" }}
+	{{ $events := index .Site.Data.events (printf "events.%s" .Site.Language.Lang) }}
+        {{ range sort $events ".date_start" "asc" }}
             {{ if ge (.date_start | time.Format "20060102") (now | time.Format "20060102") }}
                 {{ $upcoming_events = $upcoming_events | append . }}
             {{ end }}
         {{ end }}
         <section id="events-section">
             <div class="row mt-4">
-                <h4 class="mb-1">Events</h4>
+		    <h4 class="mb-1">{{ i18n "events" }}</h4>
                 <p class="mb-2 small">The titles and start dates of upcoming events.</p>
                 <div class="border ms-2 p-3">
                     {{ if ge (len $upcoming_events) 1 }}
@@ -70,7 +82,7 @@
                             </div>
                         {{ end }}
                         <div class="mt-2 bg-see-all-link">
-                            <a class="dark-blue" href="/events/">See all events <i class="bi bi-arrow-right-square-fill"></i></a>
+			<a class="dark-blue" href={{ "/events/" | relLangURL }}>{{ i18n "all_events" }} <i class="bi bi-arrow-right-square-fill"></i></a>
                         </div>
                     {{ else }}
                         <p>No upcoming events!</p>

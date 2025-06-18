@@ -10,6 +10,20 @@ keywords:
 description:
   other: "\"covid-19 data portal japan\" provides and services of new coronavirus useful for research. this system is open to the public with support many domestic institutions using jairo cloud infrastructure in cooperation european portal. please see ministry health, labor welfare special website information on effects coronaviruses your life their prevention."
 
+dashboards:
+  other: "Data Dashboard"
+all_dashboards:
+  other: "See all dashboards"
+whatsnew:
+  other: "What's new"
+all_whatsnew:
+  other: "See all Portal news"
+events:
+  other: "Events"
+all_events:
+  other: "See all events"
+
+
 organization:
   other: "Research Center for Open Science and Data Platform (RCOS), National Institute of Informatics,"
 address:

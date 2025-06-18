@@ -10,6 +10,19 @@ keywords:
 description:
   other: "「COVID-19データポータルJAPAN」は、研究に役立つ新型コロナウイルスのデータやサービスを集約し提供します。本システムはEuropean COVID-19 Data Portalの協力の元、JAIRO Cloudの基盤を利用して、国内の多数の機関の援助を受けて公開しています。新型コロナウイルスへの生活への影響や予防については、厚生労働省特設サイトをご覧ください。"
 
+dashboards:
+  other: "ダッシュボード"
+all_dashboards:
+  other: "全ダッシュボードを表示"
+whatsnew:
+  other: "新着情報"
+all_whatsnew:
+  other: "全新着情報を表示"
+events:
+  other: "イベント"
+all_events:
+  other: "全イベントを表示"
+
 organization:
   other: "国立情報学研究所オープンサイエンス基盤研究センター"
 address:

@@ -1,0 +1,111 @@
+{{ define "main" }}
+
+<section>
+    <div>
+        {{ .Content }}
+    </div>
+</section>
+
+<!-- Events -->
+{{ $upcoming_events := slice }}
+{{ $events := index .Site.Data.events (printf "events.%s" .Site.Language.Lang) }}
+{{ range sort $events ".date_start" "asc" }}
+    {{ if ge (.date_start | time.Format "20060102") (now | time.Format "20060102") }}
+        {{ $upcoming_events = $upcoming_events | append . }}
+    {{ end }}
+{{ end }}
+{{ if ge (len $upcoming_events) 1 }}
+<section>
+    <div class="row g-2 mt-3 mb-5">
+        {{ range $ind, $cont := $upcoming_events }}
+        <div class="col-md-6 col-lg-4">
+            <div class="p-3 border rounded h-100">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <span class="badge card-badge mb-1">{{ .type }}</span>
+                        <h5><a class="" role="button" data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $ind }}">{{ .title }}</a></h5>
+                    </div>
+                    <div class="px-2 pb-1 m-2 d-flex flex-column rounded card-badge">
+                        <div class="px-2 fs-3 mx-auto">{{ time.Format "2" .date_start }}</div>
+                        <div class="px-2 mx-auto">{{ time.Format "January" .date_start }}</div>
+                    </div>
+                </div>
+                {{ if .date_start }}
+                <div class="mt-2">
+                    <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
+                                        {{ if .time_start }} {{ .time_start }}{{ end }}
+                                        {{ if .date_end }} - {{ .date_end | time.Format ":date_medium" }}{{ end}}
+                                        {{ if .time_end }} {{ .time_end }}{{ end }}
+                </div>
+                {{ end }}
+                {{ if .organisers }}
+                <div class="mt-2">
+                    <b>Organiser(s):</b> {{ .organisers }}
+                </div>
+                {{ end }}
+                {{ if .venue }}
+                <div class="mt-2">
+                    <b>Venue:</b> {{ .venue }}
+                </div>
+                {{ end }}
+                <div class="mt-3">
+                    <button type="button" class="btn btn-blue btn-sm" data-bs-toggle="modal" data-bs-target="#descriptionModal{{ $ind }}">
+                        See details
+                    </button>
+                </div>
+                <div class="modal fade" id="descriptionModal{{ $ind }}" tabindex="-1" aria-labelledby="descriptionModalLabel{{ $ind }}" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="descriptionModalLabel{{ $ind }}">{{ .title }}</h5>
+                                <button type="button" class="btn-close mt-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div>
+                                    <b>Event type:</b> <span class="badge card-badge mb-1">{{ .type }}</span>
+                                </div>
+                                <div class="mt-2">
+                                    <b>Date and time:</b> {{ .date_start | time.Format ":date_medium" }}
+                                                          {{ if .time_start }} {{ .time_start }}{{ end }}
+                                                          {{ if .date_end }} - {{ .date_end | time.Format ":date_medium" }}{{ end}}
+                                                          {{ if .time_end }} {{ .time_end }}{{ end }}
+                                </div>
+                                {{ if .organisers }}
+                                <div class="mt-2">
+                                    <b>Organiser(s):</b> {{ .organisers }}
+                                </div>
+                                {{ end }}
+                                {{ if .venue }}
+                                <div class="mt-2">
+                                    <b>Venue:</b> {{ .venue }}
+                                </div>
+                                {{ end }}
+                                {{ if .description }}
+                                <div class="mt-2">
+                                  <b>Description:</b><br>
+                                  {{ .description | markdownify }}
+                                </div>
+                                {{ end }}
+                                <div class="mt-3">
+                                    <a target="_blank" href="{{ .event_url }}"><i class="bi bi-globe"></i> Event webpage</a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ else }}
+    <div class="alert alert-secondary mt-4">
+      We are currently unaware of any upcoming events or training opportunities relevant for life science.
+      If you know of any relevant events or training opportunities that should be shown here, please contact us.
+    </div>
+{{ end }}
+
+{{ end }}

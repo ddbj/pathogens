@@ -1,9 +1,9 @@
 ---
-title: Events
+title: イベント
 layout: events
 menu:
   navbar_top:
-    name: Events
+    name: イベント 
     identifier: events
     weight: 30
 ---

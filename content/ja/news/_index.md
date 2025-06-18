@@ -1,8 +1,8 @@
 ---
-title: Portal news
+title: ニュース
 menu:
     footer_about:
-        name: Portal news
+        name: ニュース
         weight: 15
 ---
 In this section, we report major pieces of news related to the Portal. This can include, for example, new pages, new/improved features, or important progress in the field of pandemic preparedness.
