@@ -8,7 +8,10 @@ menu:
     identifier: graph_dashboard
 dashboards_topics: [demotopic3]
 ---
+<script type="module">
+drawLineChart("mpox_chart", "pathogen_data.json", "Mpox");
+</script>
 
 グラフサンプル
-<div id="chart" style="width: 100%"></div>
+<div id="mpox_chart" style="width: 100%; height: 500px"></div>
 
