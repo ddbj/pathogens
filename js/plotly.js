@@ -39,7 +39,7 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 						categories[category] = {}
 				}
 			}
-console.log(startDate, endDate);
+//console.log(startDate, endDate);
 	
 			var xLabels = [];
 			var   cur = new Date(startDate + "-01"); // 日にちなしの文字列を渡した場合に、挙動が保障されないため1日を指定
@@ -69,7 +69,7 @@ console.log(startDate, endDate);
 					categories[category][date] ++;
 				}
 			}
-console.log(categories);
+//console.log(categories);
 			// 折れ線グラフのマーカーと色の種類
 			// 11種類×7種類のため、77カテゴリを超えるまで、同じ色、マーカーの組み合わせは現れない
 			const symbols = ["square", "circle", "diamond", "pentagon", "x", "triangle-up", "triangle-down", "triangle-left", "triangel-right", "start", "bowtie"];
