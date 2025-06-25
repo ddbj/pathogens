@@ -45,6 +45,7 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 			var   cur = new Date(startDate + "-01"); // 日にちなしの文字列を渡した場合に、挙動が保障されないため1日を指定
 			const end = new Date(endDate   + "-02"); // 常にcurは1日になるけど、念のため終了は2日にしておく
 			var keys = Object.keys(categories);
+			var total_count = [];
 			// 日付ごとの初期化、およびX軸の準備
 			while(cur <= end){
 //console.log(cur);
@@ -54,6 +55,7 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 				// 件数を初期化
 				for(var i = 0; i < keys.length; i ++)
 					categories[keys[i]][y + "-" + m] = 0;
+				total_count[y + "-" + m] = 0;
 
 				cur.setMonth(cur.getMonth() + 1);
 				//cur.setDate(cur.getDate() + 1);
@@ -70,11 +72,22 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 				}
 			}
 //console.log(categories);
-			// 折れ線グラフのマーカーと色の種類
-			// 11種類×7種類のため、77カテゴリを超えるまで、同じ色、マーカーの組み合わせは現れない
-			const symbols = ["square", "circle", "diamond", "pentagon", "x", "triangle-up", "triangle-down", "triangle-left", "triangel-right", "start", "bowtie"];
-			const colors  = ["red", "blue", "purple", "black", "orange", "aqua", "green"];
+			for(var i = 0; i < keys.length; i ++){
+				var cur = new Date(startDate + "-01");
+				var data = [];
+				// 各isolateごとにデータを整理する
+				while(cur <= end){
+					const y = cur.getFullYear();
+					const m = String(cur.getMonth() + 1).padStart(2, '0');
+					const date = y + "-" + m;
+					total_count[date] += categories[keys[i]][date];
+
+					cur.setMonth(cur.getMonth() + 1);
+				}
+			}
+//console.log(total_count);
 			var all_data = [];
+			var count_data = [];
 			// 全データをplotly用に整理する
 			for(var i = 0; i < keys.length; i ++){
 				var cur = new Date(startDate + "-01");
@@ -87,7 +100,9 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 					if(categories[keys[i]][date] == 0)
 						data.push(null); // nullを入れたポイントは描画がスキップされる
 					else
-						data.push(categories[keys[i]][date]);
+						data.push(Math.round(categories[keys[i]][date]*100000.0/total_count[date])/1000.0);
+					if(i == 0)
+						count_data.push(total_count[date]);
 
 					cur.setMonth(cur.getMonth() + 1);
 					//cur.setDate(cur.getDate() + 1);
@@ -97,16 +112,20 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 	 				x:    xLabels,
 	 				y:    data,
 	 				name: keys[i],
-	 				type: 'scantter',
-	 				mode: 'lines+markers',
-	 				marker: { 
-						symbol: symbols[i%symbols.length], 
-						color:  colors[i%colors.length],
-						size:   10
-					}
+	 				type: 'bar',
+					hovertemplate: "%{y}%",
 				};
 				all_data.push(d);
 			}
+			all_data.push({
+				x: xLabels,
+				y: count_data,
+				type: 'scatter',
+				mode: 'none',
+				hovertemplate: "Total count: %{customdata}<extra></extra>",
+				showlegend: false,
+				customdata: count_data.map(v => v.toLocaleString())
+			});
 	
 			/*
 			const ticktext = xLabels.map((dateStr, idx) => {
@@ -159,8 +178,10 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 					//dtick:          10,
 					showticklabels: true,
 					//ticksuffix:     'K',
+					range: [0, 100]
 				},
 	
+				barmode:      "stack",
 				plot_bgcolor: "white",
 				autosize:     true,
 				font: { 
