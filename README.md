@@ -8,7 +8,7 @@ Pathogens Potal project
 - [Hugoの設定](#Hugoの設定)
 - [Webページの自動更新](#Webページの自動更新)
 - [ロゴの国名の設定](#ロゴの国名の設定)
-- [What's newの追加](#What's newの追加)
+- [What's newの追加](#whats-newの追加)
 - [Eventsの設定](#Eventsの設定)
 - [グラフについて](#グラフについて)
 
