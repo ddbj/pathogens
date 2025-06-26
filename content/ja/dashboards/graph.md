@@ -9,9 +9,9 @@ menu:
 dashboards_topics: [demotopic3]
 ---
 <script type="module">
-drawLineChart("mpox_chart", "pathogen_data.json", "Mpox");
+drawLineChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of reports per PANGO lineage");
 </script>
 
 グラフサンプル
-<div id="mpox_chart" style="width: 100%; height: 500px"></div>
+<div id="sars_chart" style="width: 100%; height: 500px"></div>
 
