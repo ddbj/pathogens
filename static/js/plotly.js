@@ -2,7 +2,7 @@ function isOthers(key, obj)
 {
 	return (key in obj) && (obj[key] != "-")
 }
-function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date(Month Commencing)</b>", yaxix_label="<b>Percentage</b>")
+function drawStackedBarChart(id, file, target, title="CHART", xaxis_label="<br><b>Date(Month Commencing)</b>", yaxix_label="<b>Percentage</b>")
 {
 	const CATEGORY_KEY = "lineage"; // json内での対象カラム名、この値をもとにカテゴライズする
 	const OTHERS_KEY   = "others";  // isOthers()でfalseと判定されたデータの集約先

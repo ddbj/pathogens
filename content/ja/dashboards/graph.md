@@ -9,7 +9,7 @@ menu:
 dashboards_topics: [demotopic3]
 ---
 <script type="module">
-drawLineChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of reports per PANGO lineage");
+drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of reports per PANGO lineage");
 </script>
 
 グラフサンプル
