@@ -1,9 +1,15 @@
-function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date(Month Commencing)</b>", yaxix_label="<b>Count</b>")
+function isOthers(key, obj)
 {
+	return (key in obj) && (obj[key] != "-")
+}
+function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date(Month Commencing)</b>", yaxix_label="<b>Percentage</b>")
+{
+	const CATEGORY_KEY = "lineage"; // json内での対象カラム名、この値をもとにカテゴライズする
+	const OTHERS_KEY   = "others";  // isOthers()でfalseと判定されたデータの集約先
+
 	var data = [];
-	//const TARGET = "Mpox";//"SARS-CoV-2";
+//target = "SARS-CoV-2";
 	// github rawに変える
-	target = "SARS-CoV-2";
 	fetch("../../data/" + file)//pathogen_data.json")
 		.then(response => {
 			if(!response.ok)
@@ -34,17 +40,21 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 						endDate = date;
 					// カテゴライズキー（仮）
 					//var isolate = json[i].isolate.split("/")[2];
-					var category = json[i].geo_location;
-					if(!(category in categories))
-						categories[category] = {}
+					//if(CATEGORY_KEY in json[i]){
+					if(isOthers(CATEGORY_KEY, json[i])){
+						var category = json[i][CATEGORY_KEY];
+						if(!(category in categories))
+							categories[category] = {}
+					}
 				}
 			}
+			categories[OTHERS_KEY] = {};
 //console.log(startDate, endDate);
 	
 			var xLabels = [];
 			var   cur = new Date(startDate + "-01"); // 日にちなしの文字列を渡した場合に、挙動が保障されないため1日を指定
 			const end = new Date(endDate   + "-02"); // 常にcurは1日になるけど、念のため終了は2日にしておく
-			var keys = Object.keys(categories);
+			var keys = Object.keys(categories).sort().reverse();
 			var total_count = [];
 			// 日付ごとの初期化、およびX軸の準備
 			while(cur <= end){
@@ -53,9 +63,11 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 				const m = String(cur.getMonth() + 1).padStart(2, '0');
 				xLabels.push(y + "-" + m);
 				// 件数を初期化
+				const date = y + "-" + m;
 				for(var i = 0; i < keys.length; i ++)
-					categories[keys[i]][y + "-" + m] = 0;
-				total_count[y + "-" + m] = 0;
+					categories[keys[i]][date] = 0;
+				categories[OTHERS_KEY][date] = 0;
+				total_count[date] = 0;
 
 				cur.setMonth(cur.getMonth() + 1);
 				//cur.setDate(cur.getDate() + 1);
@@ -67,15 +79,20 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 						continue;
 					var date    = json[i].collection_date.substring(0, 7);
 					//var isolate = json[i].isolate.split("/")[2];
-					var category = json[i].geo_location;
-					categories[category][date] ++;
+					//if(CATEGORY_KEY in json[i]){
+					if(isOthers(CATEGORY_KEY, json[i])){
+						var category = json[i][CATEGORY_KEY];
+						categories[category][date] ++;
+					} else {
+						categories[OTHERS_KEY][date] ++;
+					}
 				}
 			}
 //console.log(categories);
 			for(var i = 0; i < keys.length; i ++){
 				var cur = new Date(startDate + "-01");
 				var data = [];
-				// 各isolateごとにデータを整理する
+				// 各カテゴリごとにデータを整理する
 				while(cur <= end){
 					const y = cur.getFullYear();
 					const m = String(cur.getMonth() + 1).padStart(2, '0');
@@ -92,7 +109,7 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 			for(var i = 0; i < keys.length; i ++){
 				var cur = new Date(startDate + "-01");
 				var data = [];
-				// 各isolateごとにデータを整理する
+				// 各カテゴリごとにデータを整理する
 				while(cur <= end){
 					const y = cur.getFullYear();
 					const m = String(cur.getMonth() + 1).padStart(2, '0');
@@ -123,8 +140,8 @@ function drawLineChart(id, file, target, title="CHART", xaxis_label="<br><b>Date
 				type: 'scatter',
 				mode: 'none',
 				hovertemplate: "Total count: %{customdata}<extra></extra>",
-				showlegend: false,
-				customdata: count_data.map(v => v.toLocaleString())
+				showlegend:    false,
+				customdata:    count_data.map(v => v.toLocaleString())
 			});
 	
 			/*

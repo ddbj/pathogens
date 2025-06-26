@@ -234,10 +234,10 @@
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item><item><title>グラフサンプル</title><link>https://ddbj.github.io/pathogens/dashboards/graph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/dashboards/graph/</guid><description>&lt;script type="module">
-drawLineChart("mpox_chart", "pathogen_data.json", "Mpox");
+drawLineChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of reports per PANGO lineage");
 &lt;/script>
 &lt;p>グラフサンプル&lt;/p>
-&lt;div id="mpox_chart" style="width: 100%; height: 500px">&lt;/div></description></item><item><title>概要</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
+&lt;div id="sars_chart" style="width: 100%; height: 500px">&lt;/div></description></item><item><title>概要</title><link>https://ddbj.github.io/pathogens/about/overview/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/overview/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;h2>本サイトについて&lt;/h2>
