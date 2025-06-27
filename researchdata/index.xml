@@ -1,22 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>研究データ on</title><link>https://ddbj.github.io/pathogens/researchdata/</link><description>Recent content in 研究データ on</description><generator>Hugo</generator><language>ja</language><atom:link href="https://ddbj.github.io/pathogens/researchdata/index.xml" rel="self" type="application/rss+xml"/><item><title>COVID-19情報</title><link>https://ddbj.github.io/pathogens/researchdata/covid19/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/covid19/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
- &lt;h2>SARS-CoV-2ゲノム配列登録情報 by Japan Covid-19 Open Data Consortium&lt;/h2>
+ &lt;h2>Japan Covid-19 Open Data Consortium&lt;/h2>
  「Japan Covid-19 Open Data Consortium」は、より自由な情報の流通を目指して、
  ゲノム情報を DDBJに登録することに賛同する研究者のコンソーシアムです 。 
  SARS-CoV-2のゲノム情報は GISAID にもありますが、厳しい利用制約により解析や
  検証の妨げとなっています。そのため本コンソーシアムでは配列をDDBJに登録してから、
  同じ内容をGISAIDにも登録しています。
+ &lt;hr/>
+ 主要コンソーシアムメンバー
+ &lt;ul>
+ &lt;li>慶應義塾大学医学部&lt;/li>
+ &lt;li>国立健康危機管理研究機構臨床研究センター
+ &lt;a href="https://ccs.jihs.go.jp/jcrac/">JCRAC運営部&lt;/a>&lt;/li>
+ &lt;li>静岡県ふじのくに感染症管理センター 
+ &lt;a href="https://www.pref.shizuoka.jp/kensei/introduction/soshiki/1002857/1041022/1041112.html">感染症対策課&lt;/a>&lt;/li>
+ &lt;/ul>
 
  &lt;h2>静岡県と遺伝研の連携&lt;/h2>
  遺伝研は2021年4月より新型コロナウイルスの全ゲノム解析による分子疫学調査を静岡県と進めています。
  &lt;ul>
- &lt;li>静岡県によるSARS-CoV-2全ゲノム配列 &lt;a href="https://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29+AND+shizuoka&amp;operator=AND">
+ &lt;li>コンソーシアムによるSARS-CoV-2全ゲノム配列 &lt;a href="https://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29&amp;operator=AND">
  DDBJ ARSA検索結果
  &lt;/a>&lt;/li>
- &lt;li>
+ &lt;li>そのうち静岡県による全ゲノム配列 &lt;a href="https://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29+AND+shizuoka&amp;operator=AND">
+ DDBJ ARSA検索結果
+ &lt;/a>&lt;/li>
 
- &lt;/li>
  &lt;/ul>
 
  &lt;h2>外部リンク&lt;/h2>
