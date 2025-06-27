@@ -4,7 +4,7 @@ description: "A sample layout to showcase the dashboards developed by the Portal
 banner: "/dashboards/banners/internal_dash.jpg"
 menu:
   dashboards:
-    name: ダッシュボード2
+    name: 
     identifier: node_dashboard
 dashboards_topics: [demotopic2]
 ---
