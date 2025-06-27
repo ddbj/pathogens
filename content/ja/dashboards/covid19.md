@@ -5,8 +5,8 @@ banner: "/dashboards/banners/internal_dash.jpg"
 menu:
   dashboards:
     name: covid19
-    identifier: graph_dashboard
-dashboards_topics: [demotopic3]
+    identifier: covid19
+dashboards_topics: [covid19]
 ---
 <script type="module">
 drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of reports per PANGO lineage");
