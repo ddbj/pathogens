@@ -14,5 +14,6 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
 
 <div id="sars_chart" style="width: 100%; height: 500px"></div>
 
+このダッシュボードでは、遺伝研が静岡県と連携して解析したSARS-CoV-2全ゲノム情報を表示しています。
 
 
