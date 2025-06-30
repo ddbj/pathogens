@@ -159,13 +159,13 @@ The color chart on the right side can be scrolled down, although many bars share
 
  &lt;div class="row partners-item">
  &lt;div class="col-md-4">
- &lt;img src="https://ddbj.github.io/pathogens/img/partners/sib_logo.png" style="width:90%;"
+ &lt;img src="https://ddbj.github.io/pathogens/img/partners/SIB_logo.png" style="width:60%;"
  alt="SIB">
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://pathogensportal.ch" target="_blank">
  Pathogens Portal by Swiss Institute of Bioinformatics &lt;/a>:
- PPN is supported by the National Institute Of Allergy And Infectious Diseases
+ PDN is supported by the National Institute Of Allergy And Infectious Diseases
  of the National Institutes of Health under Award Number U24Al183840. 
  &lt;/div>
  &lt;/div>
