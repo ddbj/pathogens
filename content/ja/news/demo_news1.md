@@ -1,6 +1,6 @@
 ---
 title: "ポータル開始"
-date: 2025-6-30
+date: 2025-06-30
 summary: Opening the portal
 banner: /news/banners/news1.png
 banner_large: /news/banners/news1.png
