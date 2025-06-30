@@ -10,8 +10,10 @@ menu:
       include_parent: true
 ---
 
-<div class="bg-light-gray border rounded py-2 px-4 my-3 fst-italic" style="background-color: #E5E5E5;">
+<!---div class="bg-light-gray border rounded py-2 px-4 my-3 fst-italic" style="background-color: #E5E5E5;">
     NOTE: Visualization toolkits to support content creation will be developed by Pathogens Data Network (PDN) as the project progresses.
-</div>
+</div --->
 
-Data dashboards are pages that promote data and other research resources. The dashboards provide context for the resource, and usually dynamic data visualisations. Below you can find example dashboards and for more real examples checkout <a target="_blank" href="https://www.pathogens.se/dashboards/">Swedish pathogens portal dashboards</a> or <a target="_blank" href="https://pathogensportal.ch/dashboards/">Swiss pathogens portal dashboards</a>.
+ダッシュボードはもともと馬車の御者席に立てた泥除けの板のことです。今は車の計器類が並ぶパネルをダッシュボードと呼ぶため、データ一覧もそう呼ばれます。ここでは日本国内における主なダッシュボードを紹介します。
+
+
