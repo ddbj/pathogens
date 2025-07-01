@@ -292,7 +292,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;/div>
  &lt;/div>
- &lt;/main></description></item><item><title>連携組織、研究資金</title><link>https://ddbj.github.io/pathogens/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/partners/</guid><description>&lt;main>
+ &lt;/main></description></item><item><title>感染症臨床研究ネットワーク (iCROWN) 事業によるダッシュボード</title><link>https://ddbj.github.io/pathogens/dashboards/icrown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/dashboards/icrown/</guid><description>&lt;p>An example for external dashboard&lt;/p></description></item><item><title>連携組織、研究資金</title><link>https://ddbj.github.io/pathogens/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/partners/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
  &lt;div class="third-contents-inner">
