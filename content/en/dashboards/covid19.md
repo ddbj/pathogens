@@ -1,6 +1,6 @@
 ---
 title: "COVID-19"
-description: "静岡県＋遺伝研によるSARS-CoV-2ゲノム解析"
+description: "Whole genome analysis of SARS-CoV-2 by NIG & Shizuoka Pref."
 banner: "/dashboards/banners/covid19_dash.jpg"
 menu:
   dashboards:
