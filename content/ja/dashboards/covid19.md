@@ -1,6 +1,6 @@
 ---
 title: "COVID-19"
-description: "静岡県＋遺伝研によるSARS-CoV-2ゲノム解析"
+description: "静岡県＋遺伝研が2021年より実施するSARS-CoV-2全ゲノム情報です"
 banner: "/dashboards/banners/covid19_dash.jpg"
 menu:
   dashboards:
