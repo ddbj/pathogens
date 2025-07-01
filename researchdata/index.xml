@@ -7,7 +7,7 @@
  SARS-CoV-2のゲノム情報は GISAID にもありますが、厳しい利用制約により解析や
  検証の妨げとなっています。そのため本コンソーシアムでは配列をDDBJに登録してから、
  同じ内容をGISAIDにも登録しています。
- &lt;h3>主要コンソーシアムメンバー&lt;/h3>
+ &lt;h4>主要コンソーシアムメンバー&lt;/h4>
  &lt;ul>
  &lt;li>慶應義塾大学医学部&lt;/li>
  &lt;li>国立健康危機管理研究機構臨床研究センター
@@ -18,6 +18,7 @@
 
  &lt;h2>静岡県と遺伝研の連携&lt;/h2>
  遺伝研は2021年4月より新型コロナウイルスの全ゲノム解析による分子疫学調査を静岡県と進めています。
+ 以下のリンク（DDBJ）から全ゲノム情報をダウンロードできます。
  &lt;ul>
  &lt;li>コンソーシアムによるSARS-CoV-2全ゲノム配列 &lt;a href="https://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29&amp;operator=AND">
  DDBJ ARSA検索結果
@@ -28,13 +29,16 @@
 
  &lt;/ul>
 
- &lt;h2>外部リンク&lt;/h2>
+ &lt;h2>国内のリソース&lt;/h2>
  &lt;ul>
  &lt;li>JIHS（国立健康危機管理研究機構） 
- &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
- target="_blank">感染症発生動向調査週報&lt;/a>
- &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
- target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ &lt;ul>&lt;li>&lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://icrown.jihs.go.jp/publicity/" target="_blank">
+ iCROWN事業による公開情報&lt;/a>&lt;/li>
+ &lt;/ul>
  &lt;/li>
  &lt;li>東京都感染症情報センター
  &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"

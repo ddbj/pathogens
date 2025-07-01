@@ -65,7 +65,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  SARS-CoV-2のゲノム情報は GISAID にもありますが、厳しい利用制約により解析や
  検証の妨げとなっています。そのため本コンソーシアムでは配列をDDBJに登録してから、
  同じ内容をGISAIDにも登録しています。
- &lt;h3>主要コンソーシアムメンバー&lt;/h3>
+ &lt;h4>主要コンソーシアムメンバー&lt;/h4>
  &lt;ul>
  &lt;li>慶應義塾大学医学部&lt;/li>
  &lt;li>国立健康危機管理研究機構臨床研究センター
@@ -76,6 +76,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
 
  &lt;h2>静岡県と遺伝研の連携&lt;/h2>
  遺伝研は2021年4月より新型コロナウイルスの全ゲノム解析による分子疫学調査を静岡県と進めています。
+ 以下のリンク（DDBJ）から全ゲノム情報をダウンロードできます。
  &lt;ul>
  &lt;li>コンソーシアムによるSARS-CoV-2全ゲノム配列 &lt;a href="https://ddbj.nig.ac.jp/arsa/search?lang=ja&amp;cond=quick_search&amp;query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29&amp;operator=AND">
  DDBJ ARSA検索結果
@@ -86,13 +87,16 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
 
  &lt;/ul>
 
- &lt;h2>外部リンク&lt;/h2>
+ &lt;h2>国内のリソース&lt;/h2>
  &lt;ul>
  &lt;li>JIHS（国立健康危機管理研究機構） 
- &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
- target="_blank">感染症発生動向調査週報&lt;/a>
- &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
- target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ &lt;ul>&lt;li>&lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">感染症発生動向調査週報&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
+ target="_blank">下水調査プロジェクト NIJIs&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://icrown.jihs.go.jp/publicity/" target="_blank">
+ iCROWN事業による公開情報&lt;/a>&lt;/li>
+ &lt;/ul>
  &lt;/li>
  &lt;li>東京都感染症情報センター
  &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
@@ -272,24 +276,24 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;h2>本サイトについて&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;p>
-このポータルは 
-&lt;a href="https://www.sib.swiss/">SIB (スイスバイオインフォマティクス研究所)&lt;/a>
-がとりまとめる国際コンソーシアム &lt;a href="https://pathogendatanetwork.org">Pathogen Data Network&lt;/a> 
+このポータルは国際コンソーシアム &lt;a href="https://pathogendatanetwork.org">Pathogen Data Network&lt;/a> 
 の一環として&lt;a "https://www.ddbj.nig.ac.jp">日本DNAデータバンク (DDBJ)&lt;/a>が運営しています。
 
 ウェブサイトはスウェーデンの &lt;a href="https://scilifelab.se/data/">SciLifeLab Data Centre&lt;/a>
 が公開する情報を基礎に GitHub および Hugo を用いて作成し、MITライセンスで公開しています。
+
+
  &lt;/p>
  &lt;/div>
  &lt;h2>これまでの経緯&lt;/h2>
  &lt;div class="third-contents-inner">
  &lt;ul>
  &lt;li>2020年10月 COVID-19データポータル (COVID-19 Data Portal Japan) を国立情報学研究所の
- &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a>(オープンサイエンス基盤センター) が開始&lt;/li>
+ &lt;a href="https://rcos.nii.ac.jp/">RCOS&lt;/a> (オープンサイエンス基盤センター) が開始&lt;/li>
  &lt;li>2025年06月 DDBJが上記ポータルの運営を正式に引き継ぎ&lt;/li>
  &lt;/ul>
- 
  &lt;/div>
+
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item><item><title>感染症臨床研究ネットワーク (iCROWN) 事業によるダッシュボード</title><link>https://ddbj.github.io/pathogens/dashboards/icrown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/dashboards/icrown/</guid><description>&lt;p>An example for external dashboard&lt;/p></description></item><item><title>連携組織、研究資金</title><link>https://ddbj.github.io/pathogens/about/partners/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/about/partners/</guid><description>&lt;main>
@@ -304,8 +308,9 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pathogensportal.org/" target="_blank">
- Pathogens Portal&lt;/a>: EMBL-EBIが2023年より運営するサイトです。
- 研究資金の一部が米国NIH NIAID BRCプログラム "Pathogen Data Network" (PDN) です。
+ Pathogens Portal&lt;/a>は EMBL-EBI が2023年より運営するサイトです。
+ 米国NIH NIAID BRCプログラム "Pathogen Data Network" (PDN) の
+ 支援も受けています。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
@@ -314,7 +319,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.scilifelab.se/data/" target="_blank">
- SciLifeLab Sweden&lt;/a>: 上記 NIH-NIAIDプログラムによりローカルポータルを構築した研究所です。
+ SciLifeLab Sweden&lt;/a>は NIH-NIAIDプログラムによりポータルを構築した研究所です。
  本サイトのコードはここを参考に構築しています。いずれもMITライセンスです。
  &lt;/div>
  &lt;/div>
@@ -327,7 +332,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://pathogensportal.ch" target="_blank">
  スイスバイオインフォマティクス研究所 SIB&lt;/a>
- SIBがとりまとめる Pathogen Data Network (PDN) は
+ がとりまとめる Pathogen Data Network (PDN) は
  米国保健省（NIH）のNIAID（アレルギーおよび感染症研究所）
  より受けた資金（Award Number U24Al183840）で結成されました。 
  &lt;/div>
@@ -339,7 +344,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.the-easia.org/jrp/" target="_blank">
- 日本医療研究開発機構AMED e-ASIA Joint Research Program&lt;/a>:
+ 日本医療研究開発機構AMED e-ASIA Joint Research Program&lt;/a>
  「インドネシアにおけるパンデミックに備えた人工知能を活用した下水ゲノムサーベイランスプラットフォームの開発」
  (JP24jm0210113h0001 金沢大学　本多了 FY2024-2027) に参画してサーベイランス情報を取得しています。
  &lt;/div>
@@ -351,7 +356,7 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.erca.go.jp/suishinhi/english/" target="_blank">
- 環境再生保全機構ERCA 環境研究総合推進費&lt;/a>:
+ 環境再生保全機構ERCA 環境研究総合推進費&lt;/a>
  「環境中における薬剤耐性と抗微生物剤の監視の枠組構築に向けた研究」
  (JPMEERF25S21200　金沢大学　本多了 FY2025-2027) に参画してサーベイランス情報を取得しています。
  &lt;/div>
@@ -363,8 +368,9 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https://www.pref.shizuoka.jp/kenkofukushi/shippeikansensho/kansensho/1054959.html" target="_blank">
- 静岡県&lt;/a>: 
- 2021年4月より遺伝研と静岡県は「新型コロナウイルスの全ゲノム解析による分子疫学調査」の覚書を締結し、連携しています。
+ 静岡県&lt;/a>と遺伝研は
+ 2021年4月に「新型コロナウイルスの全ゲノム解析による分子疫学調査」の覚書を締結し、
+ 全ゲノム解析を継続しています。
  &lt;/div>
  &lt;/div>
  &lt;div class="row partners-item">
@@ -374,8 +380,9 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;div class="col-md-8 partners-name">
  &lt;a href="https//www.ncgm.go.jp" target="_blank">
- 国立国際医療研究センター（NCGM）&lt;/a>:
- 感染症臨床研究ネットワーク事業（NW/REBIND）においてDDBJは病原体ゲノムの公開業務を担当しています。
+ 国立国際医療研究センター（NCGM）&lt;/a>
+ 感染症臨床研究ネットワーク事業（REBIND/iCROWN）において、DDBJが
+ 病原体ゲノムの公開業務を担当しています。
  &lt;/div>
  &lt;/div>
  &lt;/div>
