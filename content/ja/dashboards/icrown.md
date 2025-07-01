@@ -4,7 +4,7 @@ description: "国立健康危機管理研究機構 (JIHS) による iCROWN 事�
 banner: "/dashboards/banners/icrown_dash.jpg"
 menu:
   dashboards:
-    name: iCROWNは令和6年度までREBINDと呼ばれていたナショナル・リポジトリを提供します
+    name: iCROWN事業によるナショナル・リポジトリ
     identifier: icrown
 dashboards_topics: [icrown]
 redirect_url: "https://icrown-portal.jihs.go.jp/"

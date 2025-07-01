@@ -4,7 +4,7 @@ description: "静岡県＋遺伝研が2021年より実施するSARS-CoV-2全ゲ�
 banner: "/dashboards/banners/covid19_dash.jpg"
 menu:
   dashboards:
-    name: Whole genome analysis of SARS-CoV-2 by NIG & Shizuoka Pref.
+    name: 静岡県と遺伝研による全ゲノム解析事業
     identifier: covid19
 dashboards_topics: [covid19]
 ---
