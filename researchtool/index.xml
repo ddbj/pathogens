@@ -54,19 +54,22 @@
  &lt;div class="second-contents">
  &lt;div class="row">
  &lt;div class="third-contents">
- DFASTはDDBJにおいて微生物ゲノムを登録する際の標準パイプラインです。
+ &lt;h2>DFAST genome annotation&lt;/h2>
+ DFASTはDDBJにおいて微生物ゲノム (バクテリア、アーキア) を登録する際の標準パイプラインです。
+ ゲノムの fasta 形式をアップロードするだけでアノテーションを施してくれます。
+ ダウンロード版は&lt;a href="https://github.com/nigyta/dfast_core">ここ&lt;/a>にあります。
 
  &lt;ul>
- &lt;a href="https://dfast.ddbj.nig.ac.jp/dfv/">&lt;li>SARS-CoV-2ゲノム用インターフェース&lt;/li>&lt;/a>
- &lt;a href="https://dfast.ddbj.nig.ac.jp/">&lt;li>バクテリア用インターフェース&lt;/li>&lt;/a>
- 　　&lt;a href="https://dfast.ddbj.nig.ac.jp/faq">&lt;li>利用案内等&lt;/li>&lt;/a>
+ &lt;li>&lt;a href="https://dfast.ddbj.nig.ac.jp/dfv/">SARS-CoV-2ゲノム用インターフェース&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://dfast.ddbj.nig.ac.jp/">バクテリア用インターフェース&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="https://dfast.ddbj.nig.ac.jp/faq">利用案内等&lt;/a>&lt;/li>
  &lt;/ul>
  &lt;/div>
  &lt;/div>
  &lt;/div>
  &lt;/div>
  &lt;/main></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
- 起動に時間がかかります。数分後ロードしてください。
+ 起動に時間がかかります。数分後リロードしてください。
  &lt;nav class="navbar navbar-light bg-light">
  &lt;div class="container-fluid">
  &lt;form class="d-flex">
