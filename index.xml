@@ -124,6 +124,29 @@ drawStackedBarChart("sars_chart", "pathogen_data.json", "SARS-CoV-2", "Number of
  &lt;/div>
  &lt;/div>
  &lt;/div>
+ &lt;/main></description></item><item><title>M-pox Information</title><link>https://ddbj.github.io/pathogens/researchdata/mpox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchdata/mpox/</guid><description>&lt;main>
+ &lt;div class="container">
+ &lt;div class="third-contents">
+ &lt;h2>国内におけるM-poxゲノム解析&lt;/h2>
+ &lt;ul>
+ &lt;li>BioProject &lt;a href="https://ddbj.nig.ac.jp/search/entry/bioproject/PRJDB16992">PRJDB16992&lt;/a>
+ 上のリンクから試料および配列生データにアクセスできます。
+ 詳細なメタデータは公開されていませんが発生県と時期は以下のリンクにある週報より取得できます。
+ &lt;/li>
+ &lt;/ul>
+ &lt;h2>External Link&lt;/h2>
+ &lt;ul>
+ &lt;li>国立健康危機管理研究機構
+ &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
+ target="_blank">各種感染症の発生状況（週報）&lt;/a>、
+ &lt;/li>
+ &lt;li>東京都感染症情報センター
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/mpox/mpox/"
+ target="_blank">M-pox発生状況&lt;/a>
+ &lt;/li>
+ &lt;/ul>
+ &lt;/div>
+ &lt;/div>
  &lt;/main></description></item><item><title>NHKによる感染症データと医療・健康情報</title><link>https://ddbj.github.io/pathogens/dashboards/nhkdash/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/dashboards/nhkdash/</guid><description>&lt;p>リダイレクト&lt;/p></description></item><item><title>SARS-CoV-2 HaploGraph</title><link>https://ddbj.github.io/pathogens/researchtool/haplograph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/researchtool/haplograph/</guid><description>&lt;main>
  起動に時間がかかります。数分後リロードしてください。
  &lt;nav class="navbar navbar-light bg-light">

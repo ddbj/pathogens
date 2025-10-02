@@ -50,17 +50,22 @@
  &lt;/main></description></item><item><title>M-pox Information</title><link>https://ddbj.github.io/pathogens/en/researchdata/mpox/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ddbj.github.io/pathogens/en/researchdata/mpox/</guid><description>&lt;main>
  &lt;div class="container">
  &lt;div class="third-contents">
+ &lt;h2>Genomic analysis of M-pox in Japan&lt;/h2>
+ &lt;ul>
+ &lt;li>BioProject &lt;a href="https://ddbj.nig.ac.jp/search/entry/bioproject/PRJDB16992">PRJDB16992&lt;/a>
+ All sequenced samples and their raw data are available under this project ID.
+ Sample metadata are not publicly available, but geolocation (prefecture) is available from the report of infectious diseases below.
+ &lt;/li>
+ &lt;/ul>
  &lt;h2>External Link&lt;/h2>
  &lt;ul>
- &lt;li>JIHS（国立健康危機管理研究機構）
+ &lt;li>JIHS
  &lt;a href="https://id-info.jihs.go.jp/surveillance/idwr/index.html"
- target="_blank">感染症発生動向調査週報&lt;/a>、
- &lt;a href="https://www.niid.jihs.go.jp/content2/research_department/vir2/nijis.html"
- target="_blank">下水調査プロジェクト NIJIs &lt;/a>
+ target="_blank">Weekly update of infectious diseases&lt;/a>、
  &lt;/li>
- &lt;li>東京都感染症情報センター
- &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/2019-ncov/"
- target="_blank">東京都保健医療局 感染情報&lt;/a>、
+ &lt;li>Tokyo Metropolitan Infectious Disease Surveillance
+ &lt;a href="https://idsc.tmiph.metro.tokyo.lg.jp/diseases/mpox/mpox/"
+ target="_blank">Statistics of m-pox in Tokyo&lt;/a>
  &lt;/li>
  &lt;/ul>
  &lt;/div>
