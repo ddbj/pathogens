@@ -1,0 +1,17 @@
+<!-- 連携組織の項目
+img=連携組織のロゴ
+width=ロゴの幅
+alt=ロゴの代替文字列
+url=リンク先
+title=リンク表示名
+(Inner)=リンク先の説明
+-->
+<div class="row partners-item">
+ <div class="col-md-4">
+  <img src="{{ .Get "img" }}" style="width: {{ .Get "width" }}" alt="{{ .Get "alt" }}">
+ </div>
+ <div class="col-md-8 partners-name">
+  <a href="{{ .Get "url" }}" target="_blank">{{ .Get "title" }}</a>
+{{ .Inner | markdownify }}
+ </div>
+</div>

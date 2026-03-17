@@ -1,0 +1,218 @@
+local_backend: true
+
+backend:
+  name: proxy
+  proxy_url: http://localhost:8081/api/v1
+  branch: main
+
+media_folder: "static/img"
+public_folder: "/img"
+
+slug_rule: &default_slug "{{fields.filename}}"
+collections:
+  - name: "top"
+    label: "Top"
+    #identifier_field: "filename"
+    extension: "md"
+    slug: *default_slug
+    files:
+      - name: "top(ja)"
+        label: "Top(JA)"
+        file: "content/_index.ja.html"
+        format: "frontmatter"
+        fields:
+          - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+          - { label: "Title / ページ名",      name: "title",       widget: "string" }
+          - { label: "Description / 説明",    name: "description", widget: "string", required: false }
+          - { label: "Body",                  name: "body",        widget: "markdown" }
+      - name: "top(en)"
+        label: "Top(EN)"
+        file: "content/_index.en.html"
+        format: "frontmatter"
+        fields:
+          - { label: "Filename",    name: "filename",    widget: "string" }
+          - { label: "Title",       name: "title",       widget: "string" }
+          - { label: "Description", name: "description", widget: "string", required: false }
+          - { label: "Body",        name: "body",        widget: "markdown" }
+
+  - name: "about"
+    label: "About"
+    folder: "content/about"
+    create: true
+    #identifier_field: "filename"
+    extension: "md"
+    format: "frontmatter"
+    slug: *default_slug
+    fields:
+      - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+      - { label: "Title / ページ名",      name: "title",       widget: "string" }
+      - { label: "Description / 説明",    name: "description", widget: "string", required: false }
+      - label: "Menu"
+        name:  "menu"
+        widget: "object"
+        fields:
+          - label: "Top Menu / TOPメニューはこちらだけ入力"
+            name: "navbar_main"
+            collapsed: true
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+              - label: "Params"
+                name:  "params"
+                widget: "object"
+                fields:
+                - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
+
+          - label: "About Menu / ドロップダウメニューはこちらだけ入力"
+            name:  "about"
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+    
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "dashboards"
+    label: "Dashboards"
+    folder: "content/dashboards"
+    create: true
+    #identifier_field: "filename"
+    extension: "md"
+    format: "frontmatter"
+    slug: *default_slug
+    fields:
+      - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+      - { label: "Title / ページ名",      name: "title",       widget: "string" }
+      - { label: "Description / 説明",    name: "description", widget: "string", required: false }
+      - { label: "Banner / バナー画像",   name: "banner",      widget: "string", required: false }
+      - label: "Menu"
+        name:  "menu"
+        widget: "object"
+        fields:
+          - label: "Top Menu / TOPメニューはこちらだけ入力"
+            name: "navbar_main"
+            collapsed: true
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+              - label: "Params"
+                name:  "params"
+                widget: "object"
+                fields:
+                - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
+
+          - label: "About Dashboards / ドロップダウメニューはこちらだけ入力"
+            name:  "dashboards"
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",         name: "name",         widget: "string", required: false }
+              - { label: "Identifier / メニューのID",     name: "identifier",   widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+      - { label: "Redirect URL / リダイレクト先", name: "redirect_url", widget: "string", required: false }
+
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    #identifier_field: "filename"
+    extension: "md"
+    format: "frontmatter"
+    slug: *default_slug
+    fields:
+      - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+      - { label: "Title / ページ名",      name: "title",       widget: "string" }
+      - { label: "Description / 説明",    name: "description", widget: "string",   required: false }
+      - { label: "Date / 日付",           name: "date",        widget: "date",     date_format: "YYYY-MM-DD" }
+      - { label: "Summary / 概要",        name: "summary",     widget: "string",   required: false }
+      - { label: "Banner / バナー画像",   name: "banner",      widget: "string",   required: false }
+      - { label: "Banner(Large) / 大きいバナー画像",     name: "banner_large",     widget: "string", required: false }
+      - { label: "Banner Caption/ バナーキャプション",   name: "banner_caption",   widget: "string", required: false }
+    
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "researchdata"
+    label: "Research Data"
+    folder: "content/researchdata"
+    create: true
+    #identifier_field: "filename"
+    extension: "md"
+    format: "frontmatter"
+    slug: *default_slug
+    fields:
+      - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+      - { label: "Title / ページ名",      name: "title",       widget: "string" }
+      - { label: "Description / 説明",    name: "description", widget: "string", required: false }
+      - label: "Menu"
+        name:  "menu"
+        widget: "object"
+        fields:
+          - label: "Top Menu / TOPメニューはこちらだけ入力"
+            name: "navbar_main"
+            collapsed: true
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+              - label: "Params"
+                name:  "params"
+                widget: "object"
+                fields:
+                - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
+
+          - label: "About ResearchData / ドロップダウメニューはこちらだけ入力"
+            name:  "researchdata"
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+    
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "researchtool"
+    label: "Research Tool"
+    folder: "content/researchtool"
+    create: true
+    #identifier_field: "filename"
+    extension: "md"
+    format: "frontmatter"
+    slug: *default_slug
+    fields:
+      - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
+      - { label: "Title / ページ名",      name: "title",       widget: "string" }
+      - { label: "Description / 説明",    name: "description", widget: "string", required: false }
+      - label: "Menu"
+        name:  "menu"
+        widget: "object"
+        fields:
+          - label: "Top Menu / TOPメニューはこちらだけ入力"
+            name: "navbar_main"
+            collapsed: true
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+              - label: "Params"
+                name:  "params"
+                widget: "object"
+                fields:
+                - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
+
+          - label: "About ResearchTool / ドロップダウメニューはこちらだけ入力"
+            name:  "researchtool"
+            widget: "object"
+            fields:
+              - { label: "Name / メニュー表示名",     name: "name",       widget: "string", required: false }
+              - { label: "Identifier / メニューのID", name: "identifier", widget: "string", required: false }
+              - { label: "Weight / 表示順、小さいほど先に表示(未指定の場合は最後に回され、かつ文字順)", name: "weight", widget: "number", required: false }
+    
+      - { label: "Body", name: "body", widget: "markdown" }

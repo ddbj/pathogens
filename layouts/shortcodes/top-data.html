@@ -1,0 +1,17 @@
+<!-- トップページの「データ」欄
+「表示名,researchdata以下のリンク先」のリストを渡す
+ -->
+        <div class="col-md-6 contents-item">
+          <h2>{{ i18n "research_data" }}</h2>
+          <ul>
+{{- $lines := split (trim .Inner "\n") "\n" -}}
+{{- range $lines }}
+  {{- if ne (trim . "\n") "" }}
+    {{- $items := split . "," -}}
+            <a href="/researchdata/{{ index $items 1 }}">
+              <li><img src="/img/icons/statistics.png">{{ index $items 0 }}<div class="arrow"><img src="/img/arrow.png"></div></li>
+            </a>
+  {{- end }}
+{{- end }}
+          </ul>
+        </div>

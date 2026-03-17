@@ -22,6 +22,10 @@ events:
   other: "Events"
 all_events:
   other: "See all events"
+research_data:
+  other: "Research Data"
+introduce_tool:
+  other: "Research Tool"
 
 
 organization:

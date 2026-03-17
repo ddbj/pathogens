@@ -1,5 +1,7 @@
 # Should be replaced with real one during implementation
-baseURL: "https://ddbj.github.io/pathogens/"
+#baseURL: "https://ddbj.github.io/pathogens/"
+#baseURL: "https://pathogens.jp/"
+baseURL: "/"
 canonifyurls: true
 #relativeURLs: true
 #title: "Node:Pathogens Portal"
@@ -15,23 +17,26 @@ languages:
  ja:
     weight: 1
     languageName: "日本語"
-    contentDir: "content/ja"
+    #contentDir: "content/ja"
     languageCode: ja
     params:
       title: "病原体データポータル"
       description: "「病原体データポータル」は、病原体情報や解析サービスを集約し提供します。"
+      shortname: "JP"
  en:
     weight: 2
     languageName: "English"
-    contentDir: "content/en"
+    #contentDir: "content/en"
     languageCode: en
     params:
       title: "Pathogens Portal Japan"
       description: "\"Pathogens Portal Japan\" provides research data and services on new and recurring pathogens."
+      shortname: "EN"
 
 # some parameters that can be used across site, such variable can be defined here than in front matter
 params:
   countryName: "Japan"
+  useEvent: false
   #  title: "Node Pathogens Portal"
   #description: "Node Pathogens Portal provides information about available datasets, resources, tools, and services related to pandemic preparedness."
   images:

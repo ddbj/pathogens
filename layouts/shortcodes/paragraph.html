@@ -1,0 +1,9 @@
+<!-- ひとまとまりの段落
+title=タイトル
+(Inner)=内容
+-->
+<div class="third-contents">
+<h2>{{ .Get "title" }}</h2>
+{{ .Inner | markdownify }}
+</div>
+

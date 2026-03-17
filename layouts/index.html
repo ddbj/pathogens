@@ -1,6 +1,7 @@
 {{ define "main" }}
 
-
+{{ $newsCount := cond .Site.Params.useEvent 3 6 }}
+{{ $newsCountMinusOne := sub $newsCount 1 }}
 <!-- Main content -->
 <div class="row">
 
@@ -33,12 +34,12 @@
         <div class="row px-2">
             <div class="border p-3" id="news-items-container">
             {{ $news := where .Site.RegularPages "Section" "news" }}
-            {{ range $index, $el := first 3 $news }}
+            {{ range $index, $el := first $newsCount $news }}
             <div>
                 <div class="small text-muted">{{ .Date.Format "2006-01-02" }}</div>
                 <div><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
             </div>
-            {{ if ne $index 2}} <div class="px-4 py-1">
+            {{ if ne $index $newsCountMinusOne}} <div class="px-4 py-1">
                 <hr class="my-2">
             </div> {{ end }}
             {{ end }}
@@ -50,13 +51,14 @@
         <!-- News ends here -->
 
         <!-- Events -->
-        {{ $upcoming_events := slice }}
-	{{ $events := index .Site.Data.events (printf "events.%s" .Site.Language.Lang) }}
-        {{ range sort $events ".date_start" "asc" }}
+        {{ if .Site.Params.useEvent }}
+          {{ $upcoming_events := slice }}
+	  {{ $events := index .Site.Data.events (printf "events.%s" .Site.Language.Lang) }}
+          {{ range sort $events ".date_start" "asc" }}
             {{ if ge (.date_start | time.Format "20060102") (now | time.Format "20060102") }}
                 {{ $upcoming_events = $upcoming_events | append . }}
             {{ end }}
-        {{ end }}
+          {{ end }}
         <section id="events-section">
             <div class="row mt-4">
 		    <h4 class="mb-1">{{ i18n "events" }}</h4>
@@ -90,6 +92,7 @@
                 </div>
             </div>
         </section>
+        {{ end }}
         <!-- events code ends here -->
     </div>
     <!-- content on the right ends here -->

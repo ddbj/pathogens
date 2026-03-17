@@ -1,0 +1,21 @@
+<!-- 各カテゴリのリストページ（リンクがないのでおそらく表示されないが）
+「リンク表示名,リンク先」のリスト
+-->
+<div class="container">
+  <div class="second-contents">
+    <div class="row">
+{{- $lines := split (trim .Inner "\n") "\n" -}}
+{{- range $lines }}
+  {{- if ne (trim . "\n") "" }}
+    {{- $items := split . "," -}}
+      <div class="col-md-6">
+        <ul>
+         <li><a href="{{ index $items 1 }}">{{ index $items 0 }}<img src="/img/circle-arrow.png"></a><hr></li>
+        </ul>
+      </div>
+  {{- end }}
+{{- end }}
+    </div>
+  </div>
+ </div>
+

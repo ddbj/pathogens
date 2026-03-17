@@ -22,6 +22,10 @@ events:
   other: "イベント"
 all_events:
   other: "全イベントを表示"
+research_data:
+  other: "データ"
+introduce_tool:
+  other: "ツール紹介"
 
 organization:
   other: "国立情報学研究所オープンサイエンス基盤研究センター"

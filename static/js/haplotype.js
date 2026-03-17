@@ -11,14 +11,14 @@ const data = {
   wavelabel: "2nd wave",
   files: {
     /* Default haplotypes data (data.haplotypes.all: data.points > data.haplotypes.selected , data.haplotypes.visible) */
-    haplotypes: "data/2W-durations-50p.tsv",
-    selectlist: "data/2W-selectlist.json",
+    haplotypes: window.dataPath + "/2W-durations-50p.tsv",
+    selectlist: window.dataPath + "/2W-selectlist.json",
     /* Default mutations in haplotypes (data.mutations) */
-    mutations: "data/2W-mutations.json",
+    mutations: window.dataPath + "/2W-mutations.json",
     /* Genome and gene annotations (data.genome, data.genes) */
-    annotations: "data/annotations.json",
+    annotations: window.dataPath + "/annotations.json",
     /* JIS X 0401 prefecture codes (data.areas, data.prefectures, data.offset) */
-    districts: "data/districts.json"
+    districts: window.dataPath + "/districts.json"
   },
 
   // Options
@@ -27,33 +27,33 @@ const data = {
       dataname: "2nd wave B.1.1.284",
       wavename: "2W",
       wavelabel: "2nd wave",
-      haplotypes: "data/2W-durations-50p.tsv",
-      selectlist: "data/2W-selectlist.json",
-      mutations: "data/2W-mutations.json"
+      haplotypes: window.dataPath + "/2W-durations-50p.tsv",
+      selectlist: window.dataPath + "/2W-selectlist.json",
+      mutations: window.dataPath + "/2W-mutations.json"
     },
     { /* 3rd wave data (50%) */
       dataname: "3rd wave B.1.1.214",
       wavelabel: "3rd wave",
       wavename: "3W",
-      haplotypes: "data/3W-durations-50p.tsv",
-      selectlist: "data/3W-selectlist.json",
-      mutations: "data/3W-mutations.json"
+      haplotypes: window.dataPath + "/3W-durations-50p.tsv",
+      selectlist: window.dataPath + "/3W-selectlist.json",
+      mutations: window.dataPath + "/3W-mutations.json"
     },
     { /* 4th wave data (Alpha) (50%) */
       dataname: "4th wave Alpha B.1.1.7",
       wavelabel: "4th wave",
       wavename: "4W",
-      haplotypes: "data/4W-durations-50p.tsv",
-      selectlist: "data/4W-selectlist.json",
-      mutations: "data/4W-mutations.json"
+      haplotypes: window.dataPath + "/4W-durations-50p.tsv",
+      selectlist: window.dataPath + "/4W-selectlist.json",
+      mutations: window.dataPath + "/4W-mutations.json"
     },
     { /* 5th wave data (Delta/AY.29) (50%) */
       dataname: "5th wave Delta AY.29",
       wavelabel: "5th wave",
       wavename: "5W",
-      haplotypes: "data/5W-durations-50p.tsv",
-      selectlist: "data/5W-selectlist.json",
-      mutations: "data/5W-mutations.json"
+      haplotypes: window.dataPath + "/5W-durations-50p.tsv",
+      selectlist: window.dataPath + "/5W-selectlist.json",
+      mutations: window.dataPath + "/5W-mutations.json"
     }
   ],
 

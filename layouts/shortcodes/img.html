@@ -1,0 +1,8 @@
+<!-- 幅とaltを指定した画像表示
+src=画像のパス
+width=幅
+alt=代替文字列
+(Inner)=説明文等
+-->
+<img src="{{ .Get "src" }}" style="width: {{ .Get "width" }}" alt="{{ .Get "alt" }}">
+{{ .Inner | markdownify }}

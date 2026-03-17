@@ -10,7 +10,7 @@ function drawStackedBarChart(id, file, target, title="CHART", xaxis_label="<br><
 	var data = [];
 //target = "SARS-CoV-2";
 	// github rawに変える
-	fetch("../../data/" + file)//pathogen_data.json")
+	fetch("/data/" + file)//pathogen_data.json")
 		.then(response => {
 			if(!response.ok)
 				throw new Error("Error occurred during fetching. " + response.status);

@@ -1,0 +1,17 @@
+<!-- トップページの「データ」欄
+「表示名,researchtool以下のリンク先,アイコン画像のパス」のリストを渡す
+ -->
+        <div class="col-md-6 contents-item">
+          <h2>{{ i18n "introduce_tool" }}</h2>
+          <ul>
+{{- $lines := split (trim .Inner "\n") "\n" -}}
+{{- range $lines }}
+  {{- if ne (trim . "\n") "" }}
+    {{- $items := split . "," -}}
+            <a href="/researchtool/{{ index $items 1 }}">
+              <li><img src="/img/icons/pic.png">{{ index $items 0 }} <img src="{{ index $items 2 }}"></li>
+            </a>
+  {{- end }}
+{{- end }}
+          </ul>
+        </div>

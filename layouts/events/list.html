@@ -14,7 +14,11 @@
         {{ $upcoming_events = $upcoming_events | append . }}
     {{ end }}
 {{ end }}
-{{ if ge (len $upcoming_events) 1 }}
+{{ if not .Site.Params.useEvent }}
+    <div class="alert alert-secondary mt-4">
+      The event page is invalid.
+    </div>
+{{ else if ge (len $upcoming_events) 1 }}
 <section>
     <div class="row g-2 mt-3 mb-5">
         {{ range $ind, $cont := $upcoming_events }}
