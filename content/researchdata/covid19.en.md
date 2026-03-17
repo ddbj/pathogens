@@ -32,7 +32,7 @@ The Japan Covid-19 Open Data Consortium consists of researchers who
 National Institute of Genetics and Shizuoka Prefecture have been conducting the whole genome analysis of SARS-CoV-2 since April 2021.
 
 * SARS-CoV-2 whole genomes [by DDBJ ARSA](https://ddbj.nig.ac.jp/arsa/search?lang=ja&cond=quick_search&query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29&operator=AND)
-* whole genomes from Shizuok [by DDBJ ARSA](https://ddbj.nig.ac.jp/arsa/search?lang=ja&cond=quick_search&query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29+AND+shizuoka&operator=AND")
+* whole genomes from Shizuok [by DDBJ ARSA](https://ddbj.nig.ac.jp/arsa/search?lang=ja&cond=quick_search&query=Organism%3A%28Severe+acute+respiratory+syndrome+coronavirus+2%29+AND+%28Japan+COVID-19+Open+Data+Consortium%29+AND+shizuoka&operator=AND)
 
 {{< /paragraph >}}
 

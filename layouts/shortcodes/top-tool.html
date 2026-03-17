@@ -8,7 +8,9 @@
 {{- range $lines }}
   {{- if ne (trim . "\n") "" }}
     {{- $items := split . "," -}}
-            <a href="/researchtool/{{ index $items 1 }}">
+    {{ $path := printf "/researchtool/%s" (index $items 1) }}
+    {{ $p := $.Page.GetPage $path }}
+            <a href="{{ $p.RelPermalink }}">
               <li><img src="/img/icons/pic.png">{{ index $items 0 }} <img src="{{ index $items 2 }}"></li>
             </a>
   {{- end }}

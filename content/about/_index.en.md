@@ -11,6 +11,7 @@ menu:
       include_parent: true
 ---
 {{< links-in-category >}}
-COVID-19,covid19/
-M-pox,mpox/
+Overview,overview/
+Partners & Funders,partners/
+Feedback,feedback/
 {{</ links-in-category >}}
