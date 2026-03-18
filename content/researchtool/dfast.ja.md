@@ -13,9 +13,7 @@ menu:
 ---
 {{< paragraph title="DFAST genome annotation">}}
 
-DFASTはDDBJにおいて微生物ゲノム (バクテリア、アーキア) を登録する際の標準パイプラインです。
-            ゲノムの fasta 形式をアップロードするだけでアノテーションを施してくれます。
-            ダウンロード版は[github](https://github.com/nigyta/dfast_core)にあります。
+DFASTはDDBJにおいて微生物ゲノム (バクテリア、アーキア) を登録する際の標準パイプラインです。ゲノムの fasta 形式をアップロードするだけでアノテーションを施してくれます。ダウンロード版は[github](https://github.com/nigyta/dfast_core)にあります。
 
 
 * [SARS-CoV-2ゲノム用インターフェース](https://dfast.ddbj.nig.ac.jp/dfv/)

@@ -12,13 +12,9 @@ menu:
 ---
 {{< paragraph title="Japan Covid-19 Open Data Consortium">}}
 
-The Japan Covid-19 Open Data Consortium consists of researchers who
-           agree to register genomic information into DDBJ with the aim of 
-           distributing information more freely.
-           The SARS-CoV-2 genome information is also available in GISAID,
-           but severe usage restrictions hinder analysis and validation.
-           Therefore, this consortium registers the sequence to DDBJ first,
-           and then registers the same information to GISAID.
+The Japan Covid-19 Open Data Consortium consists of researchers who agree to register genomic information into DDBJ with the aim of distributing information more freely.
+The SARS-CoV-2 genome information is also available in GISAID, but severe usage restrictions hinder analysis and validation.
+Therefore, this consortium registers the sequence to DDBJ first, and then registers the same information to GISAID.
 
 ### Major members
 
