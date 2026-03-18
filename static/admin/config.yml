@@ -13,8 +13,8 @@ collections:
   - name: "top"
     label: "Top"
     #identifier_field: "filename"
-    extension: "md"
-    slug: *default_slug
+    #extension: "md"
+    #slug: *default_slug
     files:
       - name: "top(ja)"
         label: "Top(JA)"
