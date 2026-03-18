@@ -1,7 +1,7 @@
 ---
 filename: _index.en
 title: "Pathogens Portal Japan for pandemic preparedness"
-description: This portal provides data and services for research on emerging and reemerging infectious diseases."
+description: "This portal provides data and services for research on emerging and reemerging infectious diseases."
 ---
 Pathogens Portal is a part of [Pathogen Data Network (PDN)](about/overview/)
 
