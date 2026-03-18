@@ -1,5 +1,6 @@
 ---
-filename: _index.en
+filename: _index
+lang: en
 title: "Tools"
 menu:
   navbar_main:

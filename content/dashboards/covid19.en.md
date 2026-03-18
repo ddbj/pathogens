@@ -1,5 +1,6 @@
 ---
-filename: covid19.en
+filename: covid19
+lang: en
 title: "COVID-19"
 description: "Whole genome analysis of SARS-CoV-2 by NIG & Shizuoka Pref."
 banner: "/dashboards/banners/covid19_dash.jpg"

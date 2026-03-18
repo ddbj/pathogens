@@ -1,5 +1,6 @@
 ---
-filename: mpox.ja
+filename: mpox
+lang: ja
 title: Mpox Information
 description: ""
 banner: ""

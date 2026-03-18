@@ -1,5 +1,6 @@
 ---
-filename: dfast.ja
+filename: dfast
+lang: ja
 title: "DFAST"
 description: ""
 banner: ""

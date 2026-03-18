@@ -1,5 +1,6 @@
 ---
-filename: _index.ja
+filename: _index
+lang: ja
 title: "ダッシュボード"
 menu:
   navbar_main:

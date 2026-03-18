@@ -1,5 +1,6 @@
 ---
-filename: feedback.en
+filename: feedback
+lang: en
 title: "Feedback"
 description: ""
 banner: ""

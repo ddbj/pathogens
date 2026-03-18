@@ -1,5 +1,6 @@
 ---
-filename: _index.en
+filename: _index
+lang: ja
 title: ニュース
 menu:
     footer_about:

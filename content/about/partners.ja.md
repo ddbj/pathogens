@@ -1,5 +1,6 @@
 ---
-filename: partners.ja
+filename: partners
+lang: ja
 title: 連携組織、研究資金
 description: ""
 banner: ""

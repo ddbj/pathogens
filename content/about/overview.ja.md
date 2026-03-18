@@ -1,8 +1,9 @@
 ---
+filename: overview
+lang: ja
 title: 概要
 description: ""
 banner: ""
-filename: overview.ja
 menu:
   about:
     name: 概要

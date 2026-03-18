@@ -1,5 +1,6 @@
 ---
-filename: partners.en
+filename: partners
+lang: en
 title: Our Partners
 description: ""
 banner: ""

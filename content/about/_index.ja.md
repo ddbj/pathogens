@@ -1,5 +1,6 @@
 ---
-filename: _index.ja
+filename: _index
+lang: ja
 title: "サイトについて"
 menu:
   navbar_main:

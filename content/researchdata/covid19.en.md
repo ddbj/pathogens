@@ -1,5 +1,6 @@
 ---
-filename: covid19.en
+filename: covid19
+lang: en
 title: "COVID-19 Information"
 description: ""
 banner: ""

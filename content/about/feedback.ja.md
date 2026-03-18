@@ -1,5 +1,6 @@
 ---
-filename: feedback.ja
+filename: feedback
+lang: ja
 title: "お問い合わせ"
 description: ""
 banner: ""
