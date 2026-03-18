@@ -18,7 +18,7 @@ collections:
     files:
       - name: "top(ja)"
         label: "Top(JA)"
-        file: "content/_index.ja.html"
+        file: "content/_index.ja.md"
         format: "frontmatter"
         fields:
           - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
@@ -27,7 +27,7 @@ collections:
           - { label: "Body",                  name: "body",        widget: "markdown" }
       - name: "top(en)"
         label: "Top(EN)"
-        file: "content/_index.en.html"
+        file: "content/_index.en.md"
         format: "frontmatter"
         fields:
           - { label: "Filename",    name: "filename",    widget: "string" }
