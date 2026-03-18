@@ -129,7 +129,13 @@ collections:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - { label: "Title / ページ名",      name: "title",       widget: "string" }
       - { label: "Description / 説明",    name: "description", widget: "string",   required: false }
-      - { label: "Date / 日付",           name: "date",        widget: "date",     date_format: "YYYY-MM-DD" }
+      #- { label: "Date / 日付",           name: "date",        widget: "date",     date_format: "YYYY-MM-DD" }
+      - label: "Date / 日付"
+        name: "date"
+        widget: "string"
+        pattern:
+          - "^[12][0-9]{3}-[01][0-9]-[0-3][0-9]$"
+          - "format: YYYY-MM-DD"
       - { label: "Summary / 概要",        name: "summary",     widget: "string",   required: false }
       - { label: "Banner / バナー画像",   name: "banner",      widget: "string",   required: false }
       - { label: "Banner(Large) / 大きいバナー画像",     name: "banner_large",     widget: "string", required: false }
