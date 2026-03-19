@@ -8,7 +8,7 @@ backend:
 media_folder: "static/img"
 public_folder: "/img"
 
-slug_rule: &default_slug "{{fields.filename}}.{{fields.lang}}"
+slug_rule: &default_slug "{{fields.filename}}.{{fields.lang_code}}"
 collections:
   - name: "top"
     label: "Top"
@@ -46,7 +46,7 @@ collections:
     fields:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - label: "Language / 言語"
-        name: "lang"
+        name: "lang_code"
         widget: "string"
         hint: "日本語=ja / English=en / other language code"
         pattern: 
@@ -93,7 +93,7 @@ collections:
     fields:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - label: "Language / 言語"
-        name: "lang"
+        name: "lang_code"
         widget: "string"
         hint: "日本語=ja / English=en / other language code"
         pattern: 
@@ -142,7 +142,7 @@ collections:
     fields:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - label: "Language / 言語"
-        name: "lang"
+        name: "lang_code"
         widget: "string"
         hint: "日本語=ja / English=en / other language code"
         pattern: 
@@ -177,7 +177,7 @@ collections:
     fields:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - label: "Language / 言語"
-        name: "lang"
+        name: "lang_code"
         widget: "string"
         hint: "日本語=ja / English=en / other language code"
         pattern: 
@@ -224,7 +224,7 @@ collections:
     fields:
       - { label: "Filename / ファイル名", name: "filename",    widget: "string" }
       - label: "Language / 言語"
-        name: "lang"
+        name: "lang_code"
         widget: "string"
         hint: "日本語=ja / English=en / other language code"
         pattern: 

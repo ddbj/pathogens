@@ -1,6 +1,6 @@
 ---
 filename: overview
-lang: ja
+lang_code: ja
 title: 概要
 description: ""
 banner: ""

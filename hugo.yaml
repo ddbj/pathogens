@@ -1,7 +1,7 @@
 # Should be replaced with real one during implementation
 #baseURL: "https://ddbj.github.io/pathogens/"
-#baseURL: "https://pathogens.jp/"
-baseURL: "/"
+baseURL: "https://pathogens.jp/"
+#baseURL: "/"
 canonifyurls: true
 #relativeURLs: true
 #title: "Node:Pathogens Portal"

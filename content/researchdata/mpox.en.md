@@ -1,6 +1,6 @@
 ---
 filename: mpox
-lang: en
+lang_code: en
 title: "Mpox Information"
 description: ""
 banner: ""

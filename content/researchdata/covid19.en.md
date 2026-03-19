@@ -1,6 +1,6 @@
 ---
 filename: covid19
-lang: en
+lang_code: en
 title: "COVID-19 Information"
 description: ""
 banner: ""

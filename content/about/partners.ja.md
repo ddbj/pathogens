@@ -1,6 +1,6 @@
 ---
 filename: partners
-lang: ja
+lang_code: ja
 title: 連携組織、研究資金
 description: ""
 banner: ""

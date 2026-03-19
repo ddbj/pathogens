@@ -1,6 +1,6 @@
 ---
 filename: _index
-lang: en
+lang_code: en
 title: Portal news
 menu:
     footer_about:

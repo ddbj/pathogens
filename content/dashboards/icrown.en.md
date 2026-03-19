@@ -1,6 +1,6 @@
 ---
 filename: icrown
-lang: en
+lang_code: en
 title: "Dashboard by iCROWN (Infectious Disease Clinical Research NetwOrk With National Repository)"
 description: "The national repository and the dashboard is organized by JIHS in collaboration with many hospitals and research institutes"
 banner: "/dashboards/banners/icrown_dash.jpg"

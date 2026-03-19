@@ -1,6 +1,6 @@
 ---
 filename: _index
-lang: ja
+lang_code: ja
 title: "ツール紹介"
 menu:
   navbar_main:

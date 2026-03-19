@@ -1,6 +1,6 @@
 ---
 filename: _index
-lang: ja
+lang_code: ja
 title: 研究データ
 menu:
   navbar_main:

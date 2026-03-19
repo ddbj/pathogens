@@ -1,6 +1,6 @@
 ---
 filename: NHKdash
-lang: en
+lang_code: en
 title: "Dashboards developed by NHK"
 description: "The dashboards on 20 types of infectious diseases including COVID-19, influenza, and hand foot and mouth disease developed by Japan Broadcasting Corporation (NHK)"
 banner: "/dashboards/banners/nhk_dash.jpg"

@@ -1,6 +1,6 @@
 ---
 filename: covid19
-lang: ja
+lang_code: ja
 title: "COVID-19情報"
 description: ""
 banner: ""

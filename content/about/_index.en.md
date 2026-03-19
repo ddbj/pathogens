@@ -1,6 +1,6 @@
 ---
 filename: _index
-lang: en
+lang_code: en
 title: "About"
 menu:
   navbar_main:

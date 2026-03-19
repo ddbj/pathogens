@@ -1,6 +1,6 @@
 ---
 filename: dfast
-lang: ja
+lang_code: ja
 title: "DFAST"
 description: ""
 banner: ""

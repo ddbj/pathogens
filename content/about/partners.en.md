@@ -1,6 +1,6 @@
 ---
 filename: partners
-lang: en
+lang_code: en
 title: Our Partners
 description: ""
 banner: ""
