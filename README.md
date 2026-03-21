@@ -69,18 +69,22 @@ params:
 　contents/dashboards/以下に置かれたファイルでは、plotly.jsが使えます。
 
 ## Decap CMS
-　コンテンツを[Decap CMS](https://decapcms.org/)を用いて編集できます。そのためにはdecap-serverをインストールする必要がありますが、npmが必要となります。
-### npmのインストール
-　以下はubuntuでのnpmのインストールの方法です。バージョンは18(2026/3/20現在)ですが、問題なく動作します。
+　コンテンツを[Decap CMS](https://decapcms.org/)を用いて編集できます。そのためにはdecap-serverをインストールする必要がありますが、node.jsとnpmが必要となります。
+### node.jsとnpmのインストール
+　以下はubuntuでのインストールの方法です。バージョンは18(2026/3/20現在)ですが、問題なく動作します。
 ```
 $ sudo apt install npm
+$ node -v
+v18.19.1
 ```
-　WSLを利用している場合、もしくは最新版のnpmを利用する場合は、[nvm](https://github.com/nvm-sh/nvm)を利用します。
+　WSLを利用している場合、もしくは最新版を利用する場合は、[nvm](https://github.com/nvm-sh/nvm)を利用します。
 ```
 $ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 $ source ~/.bashrc
 $ nvm install --lts
 $ nvm use --lts
+$ node -v
+v24.XX.XX
 ```
 ### Decap CMSのセットアップ
 　hugoのセットアップ完了後、以下のコマンドを実行してください。
