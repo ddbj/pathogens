@@ -1,9 +1,3 @@
----
-filename: README
-lang_code: ja
-title: 説明
-description: null
----
 # pathogens
 
 Pathogens Potal project
