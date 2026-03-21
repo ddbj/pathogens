@@ -1,14 +1,20 @@
+# ローカルで使用するための設定 #######################
 local_backend: true
 
 backend:
   name: proxy
   proxy_url: http://localhost:8081/api/v1
   branch: main
+# ここまで ###########################################
 
+# 画像の保存場所とwebアクセス時のパスの指定 ##########
 media_folder: "static/img"
 public_folder: "/img"
 
+# 新規作成時のファイル名のルール #####################
 slug_rule: &default_slug "{{fields.filename}}.{{fields.lang_code}}"
+
+# 各ディレクトリの設定 ###############################
 collections:
   - name: "top"
     label: "Top"
@@ -72,7 +78,7 @@ collections:
                 fields:
                 - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
 
-          - label: "About Menu / ドロップダウメニューはこちらだけ入力"
+          - label: "About Menu / ドロップダウンメニューはこちらだけ入力"
             name:  "about"
             widget: "object"
             fields:
@@ -120,7 +126,7 @@ collections:
                 fields:
                 - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
 
-          - label: "About Dashboards / ドロップダウメニューはこちらだけ入力"
+          - label: "About Dashboards / ドロップダウンメニューはこちらだけ入力"
             name:  "dashboards"
             widget: "object"
             fields:
@@ -203,7 +209,7 @@ collections:
                 fields:
                 - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
 
-          - label: "About ResearchData / ドロップダウメニューはこちらだけ入力"
+          - label: "About ResearchData / ドロップダウンメニューはこちらだけ入力"
             name:  "researchdata"
             widget: "object"
             fields:
@@ -250,7 +256,7 @@ collections:
                 fields:
                 - { label: "Type / 基本はdropdown", name: "type", widget: "string", required: false }
 
-          - label: "About ResearchTool / ドロップダウメニューはこちらだけ入力"
+          - label: "About ResearchTool / ドロップダウンメニューはこちらだけ入力"
             name:  "researchtool"
             widget: "object"
             fields:
