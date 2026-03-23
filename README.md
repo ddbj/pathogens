@@ -25,7 +25,7 @@ Pathogens Potal project
 
 ```
 $ cd ~
-$ git clone https://github.com/ddbj/pathogens.git
+$ git clone -b decap-main https://github.com/ddbj/pathogens.git
 $ cd pathogens/themes/
 $ git clone https://github.com/ScilifelabDataCentre/node-pathogens-portal-theme.git
 $ cd ..
